@@ -1,11 +1,34 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Sparkles, Zap, TrendingUp, ArrowRight, RefreshCw, Code2 } from "lucide-react";
-import { Link } from "react-router-dom";
 import { NewsList } from "../components/news";
 import { ToolGrid } from "../components/tools";
 import { UpdateTimeline } from "../components/updates";
 import { VibeShowcase } from "../components/showcase";
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const state = location.state as { scrollTo?: string } | null;
+    if (state?.scrollTo) {
+      const element = document.getElementById(state.scrollTo);
+      if (element) {
+        setTimeout(() => {
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+        }, 100);
+      }
+      // 清除 state 防止刷新后再次滚动
+      window.history.replaceState({}, document.title);
+    }
+  }, [location.state]);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}

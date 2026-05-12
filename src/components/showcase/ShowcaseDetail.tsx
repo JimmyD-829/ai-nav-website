@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft, Heart, Eye, GitFork, ExternalLink, Calendar, User, Code2 } from "lucide-react";
+import { useEffect } from "react";
 
 interface ShowcaseItem {
   id: string;
@@ -134,18 +135,18 @@ const showcaseData: ShowcaseItem[] = [
 export default function ShowcaseDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  
+
   const item = showcaseData.find(s => s.id === id);
-  
+
   if (!item) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
+      <div className="min-h-screen bg-background flex items-center justify-center pt-20">
         <div className="text-center">
           <Code2 className="w-16 h-16 text-text-light mx-auto mb-4" />
           <h2 className="text-xl font-bold text-text-primary mb-2">作品未找到</h2>
           <p className="text-text-secondary mb-4">该作品可能已被删除或不存在</p>
-          <button onClick={() => navigate(-1)} className="btn-primary">
-            返回上一页
+          <button onClick={() => navigate("/", { state: { scrollTo: "showcase-section" } })} className="btn-primary">
+            返回作品列表
           </button>
         </div>
       </div>
@@ -157,11 +158,11 @@ export default function ShowcaseDetail() {
       <div className="container mx-auto px-6 py-8">
         {/* Back Button */}
         <button
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/", { state: { scrollTo: "showcase-section" } })}
           className="flex items-center space-x-2 text-text-secondary hover:text-primary transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span className="text-sm">返回</span>
+          <span className="text-sm">返回作品列表</span>
         </button>
 
         {/* Header Image */}

@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { ArrowLeft, ExternalLink, Star, Users, Zap, Clock, CheckCircle, BookOpen, Play, Lightbulb, AlertCircle } from "lucide-react";
 import toolsData from "../../data/tools.json";
 import type { Tool } from "../../types";
@@ -181,16 +181,17 @@ const defaultGuide = {
     "账号问题：联系官方客服支持",
     "付费问题：查看定价页面了解套餐",
   ],
-  shortcuts: undefined,
+  shortcuts: undefined as string[] | undefined,
 };
 
 export default function ToolDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  
+  const location = useLocation();
+
   const tool = toolsData.tools.find((t: Tool) => t.id === id) as Tool | undefined;
   const guide = toolGuides[id || ""] || defaultGuide;
-  
+
   if (!tool) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center pt-20">
@@ -198,8 +199,8 @@ export default function ToolDetail() {
           <Zap className="w-16 h-16 text-text-light mx-auto mb-4" />
           <h2 className="text-xl font-bold text-text-primary mb-2">工具未找到</h2>
           <p className="text-text-secondary mb-4">该工具可能已被删除或不存在</p>
-          <button onClick={() => navigate(-1)} className="btn-primary">
-            返回上一页
+          <button onClick={() => navigate("/")} className="btn-primary">
+            返回首页
           </button>
         </div>
       </div>
@@ -225,7 +226,7 @@ export default function ToolDetail() {
       <div className="container mx-auto px-6 py-8">
         {/* Back Button */}
         <button
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/", { state: { scrollTo: "tools-section" } })}
           className="flex items-center space-x-2 text-text-secondary hover:text-primary transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" />
