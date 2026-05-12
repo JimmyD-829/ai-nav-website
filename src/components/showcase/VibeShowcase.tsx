@@ -154,7 +154,7 @@ export default function VibeShowcase() {
           <div
             key={item.id}
             onClick={() => navigate(`/showcase/${item.id}`)}
-            className="group card-base card-hover overflow-hidden animate-slide-up cursor-pointer"
+            className="group card-base card-hover overflow-hidden animate-slide-up cursor-pointer h-full flex flex-col"
             style={{ animationDelay: `${index * 100}ms` }}
           >
             {/* Image */}
@@ -173,11 +173,11 @@ export default function VibeShowcase() {
             </div>
 
             {/* Content */}
-            <div className="p-4">
+            <div className="p-4 flex flex-col flex-grow">
               <h3 className="font-semibold text-text-primary mb-1 group-hover:text-primary transition-colors">
                 {item.title}
               </h3>
-              <p className="text-sm text-text-secondary line-clamp-2 mb-3">
+              <p className="text-sm text-text-secondary line-clamp-2 mb-3 flex-grow">
                 {item.description}
               </p>
 
@@ -194,7 +194,7 @@ export default function VibeShowcase() {
               </div>
 
               {/* Author & Stats */}
-              <div className="flex items-center justify-between pt-3 border-t border-border">
+              <div className="flex items-center justify-between pt-3 border-t border-border mt-auto">
                 <div className="flex items-center space-x-2">
                   <img
                     src={item.authorAvatar}

@@ -28,13 +28,13 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const pricing = pricingLabels[tool.pricing as keyof typeof pricingLabels];
 
   return (
-    <div 
+    <div
       onClick={() => navigate(`/tools/${tool.id}`)}
-      className="group card-base card-hover p-5 cursor-pointer"
+      className="group card-base card-hover p-5 cursor-pointer h-full flex flex-col"
     >
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center space-x-3">
-          <div className="w-11 h-11 rounded-xl bg-primary/5 flex items-center justify-center overflow-hidden">
+          <div className="w-11 h-11 rounded-xl bg-primary/5 flex items-center justify-center overflow-hidden flex-shrink-0">
             <img
               src={tool.logo}
               alt={tool.name}
@@ -44,8 +44,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
               }}
             />
           </div>
-          <div>
-            <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors text-sm">
+          <div className="min-w-0">
+            <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors text-sm truncate">
               {tool.name}
             </h3>
             <span className={`inline-block px-2 py-0.5 text-xs font-medium rounded-md ${pricing.color}`}>
@@ -55,7 +55,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         </div>
       </div>
 
-      <p className="text-sm text-text-secondary line-clamp-2 mb-3">
+      <p className="text-sm text-text-secondary line-clamp-2 mb-3 flex-grow">
         {tool.description}
       </p>
 
@@ -75,7 +75,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         )}
       </div>
 
-      <div className="flex items-center justify-between pt-3 border-t border-border">
+      <div className="flex items-center justify-between pt-3 border-t border-border mt-auto">
         <div className="flex items-center space-x-3 text-xs text-text-muted">
           <span className="flex items-center space-x-1">
             <Users className="w-3.5 h-3.5" />
