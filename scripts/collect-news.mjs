@@ -3,8 +3,12 @@
  * 从多个 RSS 源和 API 采集最新 AI 新闻
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 模拟 RSS 数据源（实际部署时可替换为真实 API）
 const NEWS_SOURCES = [

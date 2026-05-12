@@ -3,8 +3,12 @@
  * 从 Product Hunt、GitHub Stars 等来源采集工具数据
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 工具数据源配置
 const TOOL_SOURCES = {

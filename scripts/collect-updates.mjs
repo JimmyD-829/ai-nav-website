@@ -3,8 +3,12 @@
  * 从 GitHub Release API 和官方博客采集工具更新
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 工具 GitHub 仓库映射
 const TOOL_REPOS = {

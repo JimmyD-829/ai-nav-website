@@ -1,6 +1,57 @@
 {
   "updates": [
     {
+      "id": "auto-update-1778591818831-2",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "2.18",
+      "updateDate": "2026-05-10",
+      "updateType": "feature",
+      "title": "优化内存占用",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778591818831-1",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "0.8",
+      "updateDate": "2026-05-11",
+      "updateType": "improvement",
+      "title": "优化内存占用",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778591818830-0",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "2.3",
+      "updateDate": "2026-05-12",
+      "updateType": "feature",
+      "title": "优化内存占用",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "1",
       "toolId": "5",
       "toolName": "Cursor",

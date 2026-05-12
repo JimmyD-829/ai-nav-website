@@ -1,6 +1,54 @@
 {
   "news": [
     {
+      "id": "auto-1778591801098-2",
+      "title": "Claude 新增能力 - 2026/5/10",
+      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-10",
+      "category": "llm",
+      "tags": [
+        "Anthropic",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 2767
+    },
+    {
+      "id": "auto-1778591801098-1",
+      "title": "Claude 新增能力 - 2026/5/11",
+      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "Anthropic",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 8132
+    },
+    {
+      "id": "auto-1778591801081-0",
+      "title": "新技术突破 - 2026/5/12",
+      "summary": "这是自动采集的新闻摘要，来源：机器之心。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 机器之心 的 RSS 源获取。",
+      "source": "机器之心",
+      "publishDate": "2026-05-12",
+      "category": "tech-breakthrough",
+      "tags": [
+        "机器之心",
+        "tech-breakthrough",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 9156
+    },
+    {
       "id": "1",
       "title": "OpenAI 发布 GPT-4.1 系列模型：上下文窗口提升至 100 万 token",
       "summary": "OpenAI 推出 GPT-4.1、GPT-4.1 Mini 和 GPT-4.1 Nano，上下文窗口扩展至 100 万 token，代码生成能力显著提升。",
@@ -8,7 +56,12 @@
       "source": "OpenAI",
       "publishDate": "2026-05-10",
       "category": "llm",
-      "tags": ["GPT-4.1", "OpenAI", "大模型", "长上下文"],
+      "tags": [
+        "GPT-4.1",
+        "OpenAI",
+        "大模型",
+        "长上下文"
+      ],
       "isHot": true,
       "views": 12580
     },
@@ -20,7 +73,12 @@
       "source": "Google",
       "publishDate": "2026-05-09",
       "category": "llm",
-      "tags": ["Gemini", "Google", "推理", "代码生成"],
+      "tags": [
+        "Gemini",
+        "Google",
+        "推理",
+        "代码生成"
+      ],
       "isHot": true,
       "views": 9840
     },
@@ -32,7 +90,12 @@
       "source": "Anthropic",
       "publishDate": "2026-05-08",
       "category": "llm",
-      "tags": ["Claude 4", "Anthropic", "编程", "SWE-bench"],
+      "tags": [
+        "Claude 4",
+        "Anthropic",
+        "编程",
+        "SWE-bench"
+      ],
       "isHot": false,
       "views": 7620
     },
@@ -44,7 +107,12 @@
       "source": "OpenAI",
       "publishDate": "2026-05-07",
       "category": "ai-app",
-      "tags": ["Codex", "OpenAI", "编程", "AI智能体"],
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "编程",
+        "AI智能体"
+      ],
       "isHot": true,
       "views": 8930
     },
@@ -56,7 +124,12 @@
       "source": "Meta",
       "publishDate": "2026-05-06",
       "category": "llm",
-      "tags": ["Llama 4", "Meta", "开源", "多模态"],
+      "tags": [
+        "Llama 4",
+        "Meta",
+        "开源",
+        "多模态"
+      ],
       "isHot": false,
       "views": 6540
     },
@@ -68,7 +141,12 @@
       "source": "xAI",
       "publishDate": "2026-05-05",
       "category": "product",
-      "tags": ["Grok", "xAI", "马斯克", "多模态"],
+      "tags": [
+        "Grok",
+        "xAI",
+        "马斯克",
+        "多模态"
+      ],
       "isHot": true,
       "views": 11230
     },
@@ -80,7 +158,12 @@
       "source": "DeepSeek",
       "publishDate": "2026-05-04",
       "category": "industry",
-      "tags": ["DeepSeek", "国产模型", "代码生成", "低成本"],
+      "tags": [
+        "DeepSeek",
+        "国产模型",
+        "代码生成",
+        "低成本"
+      ],
       "isHot": false,
       "views": 5780
     },
@@ -92,7 +175,12 @@
       "source": "月之暗面",
       "publishDate": "2026-05-03",
       "category": "product",
-      "tags": ["Kimi", "月之暗面", "长上下文", "中文AI"],
+      "tags": [
+        "Kimi",
+        "月之暗面",
+        "长上下文",
+        "中文AI"
+      ],
       "isHot": false,
       "views": 4320
     },
@@ -104,7 +192,12 @@
       "source": "Anysphere",
       "publishDate": "2026-05-02",
       "category": "industry",
-      "tags": ["Cursor", "融资", "AI编程", "独角兽"],
+      "tags": [
+        "Cursor",
+        "融资",
+        "AI编程",
+        "独角兽"
+      ],
       "isHot": false,
       "views": 7650
     },
@@ -116,17 +209,46 @@
       "source": "OpenAI",
       "publishDate": "2026-05-01",
       "category": "tech-breakthrough",
-      "tags": ["o3", "o4-mini", "OpenAI", "推理模型"],
+      "tags": [
+        "o3",
+        "o4-mini",
+        "OpenAI",
+        "推理模型"
+      ],
       "isHot": false,
       "views": 5230
     }
   ],
   "categories": [
-    { "id": "all", "name": "全部", "count": 10 },
-    { "id": "llm", "name": "大模型", "count": 4 },
-    { "id": "ai-app", "name": "AI应用", "count": 1 },
-    { "id": "tech-breakthrough", "name": "技术突破", "count": 1 },
-    { "id": "industry", "name": "业界动态", "count": 2 },
-    { "id": "product", "name": "产品发布", "count": 2 }
+    {
+      "id": "all",
+      "name": "全部",
+      "count": 13
+    },
+    {
+      "id": "llm",
+      "name": "大模型",
+      "count": 6
+    },
+    {
+      "id": "ai-app",
+      "name": "AI应用",
+      "count": 1
+    },
+    {
+      "id": "tech-breakthrough",
+      "name": "技术突破",
+      "count": 2
+    },
+    {
+      "id": "industry",
+      "name": "业界动态",
+      "count": 2
+    },
+    {
+      "id": "product",
+      "name": "产品发布",
+      "count": 2
+    }
   ]
 }

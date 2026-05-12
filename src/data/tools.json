@@ -6,11 +6,17 @@
       "description": "OpenAI 开发的对话式 AI 助手，基于 GPT-4.1 模型，支持多轮对话、代码编写、文章创作等功能",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       "category": "text",
-      "mau": 300000000,
+      "mau": 307688286,
       "rating": 4.8,
       "updateFrequency": "weekly",
       "website": "https://chat.openai.com",
-      "features": ["多轮对话", "代码生成", "文章写作", "数据分析", "多语言支持"],
+      "features": [
+        "多轮对话",
+        "代码生成",
+        "文章写作",
+        "数据分析",
+        "多语言支持"
+      ],
       "pricing": "freemium"
     },
     {
@@ -19,11 +25,17 @@
       "description": "Anthropic 开发的 Claude 4 系列 AI 助手，擅长长文本分析、创意写作和代码审查，支持 20 万 token 上下文",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Claude_icon.svg",
       "category": "text",
-      "mau": 50000000,
+      "mau": 52052561,
       "rating": 4.7,
       "updateFrequency": "weekly",
       "website": "https://claude.ai",
-      "features": ["长文本处理", "安全对话", "代码审查", "创意写作", "文档分析"],
+      "features": [
+        "长文本处理",
+        "安全对话",
+        "代码审查",
+        "创意写作",
+        "文档分析"
+      ],
       "pricing": "freemium"
     },
     {
@@ -32,11 +44,17 @@
       "description": "强大的 AI 图像生成工具，通过文本描述创作高质量艺术作品，支持多种风格和比例",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Midjourney_Emblem.png",
       "category": "image",
-      "mau": 20000000,
+      "mau": 20623708,
       "rating": 4.6,
       "updateFrequency": "monthly",
       "website": "https://midjourney.com",
-      "features": ["图像生成", "风格迁移", "艺术创作", "产品设计", "Logo设计"],
+      "features": [
+        "图像生成",
+        "风格迁移",
+        "艺术创作",
+        "产品设计",
+        "Logo设计"
+      ],
       "pricing": "paid"
     },
     {
@@ -45,11 +63,17 @@
       "description": "GitHub 推出的 AI 代码助手，基于 OpenAI Codex 模型，提供实时代码补全和代码生成",
       "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       "category": "code",
-      "mau": 150000000,
+      "mau": 157328688,
       "rating": 4.5,
       "updateFrequency": "weekly",
       "website": "https://github.com/features/copilot",
-      "features": ["代码补全", "代码解释", "Bug修复", "代码重构", "多语言支持"],
+      "features": [
+        "代码补全",
+        "代码解释",
+        "Bug修复",
+        "代码重构",
+        "多语言支持"
+      ],
       "pricing": "paid"
     },
     {
@@ -58,11 +82,17 @@
       "description": "Anysphere 开发的 AI 编程 IDE，基于 VS Code，支持智能代码补全、Composer 多文件编辑和自然语言编程",
       "logo": "https://cursor.sh/icon.svg",
       "category": "code",
-      "mau": 5000000,
+      "mau": 5214504,
       "rating": 4.9,
       "updateFrequency": "daily",
       "website": "https://cursor.sh",
-      "features": ["智能补全", "多光标编辑", "代码生成", "代码解释", "上下文理解"],
+      "features": [
+        "智能补全",
+        "多光标编辑",
+        "代码生成",
+        "代码解释",
+        "上下文理解"
+      ],
       "pricing": "freemium"
     },
     {
@@ -71,11 +101,17 @@
       "description": "Stability AI 开源的 AI 图像生成模型，支持本地部署和自定义模型训练，社区生态丰富",
       "logo": "https://stability.ai/favicon.ico",
       "category": "image",
-      "mau": 15000000,
+      "mau": 15320726,
       "rating": 4.4,
       "updateFrequency": "monthly",
       "website": "https://stability.ai",
-      "features": ["图像生成", "本地部署", "自定义模型", "ControlNet", "LoRA微调"],
+      "features": [
+        "图像生成",
+        "本地部署",
+        "自定义模型",
+        "ControlNet",
+        "LoRA微调"
+      ],
       "pricing": "free"
     },
     {
@@ -84,11 +120,17 @@
       "description": "AI 视频创作平台，支持视频生成、编辑、特效制作，Gen-3 Alpha 支持 10 秒 1080p 视频生成",
       "logo": "https://runwayml.com/favicon.ico",
       "category": "video",
-      "mau": 10000000,
+      "mau": 10334103,
       "rating": 4.3,
       "updateFrequency": "weekly",
       "website": "https://runwayml.com",
-      "features": ["视频生成", "视频编辑", "绿幕抠像", "运动追踪", "AI特效"],
+      "features": [
+        "视频生成",
+        "视频编辑",
+        "绿幕抠像",
+        "运动追踪",
+        "AI特效"
+      ],
       "pricing": "freemium"
     },
     {
@@ -97,11 +139,17 @@
       "description": "Figma 内置的 AI 设计助手，帮助设计师快速生成 UI 设计稿、自动布局和原型",
       "logo": "https://static.figma.com/app/icon/1/favicon.ico",
       "category": "design",
-      "mau": 10000000,
+      "mau": 10447841,
       "rating": 4.2,
       "updateFrequency": "monthly",
       "website": "https://figma.com",
-      "features": ["UI生成", "自动布局", "设计建议", "图标搜索", "原型预览"],
+      "features": [
+        "UI生成",
+        "自动布局",
+        "设计建议",
+        "图标搜索",
+        "原型预览"
+      ],
       "pricing": "freemium"
     },
     {
@@ -110,11 +158,17 @@
       "description": "开源自主 AI Agent 框架，能够自主分解任务并执行复杂目标，支持多种插件扩展",
       "logo": "https://github.com/Significant-Gravitas/AutoGPT/raw/master/media/logo.png",
       "category": "agent",
-      "mau": 5000000,
-      "rating": 4.0,
+      "mau": 5215557,
+      "rating": 4,
       "updateFrequency": "weekly",
       "website": "https://news.agpt.co",
-      "features": ["自主决策", "任务分解", "多步骤执行", "网络搜索", "API集成"],
+      "features": [
+        "自主决策",
+        "任务分解",
+        "多步骤执行",
+        "网络搜索",
+        "API集成"
+      ],
       "pricing": "free"
     },
     {
@@ -123,11 +177,17 @@
       "description": "百度推出的知识增强大语言模型，文心 4.0 Turbo 推理速度提升 5 倍，擅长中文理解和生成",
       "logo": "https://www.wenxiaoyan.com/favicon.ico",
       "category": "text",
-      "mau": 100000000,
+      "mau": 102157011,
       "rating": 4.3,
       "updateFrequency": "monthly",
       "website": "https://yiyan.baidu.com",
-      "features": ["中文对话", "文学创作", "知识问答", "代码生成", "行业报告"],
+      "features": [
+        "中文对话",
+        "文学创作",
+        "知识问答",
+        "代码生成",
+        "行业报告"
+      ],
       "pricing": "freemium"
     },
     {
@@ -136,11 +196,17 @@
       "description": "OpenAI 的图像生成模型，集成在 ChatGPT 中，能够理解复杂概念并生成精确图像",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       "category": "image",
-      "mau": 50000000,
+      "mau": 51372870,
       "rating": 4.7,
       "updateFrequency": "monthly",
       "website": "https://openai.com/dall-e-3",
-      "features": ["精确图像生成", "文字渲染", "风格控制", "图像编辑", "多比例支持"],
+      "features": [
+        "精确图像生成",
+        "文字渲染",
+        "风格控制",
+        "图像编辑",
+        "多比例支持"
+      ],
       "pricing": "paid"
     },
     {
@@ -149,11 +215,17 @@
       "description": "Vercel 推出的 AI 前端生成工具，通过描述快速生成 React 组件，支持 Tailwind CSS v4",
       "logo": "https://v0.dev/favicon.ico",
       "category": "code",
-      "mau": 3000000,
+      "mau": 3065551,
       "rating": 4.6,
       "updateFrequency": "daily",
       "website": "https://v0.dev",
-      "features": ["React生成", "UI组件", "样式定制", "代码导出", "Next.js支持"],
+      "features": [
+        "React生成",
+        "UI组件",
+        "样式定制",
+        "代码导出",
+        "Next.js支持"
+      ],
       "pricing": "freemium"
     },
     {
@@ -162,11 +234,17 @@
       "description": "OpenAI 开发的 AI 视频生成模型，能够根据文本描述生成最长 20 秒的高质量视频",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       "category": "video",
-      "mau": 20000000,
+      "mau": 20665578,
       "rating": 4.5,
       "updateFrequency": "monthly",
       "website": "https://openai.com/sora",
-      "features": ["视频生成", "文本转视频", "图像转视频", "视频延长", "场景合成"],
+      "features": [
+        "视频生成",
+        "文本转视频",
+        "图像转视频",
+        "视频延长",
+        "场景合成"
+      ],
       "pricing": "paid"
     },
     {
@@ -175,11 +253,17 @@
       "description": "StackBlitz 推出的 AI 全栈开发工具，基于 WebContainers 技术，快速构建和部署 Web 应用",
       "logo": "https://bolt.new/icon.svg",
       "category": "code",
-      "mau": 2000000,
+      "mau": 2097992,
       "rating": 4.8,
       "updateFrequency": "daily",
       "website": "https://bolt.new",
-      "features": ["全栈开发", "一键部署", "数据库集成", "API开发", "实时预览"],
+      "features": [
+        "全栈开发",
+        "一键部署",
+        "数据库集成",
+        "API开发",
+        "实时预览"
+      ],
       "pricing": "free"
     },
     {
@@ -188,11 +272,17 @@
       "description": "AI 驱动的搜索引擎，基于 GPT-4 和 Claude 模型，提供实时、准确、带来源的网络答案",
       "logo": "https://www.perplexity.ai/favicon.ico",
       "category": "text",
-      "mau": 50000000,
+      "mau": 52451340,
       "rating": 4.6,
       "updateFrequency": "weekly",
       "website": "https://perplexity.ai",
-      "features": ["实时搜索", "来源标注", "深度研究", "多轮追问", "内容总结"],
+      "features": [
+        "实时搜索",
+        "来源标注",
+        "深度研究",
+        "多轮追问",
+        "内容总结"
+      ],
       "pricing": "freemium"
     },
     {
@@ -201,11 +291,17 @@
       "description": "Canva 内置的 AI 设计工具，快速生成海报、社交媒体内容、PPT 等，月活超 1.7 亿",
       "logo": "https://www.canva.com/favicon.ico",
       "category": "design",
-      "mau": 170000000,
+      "mau": 175106996,
       "rating": 4.5,
       "updateFrequency": "weekly",
       "website": "https://canva.com",
-      "features": ["海报生成", "PPT制作", "社交媒体", "视频剪辑", "品牌设计"],
+      "features": [
+        "海报生成",
+        "PPT制作",
+        "社交媒体",
+        "视频剪辑",
+        "品牌设计"
+      ],
       "pricing": "freemium"
     },
     {
@@ -214,11 +310,17 @@
       "description": "OpenAI 2025 年 5 月发布的云端 AI 编程智能体，基于 GPT-4o 和 o3，能自主完成复杂编程任务",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
       "category": "code",
-      "mau": 2000000,
+      "mau": 2042271,
       "rating": 4.9,
       "updateFrequency": "daily",
       "website": "https://openai.com/codex",
-      "features": ["自主编程", "多文件编辑", "终端操作", "代码审查", "Git集成"],
+      "features": [
+        "自主编程",
+        "多文件编辑",
+        "终端操作",
+        "代码审查",
+        "Git集成"
+      ],
       "pricing": "freemium"
     },
     {
@@ -227,11 +329,17 @@
       "description": "Google 开发的 Gemini 2.5 Pro 多模态 AI 模型，支持文本、图像、音频和视频理解",
       "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
       "category": "text",
-      "mau": 80000000,
+      "mau": 82106593,
       "rating": 4.6,
       "updateFrequency": "weekly",
       "website": "https://gemini.google.com",
-      "features": ["多模态理解", "Google集成", "实时搜索", "代码生成", "文档分析"],
+      "features": [
+        "多模态理解",
+        "Google集成",
+        "实时搜索",
+        "代码生成",
+        "文档分析"
+      ],
       "pricing": "freemium"
     },
     {
@@ -240,11 +348,17 @@
       "description": "月之暗面推出的 Kimi K2 长文本 AI 助手，支持 256 万字上下文，擅长文档分析和知识问答",
       "logo": "https://kimi.moonshot.cn/favicon.ico",
       "category": "text",
-      "mau": 30000000,
+      "mau": 31303786,
       "rating": 4.5,
       "updateFrequency": "weekly",
       "website": "https://kimi.moonshot.cn",
-      "features": ["超长上下文", "文档分析", "知识问答", "代码生成", "多轮对话"],
+      "features": [
+        "超长上下文",
+        "文档分析",
+        "知识问答",
+        "代码生成",
+        "多轮对话"
+      ],
       "pricing": "freemium"
     },
     {
@@ -253,21 +367,61 @@
       "description": "Codeium 推出的 AI 编程 IDE，支持 Cascade 工作流，能自主完成端到端的开发任务",
       "logo": "https://codeium.com/favicon.ico",
       "category": "code",
-      "mau": 1000000,
+      "mau": 1022124,
       "rating": 4.7,
       "updateFrequency": "daily",
       "website": "https://codeium.com/windsurf",
-      "features": ["Cascade工作流", "自主开发", "多文件编辑", "终端集成", "代码生成"],
+      "features": [
+        "Cascade工作流",
+        "自主开发",
+        "多文件编辑",
+        "终端集成",
+        "代码生成"
+      ],
       "pricing": "freemium"
     }
   ],
   "categories": [
-    { "id": "all", "name": "全部", "count": 20 },
-    { "id": "text", "name": "文本生成", "count": 5, "icon": "MessageSquare" },
-    { "id": "image", "name": "图像生成", "count": 3, "icon": "Image" },
-    { "id": "video", "name": "视频生成", "count": 2, "icon": "Video" },
-    { "id": "code", "name": "代码助手", "count": 5, "icon": "Code" },
-    { "id": "agent", "name": "AI Agent", "count": 1, "icon": "Bot" },
-    { "id": "design", "name": "设计工具", "count": 2, "icon": "Palette" }
+    {
+      "id": "all",
+      "name": "全部",
+      "count": 20
+    },
+    {
+      "id": "text",
+      "name": "文本生成",
+      "count": 5,
+      "icon": "MessageSquare"
+    },
+    {
+      "id": "image",
+      "name": "图像生成",
+      "count": 3,
+      "icon": "Image"
+    },
+    {
+      "id": "video",
+      "name": "视频生成",
+      "count": 2,
+      "icon": "Video"
+    },
+    {
+      "id": "code",
+      "name": "代码助手",
+      "count": 5,
+      "icon": "Code"
+    },
+    {
+      "id": "agent",
+      "name": "AI Agent",
+      "count": 1,
+      "icon": "Bot"
+    },
+    {
+      "id": "design",
+      "name": "设计工具",
+      "count": 2,
+      "icon": "Palette"
+    }
   ]
 }

@@ -26,6 +26,7 @@ export default function FloatingNav() {
   const [activeSection, setActiveSection] = useState("");
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const location = useLocation();
 
   const isHomePage = location.pathname === "/";
@@ -77,7 +78,7 @@ export default function FloatingNav() {
 
   return (
     <div
-      className={`fixed right-6 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center gap-2 ${
+      className={`fixed right-6 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center gap-2 transition-opacity duration-300 ${
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
@@ -85,10 +86,13 @@ export default function FloatingNav() {
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeSection === item.id;
+          const isHovered = hoveredItem === item.id;
           return (
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
+              onMouseEnter={() => setHoveredItem(item.id)}
+              onMouseLeave={() => setHoveredItem(null)}
               className={`group relative flex items-center justify-center w-10 h-10 rounded-xl transition-colors duration-200 ${
                 isActive
                   ? "bg-primary text-white"
@@ -97,11 +101,16 @@ export default function FloatingNav() {
               title={item.label}
             >
               <Icon className="w-4 h-4" />
+              {/* Tooltip - 只在 hover 时显示 */}
               <span
-                className={`absolute right-full mr-3 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap ${
+                className={`absolute right-full mr-3 px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap min-w-[80px] text-center transition-all duration-200 ${
+                  isHovered
+                    ? "opacity-100 translate-x-0"
+                    : "opacity-0 translate-x-2 pointer-events-none"
+                } ${
                   isActive
                     ? "bg-primary text-white"
-                    : "bg-surface text-text-secondary border border-border"
+                    : "bg-surface text-text-secondary border border-border shadow-sm"
                 }`}
               >
                 {item.label}
@@ -113,7 +122,7 @@ export default function FloatingNav() {
 
       <button
         onClick={() => scrollToTop()}
-        className={`flex items-center justify-center w-10 h-10 rounded-xl bg-primary text-white shadow-md shadow-primary/20 transition-opacity duration-300 hover:bg-primary-dark ${
+        className={`flex items-center justify-center w-10 h-10 rounded-xl bg-primary text-white shadow-md shadow-primary/20 transition-all duration-300 hover:bg-primary-dark ${
           showBackToTop ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         title="回到顶部"
