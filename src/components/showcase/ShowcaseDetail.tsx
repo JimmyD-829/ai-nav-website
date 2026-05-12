@@ -136,6 +136,10 @@ export default function ShowcaseDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
+
   const item = showcaseData.find(s => s.id === id);
 
   if (!item) {

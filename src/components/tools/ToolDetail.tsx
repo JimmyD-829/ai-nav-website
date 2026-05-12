@@ -1,4 +1,5 @@
 import { useParams, useNavigate, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { ArrowLeft, ExternalLink, Star, Users, Zap, Clock, CheckCircle, BookOpen, Play, Lightbulb, AlertCircle } from "lucide-react";
 import toolsData from "../../data/tools.json";
 import type { Tool } from "../../types";
@@ -188,6 +189,10 @@ export default function ToolDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   const tool = toolsData.tools.find((t: Tool) => t.id === id) as Tool | undefined;
   const guide = toolGuides[id || ""] || defaultGuide;

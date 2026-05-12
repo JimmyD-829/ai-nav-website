@@ -2,178 +2,183 @@
   "updates": [
     {
       "id": "1",
-      "toolId": "cursor",
+      "toolId": "5",
       "toolName": "Cursor",
       "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.40",
+      "version": "0.48",
       "updateDate": "2026-05-10",
       "updateType": "feature",
-      "title": "新增 Composer 多文件编辑功能",
-      "description": "支持同时编辑和创建多个文件，通过自然语言描述即可完成复杂的多文件项目结构。",
+      "title": "新增 Agent 模式，支持自主多文件编辑",
+      "description": "Cursor 0.48 版本引入全新的 Agent 模式，AI 可以自主分析代码库、规划修改方案并执行多文件编辑操作。",
       "changelog": [
-        "新增 Composer 功能，支持多文件并行编辑",
-        "优化项目级代码理解能力",
-        "新增自定义 AI 行为预设功能",
-        "修复多处内存泄漏问题"
+        "新增 Agent 模式，支持端到端代码修改",
+        "改进 Composer 的上下文理解能力",
+        "支持 Git 提交信息自动生成",
+        "优化大型代码库的索引速度",
+        "新增 20+ 编程语言的语法支持"
       ]
     },
     {
       "id": "2",
-      "toolId": "copilot",
+      "toolId": "4",
       "toolName": "GitHub Copilot",
       "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "2.15",
+      "version": "1.300",
       "updateDate": "2026-05-09",
-      "updateType": "improvement",
-      "title": "Copilot Edits 正式上线，优化代码补全模型",
-      "description": "Copilot Edits 功能面向所有用户开放，同时对代码补全模型进行了全面升级。",
+      "updateType": "feature",
+      "title": "Copilot Workspace 正式上线",
+      "description": "GitHub Copilot Workspace 正式发布，支持从自然语言描述直接生成完整项目代码。",
       "changelog": [
-        "Copilot Edits 正式发布，支持文件级编辑",
-        "代码补全延迟降低 50%",
-        "新增支持 50+ 新编程语言",
-        "优化 Copilot Chat 的上下文理解"
+        "Copilot Workspace 全面开放",
+        "支持多文件协同编辑",
+        "新增代码审查助手功能",
+        "改进 Python 和 TypeScript 代码生成质量",
+        "集成 GitHub Actions 工作流建议"
       ]
     },
     {
       "id": "3",
-      "toolId": "v0",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "2.5",
+      "toolId": "17",
+      "toolName": "Codex",
+      "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "version": "1.0",
       "updateDate": "2026-05-08",
       "updateType": "feature",
-      "title": "新增 Tailwind v4 支持和组件变体生成",
-      "description": "V0 现在支持 Tailwind CSS v4 的新特性，并能够自动生成组件的不同变体版本。",
+      "title": "OpenAI Codex 正式发布",
+      "description": "OpenAI 发布 Codex 云端编程智能体，基于 GPT-4o 和 o3 模型，支持自主完成复杂软件工程任务。",
       "changelog": [
-        "全面支持 Tailwind CSS v4",
-        "新增组件变体自动生成",
-        "优化移动端响应式设计生成",
-        "新增组件代码导出为 shadcn/ui 格式"
+        "云端 AI 编程智能体正式上线",
+        "支持多文件编辑和终端操作",
+        "集成 Git 版本控制",
+        "SWE-bench 测试通过率达 72.1%",
+        "支持 Python、JavaScript、TypeScript 等主流语言"
       ]
     },
     {
       "id": "4",
-      "toolId": "bolt",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "1.8",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "1.6",
       "updateDate": "2026-05-07",
-      "updateType": "feature",
-      "title": "新增数据库可视化编辑和 API 调试器",
-      "description": "Bolt 新增内置数据库管理界面和 API 调试工具，让全栈开发更加便捷。",
+      "updateType": "improvement",
+      "title": "Cascade 工作流支持多步骤任务",
+      "description": "Windsurf 1.6 版本增强了 Cascade 工作流，支持更复杂的多步骤开发任务。",
       "changelog": [
-        "新增可视化数据库编辑界面",
-        "内置 API 调试器 (类似 Postman)",
-        "支持一键连接 Supabase、PlanetScale",
-        "优化冷启动速度，提升 40%"
+        "Cascade 支持多步骤任务规划",
+        "改进代码生成的准确性",
+        "新增数据库 Schema 设计功能",
+        "优化终端命令执行安全性",
+        "支持更多框架的自动检测"
       ]
     },
     {
       "id": "5",
-      "toolId": "windsurf",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/windsurf/favicon.ico",
-      "version": "3.2",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "4.0",
       "updateDate": "2026-05-06",
-      "updateType": "improvement",
-      "title": "Supercomplete 升级，更精准的代码补全",
-      "description": "Windsurf 的 Supercomplete 功能迎来重大升级，补全准确率提升 30%。",
+      "updateType": "feature",
+      "title": "支持 Tailwind CSS v4 和 React 19",
+      "description": "V0 4.0 版本全面支持 Tailwind CSS v4 和 React 19，生成更现代化的前端代码。",
       "changelog": [
-        "Supercomplete 模型全面升级",
-        "新增项目架构感知能力",
-        "优化跨文件引用理解",
-        "新增 Code Reviews 功能"
+        "支持 Tailwind CSS v4 新特性",
+        "兼容 React 19 新 API",
+        "新增 shadcn/ui 组件库集成",
+        "改进响应式设计生成",
+        "支持 Dark Mode 自动适配"
       ]
     },
     {
       "id": "6",
-      "toolId": "replit",
-      "toolName": "Replit",
-      "toolLogo": "https://replit.com/favicon.ico",
-      "version": "5.4",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "1.5",
       "updateDate": "2026-05-05",
       "updateType": "feature",
-      "title": "Replit Agent 2.0 发布，支持自主部署",
-      "description": "Replit Agent 迎来重大更新，现在能够自主完成项目部署和域名配置。",
+      "title": "支持全栈框架一键部署",
+      "description": "Bolt 1.5 新增对多种全栈框架的支持，包括 Next.js、Nuxt、SvelteKit 等。",
       "changelog": [
-        "Replit Agent 2.0 正式发布",
-        "新增一键部署到 Vercel、Netlify",
-        "支持自动配置自定义域名",
-        "新增 AI 代码审查助手"
+        "新增 Next.js App Router 支持",
+        "支持 Nuxt 3 全栈开发",
+        "集成 Prisma ORM 数据库工具",
+        "新增 Vercel/Netlify 一键部署",
+        "支持 OAuth 认证流程生成"
       ]
     },
     {
       "id": "7",
-      "toolId": "cursor",
+      "toolId": "5",
       "toolName": "Cursor",
       "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.39",
-      "updateDate": "2026-05-03",
+      "version": "0.47",
+      "updateDate": "2026-05-04",
       "updateType": "improvement",
-      "title": "性能优化：启动速度提升 2 倍",
-      "description": "Cursor 0.39 版本大幅优化了启动性能，冷启动时间缩短至原来的 1/2。",
+      "title": "优化大型项目性能和索引",
+      "description": "Cursor 0.47 版本针对大型代码库进行性能优化，索引速度提升 3 倍。",
       "changelog": [
-        "启动速度提升 200%",
-        "优化大型项目加载时间",
-        "新增智能缓存机制",
-        "修复 23 个已知 Bug"
+        "大型项目索引速度提升 300%",
+        "内存占用降低 40%",
+        "支持百万行代码项目",
+        "优化符号搜索准确性",
+        "新增代码依赖关系图"
       ]
     },
     {
       "id": "8",
-      "toolId": "github-copilot",
+      "toolId": "4",
       "toolName": "GitHub Copilot",
       "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "2.14",
-      "updateDate": "2026-05-01",
+      "version": "1.295",
+      "updateDate": "2026-05-03",
       "updateType": "fix",
-      "title": "修复多项稳定性问题",
-      "description": "GitHub Copilot 2.14 版本修复了多个影响稳定性的问题。",
+      "title": "修复代码补全延迟问题",
+      "description": "GitHub Copilot 1.295 版本修复了部分用户遇到的代码补全延迟问题。",
       "changelog": [
-        "修复长时间使用后内存泄漏问题",
-        "修复部分 IDE 兼容性问题",
-        "优化网络异常时的重试机制",
-        "修复代码补全重复问题"
+        "修复代码补全 3 秒延迟问题",
+        "优化网络连接稳定性",
+        "修复 Python 类型推断错误",
+        "改进中文注释支持",
+        "修复 JetBrains IDE 兼容性问题"
       ]
     },
     {
       "id": "9",
-      "toolId": "v0",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "2.4",
-      "updateDate": "2026-04-28",
+      "toolId": "17",
+      "toolName": "Codex",
+      "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "version": "1.1",
+      "updateDate": "2026-05-02",
       "updateType": "improvement",
-      "title": "Shadcn/ui 组件库全面升级",
-      "description": "V0 集成的 shadcn/ui 组件库已更新到最新版本，支持更多组件和主题。",
+      "title": "支持更多编程语言和框架",
+      "description": "Codex 1.1 版本扩展了对 Rust、Go、Kotlin 等语言的支持。",
       "changelog": [
-        "shadcn/ui 升级到最新版本",
-        "新增 20+ 新组件",
-        "支持暗色模式自动切换",
-        "优化组件代码可读性"
+        "新增 Rust 语言支持",
+        "新增 Go 语言支持",
+        "新增 Kotlin 语言支持",
+        "支持 Django 和 Flask 框架",
+        "改进代码重构建议质量"
       ]
     },
     {
       "id": "10",
-      "toolId": "bolt",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "1.7",
-      "updateDate": "2026-04-25",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "1.5",
+      "updateDate": "2026-05-01",
       "updateType": "feature",
-      "title": "新增实时协作功能",
-      "description": "Bolt 现在支持多人实时协作编辑项目，提升团队开发效率。",
+      "title": "新增 AI 代码审查功能",
+      "description": "Windsurf 1.5 引入 AI 代码审查功能，自动检测潜在 Bug 和安全漏洞。",
       "changelog": [
-        "新增实时协作功能",
-        "支持最多 10 人同时编辑",
-        "新增团队项目管理功能",
-        "集成 Cursor 的 AI 编辑能力"
+        "新增 AI 代码审查功能",
+        "自动检测安全漏洞",
+        "代码风格一致性检查",
+        "性能瓶颈分析",
+        "生成代码审查报告"
       ]
     }
-  ],
-  "updateTypes": [
-    { "id": "feature", "name": "新功能", "color": "#22C55E" },
-    { "id": "improvement", "name": "优化", "color": "#3B82F6" },
-    { "id": "fix", "name": "问题修复", "color": "#F59E0B" }
   ]
 }
