@@ -1,0 +1,105 @@
+import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Search, Menu, X, Sparkles } from "lucide-react";
+
+const navLinks = [
+  { path: "/", label: "首页" },
+  { path: "/news", label: "新闻动态" },
+  { path: "/tools", label: "AI工具" },
+  { path: "/updates", label: "工具更新" },
+];
+
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const location = useLocation();
+
+  const isActive = (path: string) => {
+    if (path === "/") return location.pathname === "/";
+    return location.pathname.startsWith(path);
+  };
+
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-white/5">
+      <div className="container mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          <Link to="/" className="flex items-center space-x-2">
+            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+              <Sparkles className="w-6 h-6 text-white" />
+            </div>
+            <span className="font-heading text-xl font-bold text-text-primary">
+              AI<span className="gradient-text">导航</span>
+            </span>
+          </Link>
+
+          <nav className="hidden md:flex items-center space-x-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
+                  isActive(link.path)
+                    ? "bg-primary/10 text-primary"
+                    : "text-text-secondary hover:text-text-primary hover:bg-white/5"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="hidden md:flex items-center">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+              <input
+                type="text"
+                placeholder="搜索 AI 工具、新闻..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-64 pl-10 pr-4 py-2 bg-card border border-white/5 rounded-lg text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all"
+              />
+            </div>
+          </div>
+
+          <button
+            className="md:hidden p-2 text-text-secondary hover:text-text-primary"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {isMenuOpen && (
+          <div className="md:hidden py-4 border-t border-white/5 animate-fade-in">
+            <nav className="flex flex-col space-y-2 mb-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                    isActive(link.path)
+                      ? "bg-primary/10 text-primary"
+                      : "text-text-secondary hover:text-text-primary hover:bg-white/5"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+              <input
+                type="text"
+                placeholder="搜索..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 bg-card border border-white/5 rounded-lg text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-primary/50"
+              />
+            </div>
+          </div>
+        )}
+      </div>
+    </header>
+  );
+}

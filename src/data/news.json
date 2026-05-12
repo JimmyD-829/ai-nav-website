@@ -1,0 +1,132 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "GPT-5 即将发布：OpenAI 宣布新一代多模态大模型",
+      "summary": "OpenAI CEO Sam Altman 在开发者大会上预告了 GPT-5 的到来，新版本将具备更强的推理能力和多模态理解能力，预计将在今年第三季度正式发布。",
+      "content": "在刚刚结束的 OpenAI 开发者日活动中，CEO Sam Altman 透露了关于 GPT-5 的重要信息。新版本将采用全新的架构设计，在推理能力、数学问题解决和多模态理解方面有显著提升。GPT-5 将能够更好地理解上下文，处理更长的文本，并支持更高质量的图像生成和分析。\n\n据悉，GPT-5 的训练使用了超过 10 万亿个参数，是 GPT-4 的 5 倍以上。OpenAI 还表示，新版本将更加注重安全性和可控性，减少幻觉问题。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-10",
+      "category": "llm",
+      "tags": ["GPT-5", "OpenAI", "大模型", "多模态"],
+      "isHot": true,
+      "views": 12580
+    },
+    {
+      "id": "2",
+      "title": "Google DeepMind 发布 AlphaCode 3：编程能力超越人类平均水平",
+      "summary": "DeepMind 宣布 AlphaCode 3 在多个编程基准测试中达到了专业程序员的水平，能够独立完成复杂项目的开发工作。",
+      "content": "Google DeepMind 发布了 AlphaCode 3，这是迄今为止最强大的 AI 编程系统。在 HumanEval 和 MBPP 等基准测试中，AlphaCode 3 的表现超越了 85% 的人类程序员。\n\n新版本采用了创新的代码推理架构，能够理解高层需求并生成完整的、可运行的代码库。DeepMind 还宣布与多家科技公司合作，将 AlphaCode 3 集成到主流开发工具中。",
+      "source": "Google DeepMind",
+      "publishDate": "2026-05-09",
+      "category": "tech-breakthrough",
+      "tags": ["AlphaCode", "编程", "DeepMind", "AI编程"],
+      "isHot": true,
+      "views": 9840
+    },
+    {
+      "id": "3",
+      "title": "Anthropic 发布 Claude 3.5：上下文窗口扩展至 200 万 token",
+      "summary": "Anthropic 最新发布的 Claude 3.5 模型将上下文窗口扩展到 200 万 token，能够处理整本书籍、代码库或长视频内容。",
+      "content": "Anthropic 公司今天发布了 Claude 3.5 系列模型，其中 Claude 3.5 Opus 的上下文窗口达到了惊人的 200 万 token。这意味着用户可以一次性输入整本书籍、大型代码库或数小时的长视频内容进行分析。\n\n除了超长上下文，新模型在各项基准测试中的表现均有提升，特别是在复杂推理、数学计算和创意写作方面。Anthropic 还宣布了 Claude 3.5 的 API 价格下调 30%。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-08",
+      "category": "llm",
+      "tags": ["Claude", "Anthropic", "长上下文", "大模型"],
+      "isHot": false,
+      "views": 7620
+    },
+    {
+      "id": "4",
+      "title": "Stability AI 推出 Stable Video 4.0：支持 60fps 4K 视频生成",
+      "summary": "Stability AI 发布最新视频生成模型，支持 60fps 的 4K 分辨率视频生成，单次最长可生成 10 秒高质量视频。",
+      "content": "Stability AI 宣布推出 Stable Video 4.0，这是其迄今为止最强大的视频生成模型。新版本支持生成 60fps 的 4K 分辨率视频，单次生成最长可达 10 秒。\n\n技术层面，Stable Video 4.0 采用了全新的时空扩散架构，能够更好地保持时间一致性，减少闪烁和伪影。用户可以通过简单的文本描述或图片来生成逼真的视频内容。",
+      "source": "Stability AI",
+      "publishDate": "2026-05-07",
+      "category": "ai-app",
+      "tags": ["视频生成", "Stability AI", "AIGC", "4K"],
+      "isHot": true,
+      "views": 8930
+    },
+    {
+      "id": "5",
+      "title": "微软推出 Microsoft Copilot+ PC：内置 AI 芯片的新一代 PC",
+      "summary": "微软发布搭载自研 AI 芯片的新一代 PC，NPU 算力达到 45 TOPS，能够在本地运行 130 亿参数的大模型。",
+      "content": "微软在 Build 大会上正式发布了 Microsoft Copilot+ PC，这是首批专门为 AI 体验设计的 Windows PC。新设备搭载高通 Snapdragon X Elite 或英特尔 Lunar Lake 处理器，NPU 算力达到 45 TOPS。\n\n微软还推出了 Windows Recall 功能，能够记住用户的所有操作历史，以及名为 Cocreator 的 AI 画图功能。首批 Copilot+ PC 将于 6 月上市，起售价为 999 美元。",
+      "source": "Microsoft",
+      "publishDate": "2026-05-06",
+      "category": "product",
+      "tags": ["微软", "Copilot", "AI PC", "硬件"],
+      "isHot": false,
+      "views": 6540
+    },
+    {
+      "id": "6",
+      "title": "Meta 开源 LLaMA 4：最强开源多模态模型",
+      "summary": "Meta 发布 LLaMA 4 系列模型，其中 LLaMA 4 Ultra 在多项基准测试中超越 GPT-4o，全面开源商用。",
+      "content": "Meta AI 正式发布 LLaMA 4 系列模型，包含 LLaMA 4 Lite、LLaMA 4 Pro 和 LLaMA 4 Ultra 三个版本。LLaMA 4 Ultra 在 MMLU、HumanEval 等基准测试中超越了 GPT-4o 和 Claude 3 Opus。\n\nLLaMA 4 全系支持多模态能力，能够处理文本、图像和音频。所有版本均可免费商用，这将进一步降低 AI 应用的开发门槛。Meta 表示，这是为了推动 AI 技术的民主化。",
+      "source": "Meta AI",
+      "publishDate": "2026-05-05",
+      "category": "llm",
+      "tags": ["LLaMA", "Meta", "开源", "多模态"],
+      "isHot": true,
+      "views": 11230
+    },
+    {
+      "id": "7",
+      "title": "英伟达发布新一代 GPU H200 SXM：HBM3e 内存容量翻倍",
+      "summary": "英伟达发布用于 AI 训练和推理的新一代 GPU H200 SXM，内存容量提升至 141GB，带宽提升 2.4 倍。",
+      "content": "英伟达在 GTC 大会上发布了新一代数据中心 GPU H200 SXM，这是 H100 的继任者。H200 配备 141GB HBM3e 内存，内存带宽达到 4.8TB/s，相比 H100 提升 2.4 倍。\n\nH200 主要面向大模型训练和推理场景，在运行 GPT-3 等模型时，训练速度比 H100 快 60%。微软、谷歌、亚马逊等云服务商已确认将采购 H200。",
+      "source": "NVIDIA",
+      "publishDate": "2026-05-04",
+      "category": "industry",
+      "tags": ["英伟达", "GPU", "H200", "硬件"],
+      "isHot": false,
+      "views": 5780
+    },
+    {
+      "id": "8",
+      "title": "Runway Gen-3 Alpha 上线：电影级视频生成能力开放公测",
+      "summary": "Runway 开放 Gen-3 Alpha 视频生成模型的公测，用户可以使用自然语言描述生成具有电影质感的视频内容。",
+      "content": "AI 视频创作平台 Runway 宣布开放 Gen-3 Alpha 模型的公测。新版本在视频质量、动作自然度和时长方面都有显著提升，支持生成长达 10 秒的 1080p 视频。\n\nGen-3 Alpha 特别优化了人物动作和表情的自然度，能够生成具有电影感的镜头语言。用户可以通过简单的文本描述指定镜头角度、光线和风格，AI 将自动生成对应的视频内容。",
+      "source": "Runway",
+      "publishDate": "2026-05-03",
+      "category": "ai-app",
+      "tags": ["Runway", "视频生成", "AI影视", "AIGC"],
+      "isHot": false,
+      "views": 4320
+    },
+    {
+      "id": "9",
+      "title": "xAI 发布 Grok-2：马斯克的 AI 助手支持图像生成",
+      "summary": "xAI 发布 Grok-2 模型，新增图像生成和理解能力，同时提升了推理和编程能力，向 Plus 用户开放。",
+      "content": "马斯克的 AI 公司 xAI 发布了 Grok-2，这是继 Grok-1.5 之后的重大更新。新版本新增了图像生成和理解功能，用户可以上传图片让 Grok 分析，也可以让它生成图片。\n\nGrok-2 的推理能力也有了显著提升，在 MATH 和 GSM8K 基准测试中表现优异。xAI 表示将向 Premium Plus 订阅用户开放 Grok-2 的完整功能。",
+      "source": "xAI",
+      "publishDate": "2026-05-02",
+      "category": "product",
+      "tags": ["Grok", "xAI", "马斯克", "图像生成"],
+      "isHot": false,
+      "views": 7650
+    },
+    {
+      "id": "10",
+      "title": "百度文心大模型 4.0 Turbo 发布：推理速度提升 5 倍",
+      "summary": "百度发布文心大模型 4.0 Turbo，推理速度提升 5 倍，API 调用成本降低 70%，全面支持企业级应用。",
+      "content": "百度在 Create 开发者大会上发布了文心大模型 4.0 Turbo。相比 4.0 版本，Turbo 版本的推理速度提升了 5 倍，API 调用成本降低了 70%。\n\n新版本在中文理解和中国文化相关任务上的表现更加出色，特别适合国内企业的 AI 应用开发。百度还宣布了「文心一言」企业版全面升级，支持私有化部署。",
+      "source": "百度",
+      "publishDate": "2026-05-01",
+      "category": "llm",
+      "tags": ["文心一言", "百度", "大模型", "中文AI"],
+      "isHot": false,
+      "views": 5230
+    }
+  ],
+  "categories": [
+    { "id": "all", "name": "全部", "count": 10 },
+    { "id": "llm", "name": "大模型", "count": 4 },
+    { "id": "ai-app", "name": "AI应用", "count": 2 },
+    { "id": "tech-breakthrough", "name": "技术突破", "count": 1 },
+    { "id": "industry", "name": "业界动态", "count": 1 },
+    { "id": "product", "name": "产品发布", "count": 2 }
+  ]
+}
