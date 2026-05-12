@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MessageSquare, Image, Video, Code, Bot, Palette } from "lucide-react";
 import toolsData from "../../data/tools.json";
+import type { Tool } from "../../types";
 import ToolCard from "./ToolCard";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -15,9 +16,11 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 export default function ToolGrid() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
+  const tools = toolsData.tools as Tool[];
+
   const filteredTools = selectedCategory === "all"
-    ? toolsData.tools
-    : toolsData.tools.filter(tool => tool.category === selectedCategory);
+    ? tools
+    : tools.filter(tool => tool.category === selectedCategory);
 
   return (
     <section className="mb-12">

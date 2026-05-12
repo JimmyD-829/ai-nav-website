@@ -1,8 +1,11 @@
 import updatesData from "../../data/updates.json";
+import type { Update } from "../../types";
 import UpdateCard from "./UpdateCard";
 
 export default function UpdateTimeline() {
-  const sortedUpdates = [...updatesData.updates].sort(
+  const updates = updatesData.updates as Update[];
+
+  const sortedUpdates = [...updates].sort(
     (a, b) => new Date(b.updateDate).getTime() - new Date(a.updateDate).getTime()
   );
 

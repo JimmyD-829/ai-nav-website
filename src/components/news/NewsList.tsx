@@ -1,14 +1,17 @@
 import { useState } from "react";
 import newsData from "../../data/news.json";
+import type { News } from "../../types";
 import NewsCard from "./NewsCard";
 import NewsFilter from "./NewsFilter";
 
 export default function NewsList() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
+  const news = newsData.news as News[];
+
   const filteredNews = selectedCategory === "all"
-    ? newsData.news
-    : newsData.news.filter(news => news.category === selectedCategory);
+    ? news
+    : news.filter(news => news.category === selectedCategory);
 
   const hotNews = filteredNews.find(news => news.isHot) || filteredNews[0];
   const otherNews = filteredNews.filter(news => news.id !== hotNews?.id);
