@@ -20,19 +20,21 @@ export default function UpdateTimeline() {
 
   return (
     <section className="mb-12">
-      <div className="mb-8">
-        <h2 className="section-title">⚡ Vibe Coding 工具更新</h2>
-        <p className="section-subtitle">追踪 Cursor、Copilot 等开发工具的最新功能更新</p>
+      <div className="section-header">
+        <div>
+          <h2 className="section-title">⚡ Vibe Coding 工具更新</h2>
+          <p className="section-subtitle">追踪 Cursor、Copilot 等开发工具的最新功能更新</p>
+        </div>
       </div>
 
       <div className="relative">
         {Object.entries(groupedByDate).map(([date, updates]) => (
           <div key={date} className="mb-8">
             <div className="flex items-center space-x-3 mb-4">
-              <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
+              <span className="text-sm font-medium text-primary bg-primary/5 px-3 py-1 rounded-full">
                 {date}
               </span>
-              <div className="flex-1 h-px bg-gradient-to-r from-primary/20 to-transparent" />
+              <div className="flex-1 h-px bg-gradient-to-r from-primary/15 to-transparent" />
             </div>
             <div className="space-y-4">
               {updates.map((update, index) => (

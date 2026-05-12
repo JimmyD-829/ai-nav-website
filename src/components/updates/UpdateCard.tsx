@@ -21,17 +21,17 @@ export default function UpdateCard({ update }: UpdateCardProps) {
     feature: {
       icon: Sparkles,
       label: "新功能",
-      color: "text-green-400 bg-green-400/10 border-green-400/20",
+      color: "text-green-600 bg-green-50",
     },
     improvement: {
       icon: TrendingUp,
       label: "优化",
-      color: "text-blue-400 bg-blue-400/10 border-blue-400/20",
+      color: "text-blue-600 bg-blue-50",
     },
     fix: {
       icon: Bug,
       label: "修复",
-      color: "text-yellow-400 bg-yellow-400/10 border-yellow-400/20",
+      color: "text-amber-600 bg-amber-50",
     },
   };
 
@@ -39,26 +39,26 @@ export default function UpdateCard({ update }: UpdateCardProps) {
   const TypeIcon = config.icon;
 
   return (
-    <div className="group relative pl-8 pb-8 border-l-2 border-primary/20 hover:border-primary transition-colors last:pb-0">
-      <div className="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-card border-2 border-primary group-hover:bg-primary transition-colors" />
+    <div className="group relative pl-8 pb-8 border-l-2 border-primary/15 hover:border-primary/30 transition-colors last:pb-0">
+      <div className="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-surface border-2 border-primary/30 group-hover:border-primary group-hover:bg-primary transition-colors" />
       
-      <div className="card-base card-hover p-5 border border-transparent hover:border-primary/20 transition-all">
+      <div className="card-base card-hover p-5">
         <div className="flex items-start justify-between mb-3">
           <div className="flex items-center space-x-3">
             <img
               src={update.toolLogo}
               alt={update.toolName}
-              className="w-8 h-8 rounded"
+              className="w-8 h-8 rounded-lg"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
               }}
             />
             <div>
-              <h4 className="font-heading font-semibold text-text-primary group-hover:text-primary transition-colors">
+              <h4 className="font-semibold text-text-primary group-hover:text-primary transition-colors">
                 {update.toolName}
               </h4>
               <div className="flex items-center space-x-2 mt-0.5">
-                <span className="text-xs px-2 py-0.5 rounded bg-primary/10 text-primary font-medium">
+                <span className="text-xs px-2 py-0.5 rounded-md bg-primary/5 text-primary font-medium">
                   v{update.version}
                 </span>
                 <span className="text-xs text-text-muted flex items-center space-x-1">
@@ -68,7 +68,7 @@ export default function UpdateCard({ update }: UpdateCardProps) {
               </div>
             </div>
           </div>
-          <span className={`flex items-center space-x-1 px-2.5 py-1 text-xs font-medium rounded-full border ${config.color}`}>
+          <span className={`flex items-center space-x-1 px-2.5 py-1 text-xs font-medium rounded-md ${config.color}`}>
             <TypeIcon className="w-3 h-3" />
             <span>{config.label}</span>
           </span>

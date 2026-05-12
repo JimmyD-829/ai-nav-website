@@ -31,20 +31,20 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
     return (
       <Link
         to={`/news/${news.id}`}
-        className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/20 to-accent/10 border border-primary/20 hover:border-primary/40 transition-all duration-300"
+        className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/5 to-primary/2 border border-primary/15 hover:border-primary/30 transition-all duration-300"
       >
-        <div className="p-8">
-          <div className="flex items-center space-x-2 mb-4">
+        <div className="p-6">
+          <div className="flex items-center space-x-2 mb-3">
             <span className="tag flex items-center space-x-1">
               <Flame className="w-3 h-3" />
               <span>热门</span>
             </span>
             <span className="tag">{categoryLabels[news.category] || news.category}</span>
           </div>
-          <h2 className="text-2xl font-heading font-bold text-text-primary mb-3 group-hover:text-primary transition-colors">
+          <h2 className="text-xl font-bold text-text-primary mb-2 group-hover:text-primary transition-colors">
             {news.title}
           </h2>
-          <p className="text-text-secondary leading-relaxed mb-4 line-clamp-2">
+          <p className="text-text-secondary leading-relaxed mb-3 line-clamp-2">
             {news.summary}
           </p>
           <div className="flex items-center space-x-4 text-sm text-text-muted">
@@ -59,7 +59,6 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
             <span>{news.source}</span>
           </div>
         </div>
-        <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-3xl" />
       </Link>
     );
   }
@@ -67,26 +66,26 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
   return (
     <Link
       to={`/news/${news.id}`}
-      className="group card-base card-hover p-6 border border-transparent hover:border-white/10"
+      className="group card-base card-hover p-5"
     >
-      <div className="flex items-start justify-between mb-3">
+      <div className="flex items-start justify-between mb-2">
         <div className="flex items-center space-x-2">
           <span className="tag text-xs">{categoryLabels[news.category] || news.category}</span>
           {news.isHot && (
-            <span className="tag bg-red-500/10 text-red-400 border-red-500/20 flex items-center space-x-1">
+            <span className="tag bg-red-500/8 text-red-500 flex items-center space-x-1">
               <Flame className="w-3 h-3" />
               <span>热</span>
             </span>
           )}
         </div>
-        <span className="text-xs text-text-muted">{formatDate(news.publishDate)}</span>
+        <span className="text-xs text-text-light">{formatDate(news.publishDate)}</span>
       </div>
 
-      <h3 className="font-heading font-semibold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2">
+      <h3 className="font-semibold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2">
         {news.title}
       </h3>
 
-      <p className="text-sm text-text-secondary line-clamp-2 mb-4">
+      <p className="text-sm text-text-secondary line-clamp-2 mb-3">
         {news.summary}
       </p>
 

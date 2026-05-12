@@ -18,7 +18,7 @@ export default function NewsList() {
 
   return (
     <section className="mb-12">
-      <div className="flex items-center justify-between mb-6">
+      <div className="section-header">
         <div>
           <h2 className="section-title">🔥 每日AI动态</h2>
           <p className="section-subtitle">追踪 AI 领域最新资讯，了解大模型与 AI 应用的最新进展</p>
@@ -37,7 +37,7 @@ export default function NewsList() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {otherNews.map((news, index) => (
           <div
             key={news.id}

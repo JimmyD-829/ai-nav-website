@@ -17,66 +17,66 @@ export default function ToolCard({ tool }: ToolCardProps) {
   };
 
   const pricingLabels = {
-    free: { label: "免费", color: "text-green-400 bg-green-400/10" },
-    freemium: { label: " Freemium", color: "text-blue-400 bg-blue-400/10" },
-    paid: { label: "付费", color: "text-purple-400 bg-purple-400/10" },
+    free: { label: "免费", color: "text-green-600 bg-green-50" },
+    freemium: { label: "Freemium", color: "text-blue-600 bg-blue-50" },
+    paid: { label: "付费", color: "text-purple-600 bg-purple-50" },
   };
 
   const pricing = pricingLabels[tool.pricing as keyof typeof pricingLabels];
 
   return (
-    <div className="group card-base card-hover p-6 border border-transparent hover:border-primary/20">
-      <div className="flex items-start justify-between mb-4">
+    <div className="group card-base card-hover p-5">
+      <div className="flex items-start justify-between mb-3">
         <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center overflow-hidden">
+          <div className="w-11 h-11 rounded-xl bg-primary/5 flex items-center justify-center overflow-hidden">
             <img
               src={tool.logo}
               alt={tool.name}
-              className="w-8 h-8 object-contain"
+              className="w-7 h-7 object-contain"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
               }}
             />
           </div>
           <div>
-            <h3 className="font-heading font-semibold text-text-primary group-hover:text-primary transition-colors">
+            <h3 className="font-semibold text-text-primary group-hover:text-primary transition-colors text-sm">
               {tool.name}
             </h3>
-            <span className={`inline-block px-2 py-0.5 text-xs font-medium rounded ${pricing.color}`}>
+            <span className={`inline-block px-2 py-0.5 text-xs font-medium rounded-md ${pricing.color}`}>
               {pricing.label}
             </span>
           </div>
         </div>
       </div>
 
-      <p className="text-sm text-text-secondary line-clamp-2 mb-4">
+      <p className="text-sm text-text-secondary line-clamp-2 mb-3">
         {tool.description}
       </p>
 
-      <div className="flex flex-wrap gap-1.5 mb-4">
+      <div className="flex flex-wrap gap-1.5 mb-3">
         {tool.features.slice(0, 3).map((feature, index) => (
           <span
             key={index}
-            className="px-2 py-1 text-xs bg-white/5 text-text-muted rounded"
+            className="px-2 py-0.5 text-xs bg-background text-text-muted rounded-md"
           >
             {feature}
           </span>
         ))}
         {tool.features.length > 3 && (
-          <span className="px-2 py-1 text-xs text-text-muted">
+          <span className="px-2 py-0.5 text-xs text-text-light">
             +{tool.features.length - 3}
           </span>
         )}
       </div>
 
-      <div className="flex items-center justify-between pt-4 border-t border-white/5">
-        <div className="flex items-center space-x-4 text-xs text-text-muted">
+      <div className="flex items-center justify-between pt-3 border-t border-border">
+        <div className="flex items-center space-x-3 text-xs text-text-muted">
           <span className="flex items-center space-x-1">
             <Users className="w-3.5 h-3.5" />
             <span>{formatNumber(tool.mau)}</span>
           </span>
           <span className="flex items-center space-x-1">
-            <Star className="w-3.5 h-3.5 text-yellow-400" />
+            <Star className="w-3.5 h-3.5 text-amber-500" />
             <span>{tool.rating}</span>
           </span>
           <span className="flex items-center space-x-1">
@@ -88,7 +88,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
           href={tool.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-lg bg-white/5 text-text-secondary hover:text-primary hover:bg-primary/10 transition-all"
+          className="p-1.5 rounded-lg bg-background text-text-secondary hover:text-primary hover:bg-primary/5 transition-all"
           onClick={(e) => e.stopPropagation()}
         >
           <ExternalLink className="w-4 h-4" />

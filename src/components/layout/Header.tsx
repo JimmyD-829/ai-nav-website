@@ -7,6 +7,7 @@ const navLinks = [
   { path: "/news", label: "新闻动态" },
   { path: "/tools", label: "AI工具" },
   { path: "/updates", label: "工具更新" },
+  { path: "/showcase", label: "作品展示" },
 ];
 
 export default function Header() {
@@ -20,15 +21,15 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-white/5">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-white" />
+            <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+              <Sparkles className="w-5 h-5 text-white" />
             </div>
-            <span className="font-heading text-xl font-bold text-text-primary">
-              AI<span className="gradient-text">导航</span>
+            <span className="text-xl font-bold text-text-primary">
+              AI<span className="text-primary">导航</span>
             </span>
           </Link>
 
@@ -37,10 +38,10 @@ export default function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? "bg-primary/10 text-primary"
-                    : "text-text-secondary hover:text-text-primary hover:bg-white/5"
+                    ? "text-primary bg-primary/5"
+                    : "text-text-secondary hover:text-text-primary hover:bg-background"
                 }`}
               >
                 {link.label}
@@ -50,13 +51,13 @@ export default function Header() {
 
           <div className="hidden md:flex items-center">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-light" />
               <input
                 type="text"
                 placeholder="搜索 AI 工具、新闻..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-64 pl-10 pr-4 py-2 bg-card border border-white/5 rounded-lg text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 transition-all"
+                className="w-64 pl-10 pr-4 py-2 bg-background border border-border rounded-xl text-sm text-text-primary placeholder-text-light focus:outline-none focus:border-primary/40 focus:ring-2 focus:ring-primary/10 transition-all"
               />
             </div>
           </div>
@@ -70,7 +71,7 @@ export default function Header() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-white/5 animate-fade-in">
+          <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <nav className="flex flex-col space-y-2 mb-4">
               {navLinks.map((link) => (
                 <Link
@@ -79,8 +80,8 @@ export default function Header() {
                   onClick={() => setIsMenuOpen(false)}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                     isActive(link.path)
-                      ? "bg-primary/10 text-primary"
-                      : "text-text-secondary hover:text-text-primary hover:bg-white/5"
+                      ? "text-primary bg-primary/5"
+                      : "text-text-secondary hover:text-text-primary hover:bg-background"
                   }`}
                 >
                   {link.label}
@@ -88,13 +89,13 @@ export default function Header() {
               ))}
             </nav>
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-light" />
               <input
                 type="text"
                 placeholder="搜索..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-card border border-white/5 rounded-lg text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-primary/50"
+                className="w-full pl-10 pr-4 py-2 bg-background border border-border rounded-xl text-sm text-text-primary placeholder-text-light focus:outline-none focus:border-primary/40"
               />
             </div>
           </div>
