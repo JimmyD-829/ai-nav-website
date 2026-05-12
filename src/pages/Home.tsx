@@ -5,6 +5,7 @@ import { NewsList } from "../components/news";
 import { ToolGrid } from "../components/tools";
 import { UpdateTimeline } from "../components/updates";
 import { VibeShowcase } from "../components/showcase";
+import { scrollToSection } from "../utils/scroll";
 
 export default function Home() {
   const location = useLocation();
@@ -12,19 +13,9 @@ export default function Home() {
   useEffect(() => {
     const state = location.state as { scrollTo?: string } | null;
     if (state?.scrollTo) {
-      const element = document.getElementById(state.scrollTo);
-      if (element) {
-        setTimeout(() => {
-          const headerOffset = 80;
-          const elementPosition = element.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth",
-          });
-        }, 100);
-      }
-      // 清除 state 防止刷新后再次滚动
+      setTimeout(() => {
+        scrollToSection(state.scrollTo!);
+      }, 100);
       window.history.replaceState({}, document.title);
     }
   }, [location.state]);
@@ -53,11 +44,11 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 animate-slide-up" style={{ animationDelay: "200ms" }}>
-              <button onClick={() => document.getElementById('news-section')?.scrollIntoView({ behavior: 'smooth' })} className="btn-primary flex items-center space-x-2">
+              <button onClick={() => scrollToSection('news-section')} className="btn-primary flex items-center space-x-2">
                 <span>探索新闻</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
-              <button onClick={() => document.getElementById('tools-section')?.scrollIntoView({ behavior: 'smooth' })} className="btn-secondary flex items-center space-x-2">
+              <button onClick={() => scrollToSection('tools-section')} className="btn-secondary flex items-center space-x-2">
                 <span>浏览工具</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -65,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "300ms" }} onClick={() => document.getElementById('news-section')?.scrollIntoView({ behavior: 'smooth' })}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "300ms" }} onClick={() => scrollToSection('news-section')}>
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-3">
                 <TrendingUp className="w-5 h-5 text-primary" />
               </div>
@@ -73,7 +64,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">追踪 AI 最新动态</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "400ms" }} onClick={() => document.getElementById('tools-section')?.scrollIntoView({ behavior: 'smooth' })}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "400ms" }} onClick={() => scrollToSection('tools-section')}>
               <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-3">
                 <Zap className="w-5 h-5 text-accent" />
               </div>
@@ -81,7 +72,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">MAU、评分对比</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => document.getElementById('updates-section')?.scrollIntoView({ behavior: 'smooth' })}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => scrollToSection('updates-section')}>
               <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center mx-auto mb-3">
                 <RefreshCw className="w-5 h-5 text-orange-500" />
               </div>
@@ -89,7 +80,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">自动同步行业信息</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "600ms" }} onClick={() => document.getElementById('showcase-section')?.scrollIntoView({ behavior: 'smooth' })}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "600ms" }} onClick={() => scrollToSection('showcase-section')}>
               <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center mx-auto mb-3">
                 <Code2 className="w-5 h-5 text-purple-500" />
               </div>
