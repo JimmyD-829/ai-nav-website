@@ -207,14 +207,66 @@
       "website": "https://canva.com",
       "features": ["海报生成", "PPT制作", "社交媒体", "视频剪辑", "品牌设计"],
       "pricing": "freemium"
+    },
+    {
+      "id": "17",
+      "name": "Codex",
+      "description": "OpenAI 最新发布的 AI 编程智能体，能自主完成复杂编程任务，支持多文件编辑和终端操作",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "category": "code",
+      "mau": 5000000,
+      "rating": 4.9,
+      "updateFrequency": "daily",
+      "website": "https://openai.com/codex",
+      "features": ["自主编程", "多文件编辑", "终端操作", "代码审查", "Git集成"],
+      "pricing": "freemium"
+    },
+    {
+      "id": "18",
+      "name": "Gemini",
+      "description": "Google 开发的多模态 AI 模型，支持文本、图像、音频和视频理解，与 Google 生态深度集成",
+      "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "category": "text",
+      "mau": 35000000,
+      "rating": 4.6,
+      "updateFrequency": "weekly",
+      "website": "https://gemini.google.com",
+      "features": ["多模态理解", "Google集成", "实时搜索", "代码生成", "文档分析"],
+      "pricing": "freemium"
+    },
+    {
+      "id": "19",
+      "name": "Kimi",
+      "description": "月之暗面推出的长文本 AI 助手，支持 200 万字上下文，擅长文档分析和知识问答",
+      "logo": "https://kimi.moonshot.cn/favicon.ico",
+      "category": "text",
+      "mau": 20000000,
+      "rating": 4.5,
+      "updateFrequency": "weekly",
+      "website": "https://kimi.moonshot.cn",
+      "features": ["超长上下文", "文档分析", "知识问答", "代码生成", "多轮对话"],
+      "pricing": "freemium"
+    },
+    {
+      "id": "20",
+      "name": "Windsurf",
+      "description": "Codeium 推出的 AI 编程 IDE，支持 Cascade 工作流，能自主完成端到端的开发任务",
+      "logo": "https://codeium.com/favicon.ico",
+      "category": "code",
+      "mau": 800000,
+      "rating": 4.7,
+      "updateFrequency": "daily",
+      "website": "https://codeium.com/windsurf",
+      "features": ["Cascade工作流", "自主开发", "多文件编辑", "终端集成", "代码生成"],
+      "pricing": "freemium"
     }
   ],
   "categories": [
-    { "id": "all", "name": "全部", "count": 16 },
-    { "id": "text", "name": "文本生成", "count": 4, "icon": "MessageSquare" },
+    { "id": "all", "name": "全部", "count": 20 },
+    { "id": "text", "name": "文本生成", "count": 5, "icon": "MessageSquare" },
     { "id": "image", "name": "图像生成", "count": 3, "icon": "Image" },
     { "id": "video", "name": "视频生成", "count": 2, "icon": "Video" },
-    { "id": "code", "name": "代码助手", "count": 4, "icon": "Code" },
+    { "id": "code", "name": "代码助手", "count": 5, "icon": "Code" },
     { "id": "agent", "name": "AI Agent", "count": 1, "icon": "Bot" },
     { "id": "design", "name": "设计工具", "count": 2, "icon": "Palette" }
   ]

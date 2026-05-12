@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { ExternalLink, Star, Users, Zap } from "lucide-react";
 import { Tool } from "../../types";
 
@@ -6,6 +7,8 @@ interface ToolCardProps {
 }
 
 export default function ToolCard({ tool }: ToolCardProps) {
+  const navigate = useNavigate();
+
   const formatNumber = (num: number) => {
     if (num >= 1000000) {
       return (num / 1000000).toFixed(1) + "M";
@@ -25,7 +28,10 @@ export default function ToolCard({ tool }: ToolCardProps) {
   const pricing = pricingLabels[tool.pricing as keyof typeof pricingLabels];
 
   return (
-    <div className="group card-base card-hover p-5">
+    <div 
+      onClick={() => navigate(`/tools/${tool.id}`)}
+      className="group card-base card-hover p-5 cursor-pointer"
+    >
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center space-x-3">
           <div className="w-11 h-11 rounded-xl bg-primary/5 flex items-center justify-center overflow-hidden">
