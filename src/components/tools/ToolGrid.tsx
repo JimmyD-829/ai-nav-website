@@ -23,7 +23,7 @@ export default function ToolGrid() {
     : tools.filter(tool => tool.category === selectedCategory);
 
   return (
-    <section className="mb-12">
+    <section id="tools-section" className="mb-12">
       <div className="section-header">
         <div>
           <h2 className="section-title">🛠️ AI工具分类墙</h2>

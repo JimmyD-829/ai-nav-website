@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Code2, ExternalLink, Heart, Eye, GitFork, Filter } from "lucide-react";
 
 interface ShowcaseItem {
@@ -114,13 +115,14 @@ const toolFilters = ["全部", "Cursor", "Windsurf", "GitHub Copilot", "Trae", "
 
 export default function VibeShowcase() {
   const [selectedTool, setSelectedTool] = useState("全部");
+  const navigate = useNavigate();
 
   const filteredItems = selectedTool === "全部"
     ? showcaseData
     : showcaseData.filter(item => item.tool === selectedTool);
 
   return (
-    <section className="mb-12">
+    <section id="showcase-section" className="mb-12">
       <div className="section-header">
         <div>
           <h2 className="section-title">🎨 Vibe Coding 作品展示</h2>
@@ -151,7 +153,8 @@ export default function VibeShowcase() {
         {filteredItems.map((item, index) => (
           <div
             key={item.id}
-            className="group card-base card-hover overflow-hidden animate-slide-up"
+            onClick={() => navigate(`/showcase/${item.id}`)}
+            className="group card-base card-hover overflow-hidden animate-slide-up cursor-pointer"
             style={{ animationDelay: `${index * 100}ms` }}
           >
             {/* Image */}

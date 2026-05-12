@@ -19,7 +19,7 @@ export default function UpdateTimeline() {
   }, {} as Record<string, typeof sortedUpdates>);
 
   return (
-    <section className="mb-12">
+    <section id="updates-section" className="mb-12">
       <div className="section-header">
         <div>
           <h2 className="section-title">⚡ Vibe Coding 工具更新</h2>

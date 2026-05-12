@@ -30,19 +30,19 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-3 animate-slide-up" style={{ animationDelay: "200ms" }}>
-              <Link to="/news" className="btn-primary flex items-center space-x-2">
+              <button onClick={() => document.getElementById('news-section')?.scrollIntoView({ behavior: 'smooth' })} className="btn-primary flex items-center space-x-2">
                 <span>探索新闻</span>
                 <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link to="/tools" className="btn-secondary flex items-center space-x-2">
+              </button>
+              <button onClick={() => document.getElementById('tools-section')?.scrollIntoView({ behavior: 'smooth' })} className="btn-secondary flex items-center space-x-2">
                 <span>浏览工具</span>
                 <ArrowRight className="w-4 h-4" />
-              </Link>
+              </button>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="card-base p-5 text-center animate-slide-up" style={{ animationDelay: "300ms" }}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "300ms" }} onClick={() => document.getElementById('news-section')?.scrollIntoView({ behavior: 'smooth' })}>
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-3">
                 <TrendingUp className="w-5 h-5 text-primary" />
               </div>
@@ -50,7 +50,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">追踪 AI 最新动态</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up" style={{ animationDelay: "400ms" }}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "400ms" }} onClick={() => document.getElementById('tools-section')?.scrollIntoView({ behavior: 'smooth' })}>
               <div className="w-10 h-10 rounded-xl bg-accent/10 flex items-center justify-center mx-auto mb-3">
                 <Zap className="w-5 h-5 text-accent" />
               </div>
@@ -58,7 +58,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">MAU、评分对比</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up" style={{ animationDelay: "500ms" }}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => document.getElementById('updates-section')?.scrollIntoView({ behavior: 'smooth' })}>
               <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center mx-auto mb-3">
                 <RefreshCw className="w-5 h-5 text-orange-500" />
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">自动同步行业信息</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up" style={{ animationDelay: "600ms" }}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "600ms" }} onClick={() => document.getElementById('showcase-section')?.scrollIntoView({ behavior: 'smooth' })}>
               <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center mx-auto mb-3">
                 <Code2 className="w-5 h-5 text-purple-500" />
               </div>
@@ -79,10 +79,18 @@ export default function Home() {
 
       {/* Main Content */}
       <section className="container mx-auto px-6 py-12">
-        <NewsList />
-        <ToolGrid />
-        <UpdateTimeline />
-        <VibeShowcase />
+        <div id="news-section">
+          <NewsList />
+        </div>
+        <div id="tools-section">
+          <ToolGrid />
+        </div>
+        <div id="updates-section">
+          <UpdateTimeline />
+        </div>
+        <div id="showcase-section">
+          <VibeShowcase />
+        </div>
       </section>
     </div>
   );

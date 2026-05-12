@@ -4,10 +4,10 @@ import { Search, Menu, X, Sparkles } from "lucide-react";
 
 const navLinks = [
   { path: "/", label: "首页" },
-  { path: "/news", label: "新闻动态" },
-  { path: "/tools", label: "AI工具" },
-  { path: "/updates", label: "工具更新" },
-  { path: "/showcase", label: "作品展示" },
+  { path: "/#news", label: "新闻动态", sectionId: "news-section" },
+  { path: "/#tools", label: "AI工具", sectionId: "tools-section" },
+  { path: "/#updates", label: "工具更新", sectionId: "updates-section" },
+  { path: "/#showcase", label: "作品展示", sectionId: "showcase-section" },
 ];
 
 export default function Header() {
@@ -16,8 +16,35 @@ export default function Header() {
   const location = useLocation();
 
   const isActive = (path: string) => {
-    if (path === "/") return location.pathname === "/";
-    return location.pathname.startsWith(path);
+    if (path === "/") return location.pathname === "/" && !location.hash;
+    return location.hash === path.replace("/", "");
+  };
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+    setIsMenuOpen(false);
+  };
+
+  const handleNavClick = (e: React.MouseEvent, link: typeof navLinks[0]) => {
+    if (link.sectionId) {
+      e.preventDefault();
+      if (location.pathname !== "/") {
+        // 如果不在首页，先跳转到首页再滚动
+        window.location.href = "/" + link.path.replace("/", "");
+      } else {
+        scrollToSection(link.sectionId);
+      }
+    }
   };
 
   return (
@@ -35,17 +62,18 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center space-x-1">
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.path}
-                to={link.path}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                href={link.path}
+                onClick={(e) => handleNavClick(e, link)}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 cursor-pointer ${
                   isActive(link.path)
                     ? "text-primary bg-primary/5"
                     : "text-text-secondary hover:text-text-primary hover:bg-background"
                 }`}
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -74,18 +102,18 @@ export default function Header() {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <nav className="flex flex-col space-y-2 mb-4">
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.path}
-                  to={link.path}
-                  onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  href={link.path}
+                  onClick={(e) => handleNavClick(e, link)}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
                     isActive(link.path)
                       ? "text-primary bg-primary/5"
                       : "text-text-secondary hover:text-text-primary hover:bg-background"
                   }`}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </nav>
             <div className="relative">

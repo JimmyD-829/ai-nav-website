@@ -17,7 +17,7 @@ export default function NewsList() {
   const otherNews = filteredNews.filter(news => news.id !== hotNews?.id);
 
   return (
-    <section className="mb-12">
+    <section id="news-section" className="mb-12">
       <div className="section-header">
         <div>
           <h2 className="section-title">🔥 每日AI动态</h2>
