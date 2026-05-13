@@ -104,9 +104,9 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
   }
 
   return (
-    <div className="group card-base card-hover overflow-hidden">
+    <div className="group card-base card-hover overflow-hidden h-full flex flex-col">
       {/* 封面图 */}
-      <div className="relative h-36 overflow-hidden">
+      <div className="relative h-36 overflow-hidden flex-shrink-0">
         <img
           src={imageUrl}
           alt={news.title}
@@ -129,16 +129,16 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
       </div>
 
       {/* 内容 */}
-      <div className="p-4">
-        <h3 className="font-semibold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2 text-sm leading-snug">
+      <div className="p-4 flex flex-col flex-grow">
+        <h3 className="font-semibold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2 text-sm leading-snug h-[40px]">
           {news.title}
         </h3>
 
-        <p className="text-xs text-text-secondary line-clamp-2 mb-3 leading-relaxed">
+        <p className="text-xs text-text-secondary line-clamp-2 mb-3 leading-relaxed h-[32px]">
           {news.summary}
         </p>
 
-        <div className="flex items-center justify-between text-xs text-text-muted">
+        <div className="flex items-center justify-between text-xs text-text-muted mt-auto">
           <div className="flex items-center space-x-3">
             <span className="flex items-center space-x-1">
               <Clock className="w-3 h-3" />
