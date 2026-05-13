@@ -1,6 +1,70 @@
 {
   "news": [
     {
+      "id": "auto-1778645590547-4",
+      "title": "Google Gemini 更新 - 2026/5/9",
+      "summary": "这是自动采集的新闻摘要，来源：Google。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Google 的 RSS 源获取。",
+      "source": "Google",
+      "publishDate": "2026-05-09",
+      "category": "llm",
+      "tags": [
+        "Google",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 3706
+    },
+    {
+      "id": "auto-1778645590547-2",
+      "title": "OpenAI 发布新功能 - 2026/5/11",
+      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 6863
+    },
+    {
+      "id": "auto-1778645590547-1",
+      "title": "Claude 新增能力 - 2026/5/12",
+      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-12",
+      "category": "llm",
+      "tags": [
+        "Anthropic",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 10491
+    },
+    {
+      "id": "auto-1778645590436-0",
+      "title": "OpenAI 发布新功能 - 2026/5/13",
+      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-13",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 3864
+    },
+    {
       "id": "auto-1778591801098-2",
       "title": "Claude 新增能力 - 2026/5/10",
       "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
@@ -223,12 +287,12 @@
     {
       "id": "all",
       "name": "全部",
-      "count": 13
+      "count": 17
     },
     {
       "id": "llm",
       "name": "大模型",
-      "count": 6
+      "count": 10
     },
     {
       "id": "ai-app",

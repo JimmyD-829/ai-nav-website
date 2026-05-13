@@ -1,6 +1,57 @@
 {
   "updates": [
     {
+      "id": "auto-update-1778645591340-2",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "2.15",
+      "updateDate": "2026-05-11",
+      "updateType": "feature",
+      "title": "优化大型项目性能",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778645591340-1",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "4.15",
+      "updateDate": "2026-05-12",
+      "updateType": "feature",
+      "title": "支持更多框架集成",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778645591340-0",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "2.6",
+      "updateDate": "2026-05-13",
+      "updateType": "feature",
+      "title": "支持更多框架集成",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1778591818831-2",
       "toolId": "5",
       "toolName": "Cursor",
@@ -211,24 +262,6 @@
         "新增 Kotlin 语言支持",
         "支持 Django 和 Flask 框架",
         "改进代码重构建议质量"
-      ]
-    },
-    {
-      "id": "10",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "1.5",
-      "updateDate": "2026-05-01",
-      "updateType": "feature",
-      "title": "新增 AI 代码审查功能",
-      "description": "Windsurf 1.5 引入 AI 代码审查功能，自动检测潜在 Bug 和安全漏洞。",
-      "changelog": [
-        "新增 AI 代码审查功能",
-        "自动检测安全漏洞",
-        "代码风格一致性检查",
-        "性能瓶颈分析",
-        "生成代码审查报告"
       ]
     }
   ]
