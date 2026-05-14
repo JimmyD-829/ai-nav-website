@@ -1,6 +1,22 @@
 {
   "news": [
     {
+      "id": "auto-1778751611618-0",
+      "title": "DeepSeek 发布新版本（2026-05-14）",
+      "summary": "DeepSeek 最新动态：DeepSeek 发布新版本，详情请查看官方公告。",
+      "content": "DeepSeek 于 2026-05-14 发布最新消息。",
+      "source": "DeepSeek",
+      "publishDate": "2026-05-14",
+      "category": "llm",
+      "tags": [
+        "DeepSeek",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 1835
+    },
+    {
       "id": "auto-1778723383559-0",
       "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-14）",
       "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
@@ -15,6 +31,22 @@
       ],
       "isHot": true,
       "views": 9292
+    },
+    {
+      "id": "auto-1778751611618-1",
+      "title": "Kimi 上下文窗口扩展（2026-05-13）",
+      "summary": "月之暗面 最新动态：Kimi 上下文窗口扩展，详情请查看官方公告。",
+      "content": "月之暗面 于 2026-05-13 发布最新消息。",
+      "source": "月之暗面",
+      "publishDate": "2026-05-13",
+      "category": "product",
+      "tags": [
+        "月之暗面",
+        "product",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 8917
     },
     {
       "id": "auto-1778723383559-1",
@@ -47,6 +79,22 @@
       ],
       "isHot": true,
       "views": 3864
+    },
+    {
+      "id": "auto-1778751611618-2",
+      "title": "ChatGPT 推出新功能（2026-05-12）",
+      "summary": "OpenAI 最新动态：ChatGPT 推出新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-12 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-12",
+      "category": "product",
+      "tags": [
+        "OpenAI",
+        "product",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 8902
     },
     {
       "id": "auto-1778723383559-2",
@@ -95,6 +143,22 @@
       ],
       "isHot": true,
       "views": 9156
+    },
+    {
+      "id": "auto-1778751611618-3",
+      "title": "DeepSeek 发布新版本（2026-05-11）",
+      "summary": "DeepSeek 最新动态：DeepSeek 发布新版本，详情请查看官方公告。",
+      "content": "DeepSeek 于 2026-05-11 发布最新消息。",
+      "source": "DeepSeek",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "DeepSeek",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 7991
     },
     {
       "id": "auto-1778723383559-3",
@@ -259,69 +323,18 @@
       ],
       "isHot": true,
       "views": 8930
-    },
-    {
-      "id": "5",
-      "title": "Meta 发布 Llama 4：开源多模态大模型新标杆",
-      "summary": "Meta 推出 Llama 4 Scout 和 Maverick，支持文本、图像和视频理解，Scout 可在单张 H100 GPU 上运行。",
-      "content": "2025 年 4 月，Meta 发布 Llama 4 系列开源模型，包括 Llama 4 Scout 和 Llama 4 Maverick。这是 Meta 首个原生多模态模型，能够同时处理文本、图像和视频内容。Llama 4 Scout 拥有 170 亿激活参数和 1000 万 token 上下文窗口，可在单张 H100 GPU 上运行。",
-      "source": "Meta",
-      "publishDate": "2026-05-06",
-      "category": "llm",
-      "tags": [
-        "Llama 4",
-        "Meta",
-        "开源",
-        "多模态"
-      ],
-      "isHot": false,
-      "views": 6540
-    },
-    {
-      "id": "6",
-      "title": "xAI 发布 Grok 3.5：马斯克称\"地球上最聪明的 AI\"",
-      "summary": "xAI 推出 Grok 3.5，新增语音模式和图像生成能力，向 X Premium+ 用户开放。",
-      "content": "2025 年 4 月，马斯克旗下 xAI 发布 Grok 3.5 模型。新版本增加了语音对话模式、图像生成和理解能力。Grok 3.5 在数学推理和物理问题解答方面表现突出，马斯克称其为\"地球上最聪明的 AI\"。该模型已向 X（Twitter）Premium+ 订阅用户开放。",
-      "source": "xAI",
-      "publishDate": "2026-05-05",
-      "category": "product",
-      "tags": [
-        "Grok",
-        "xAI",
-        "马斯克",
-        "多模态"
-      ],
-      "isHot": true,
-      "views": 11230
-    },
-    {
-      "id": "7",
-      "title": "DeepSeek V4 发布：国产大模型性能再突破",
-      "summary": "DeepSeek 发布 V4 版本，在代码生成和数学推理方面达到国际领先水平，训练成本仅 600 万美元。",
-      "content": "2025 年 5 月，中国 AI 公司 DeepSeek 发布 DeepSeek V4 模型。该模型在 HumanEval 代码生成测试中达到 88.4%，在 MATH 数学推理中达到 91.2%，性能接近 GPT-4.1 和 Claude 4。值得注意的是，其训练成本仅约 600 万美元，远低于同类模型。",
-      "source": "DeepSeek",
-      "publishDate": "2026-05-04",
-      "category": "industry",
-      "tags": [
-        "DeepSeek",
-        "国产模型",
-        "代码生成",
-        "低成本"
-      ],
-      "isHot": false,
-      "views": 5780
     }
   ],
   "categories": [
     {
       "id": "all",
       "name": "全部",
-      "count": 19
+      "count": 20
     },
     {
       "id": "llm",
       "name": "大模型",
-      "count": 13
+      "count": 14
     },
     {
       "id": "ai-app",
@@ -336,12 +349,12 @@
     {
       "id": "industry",
       "name": "业界动态",
-      "count": 1
+      "count": 0
     },
     {
       "id": "product",
       "name": "产品发布",
-      "count": 1
+      "count": 2
     }
   ]
 }

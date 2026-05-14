@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1778751612734-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "3.12",
+      "updateDate": "2026-05-14",
+      "updateType": "fix",
+      "title": "新增智能代码补全功能",
+      "description": "Bolt 于 2026-05-14 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1778723394421-0",
       "toolId": "12",
       "toolName": "V0",
@@ -10,6 +27,23 @@
       "updateType": "improvement",
       "title": "优化内存占用",
       "description": "V0 于 2026-05-14 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778751612734-1",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "2.15",
+      "updateDate": "2026-05-13",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "V0 于 2026-05-13 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -44,6 +78,23 @@
       "updateType": "feature",
       "title": "支持更多框架集成",
       "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778751612734-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "0.15",
+      "updateDate": "2026-05-12",
+      "updateType": "fix",
+      "title": "支持更多框架集成",
+      "description": "Windsurf 于 2026-05-12 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -205,60 +256,6 @@
         "集成 Git 版本控制",
         "SWE-bench 测试通过率达 72.1%",
         "支持 Python、JavaScript、TypeScript 等主流语言"
-      ]
-    },
-    {
-      "id": "4",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "1.6",
-      "updateDate": "2026-05-07",
-      "updateType": "improvement",
-      "title": "Cascade 工作流支持多步骤任务",
-      "description": "Windsurf 1.6 版本增强了 Cascade 工作流，支持更复杂的多步骤开发任务。",
-      "changelog": [
-        "Cascade 支持多步骤任务规划",
-        "改进代码生成的准确性",
-        "新增数据库 Schema 设计功能",
-        "优化终端命令执行安全性",
-        "支持更多框架的自动检测"
-      ]
-    },
-    {
-      "id": "5",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "4.0",
-      "updateDate": "2026-05-06",
-      "updateType": "feature",
-      "title": "支持 Tailwind CSS v4 和 React 19",
-      "description": "V0 4.0 版本全面支持 Tailwind CSS v4 和 React 19，生成更现代化的前端代码。",
-      "changelog": [
-        "支持 Tailwind CSS v4 新特性",
-        "兼容 React 19 新 API",
-        "新增 shadcn/ui 组件库集成",
-        "改进响应式设计生成",
-        "支持 Dark Mode 自动适配"
-      ]
-    },
-    {
-      "id": "6",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "1.5",
-      "updateDate": "2026-05-05",
-      "updateType": "feature",
-      "title": "支持全栈框架一键部署",
-      "description": "Bolt 1.5 新增对多种全栈框架的支持，包括 Next.js、Nuxt、SvelteKit 等。",
-      "changelog": [
-        "新增 Next.js App Router 支持",
-        "支持 Nuxt 3 全栈开发",
-        "集成 Prisma ORM 数据库工具",
-        "新增 Vercel/Netlify 一键部署",
-        "支持 OAuth 认证流程生成"
       ]
     }
   ]
