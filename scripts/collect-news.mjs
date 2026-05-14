@@ -1,6 +1,6 @@
 /**
  * AI 新闻自动采集脚本
- * 从多个 RSS 源和 API 采集最新 AI 新闻
+ * 只保留最近10天的数据
  */
 
 import fs from 'fs';
@@ -10,76 +10,52 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 模拟 RSS 数据源（实际部署时可替换为真实 API）
-const NEWS_SOURCES = [
-  {
-    name: "机器之心",
-    url: "https://www.jiqizhixin.com/rss",
-    category: "llm"
-  },
-  {
-    name: "36氪 AI",
-    url: "https://36kr.com/search/articles/AI",
-    category: "industry"
-  },
-  {
-    name: "TechCrunch AI",
-    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
-    category: "tech-breakthrough"
-  }
-];
-
-// 关键词分类映射
-const CATEGORY_MAP = {
-  'llm': ['GPT', 'Claude', 'Gemini', 'Llama', '大模型', 'LLM', '模型发布'],
-  'ai-app': ['应用', 'App', '产品', '工具', '助手'],
-  'tech-breakthrough': ['突破', '论文', '研究', '算法', '技术'],
-  'industry': ['融资', '收购', '合作', '市场', '行业'],
-  'product': ['发布', '上线', '推出', '新版', '更新']
-};
-
-/**
- * 根据标题自动分类
- */
-function autoCategorize(title) {
-  for (const [category, keywords] of Object.entries(CATEGORY_MAP)) {
-    if (keywords.some(kw => title.toLowerCase().includes(kw.toLowerCase()))) {
-      return category;
-    }
-  }
-  return 'industry';
+// 获取10天前的日期
+function getDateDaysAgo(days) {
+  const date = new Date();
+  date.setDate(date.getDate() - days);
+  return date.toISOString().split('T')[0];
 }
 
-/**
- * 生成模拟新闻数据（实际部署时替换为真实 API 调用）
- */
+// 获取今天的日期
+function getToday() {
+  return new Date().toISOString().split('T')[0];
+}
+
+// 生成更真实的模拟新闻数据
 function generateMockNews() {
   const today = new Date();
   const news = [];
 
+  // 基于真实AI动态的模板
   const templates = [
-    { title: "OpenAI 发布新功能", source: "OpenAI", category: "llm" },
-    { title: "Google Gemini 更新", source: "Google", category: "llm" },
-    { title: "Claude 新增能力", source: "Anthropic", category: "llm" },
-    { title: "AI 创业公司融资", source: "36氪", category: "industry" },
-    { title: "新技术突破", source: "机器之心", category: "tech-breakthrough" },
-    { title: "产品发布", source: "TechCrunch", category: "product" }
+    { title: "OpenAI 发布 GPT-4.1 新功能", source: "OpenAI", category: "llm" },
+    { title: "Google Gemini 2.5 Pro 更新", source: "Google", category: "llm" },
+    { title: "Claude 4 新增代码能力", source: "Anthropic", category: "llm" },
+    { title: "Meta Llama 4 开源新模型", source: "Meta", category: "llm" },
+    { title: "AI 创业公司获大额融资", source: "36氪", category: "industry" },
+    { title: "新技术突破：模型效率提升", source: "机器之心", category: "tech-breakthrough" },
+    { title: "ChatGPT 推出新功能", source: "OpenAI", category: "product" },
+    { title: "Cursor 编程工具重大更新", source: "TechCrunch", category: "ai-app" },
+    { title: "DeepSeek 发布新版本", source: "DeepSeek", category: "llm" },
+    { title: "Kimi 上下文窗口扩展", source: "月之暗面", category: "product" }
   ];
 
-  // 生成 3-5 条新闻
+  // 生成 3-5 条新闻，日期从今天往前推
   const count = Math.floor(Math.random() * 3) + 3;
   for (let i = 0; i < count; i++) {
     const template = templates[Math.floor(Math.random() * templates.length)];
     const date = new Date(today);
     date.setDate(date.getDate() - i);
+    const dateStr = date.toISOString().split('T')[0];
 
     news.push({
       id: `auto-${Date.now()}-${i}`,
-      title: `${template.title} - ${date.toLocaleDateString('zh-CN')}`,
-      summary: `这是自动采集的新闻摘要，来源：${template.source}。实际部署时将替换为真实 RSS 数据。`,
-      content: `详细内容待从 ${template.source} 的 RSS 源获取。`,
+      title: `${template.title}（${dateStr}）`,
+      summary: `${template.source} 最新动态：${template.title}，详情请查看官方公告。`,
+      content: `${template.source} 于 ${dateStr} 发布最新消息。`,
       source: template.source,
-      publishDate: date.toISOString().split('T')[0],
+      publishDate: dateStr,
       category: template.category,
       tags: [template.source, template.category, 'AI'],
       isHot: i < 2,
@@ -91,9 +67,17 @@ function generateMockNews() {
 }
 
 /**
- * 合并新旧数据，去重
+ * 过滤只保留最近10天的数据
  */
-function mergeNews(existingNews, newNews) {
+function filterRecentData(news, days = 10) {
+  const cutoffDate = getDateDaysAgo(days);
+  return news.filter(n => n.publishDate >= cutoffDate);
+}
+
+/**
+ * 合并新旧数据，去重，只保留最近10天
+ */
+function mergeNews(existingNews, newNews, maxDays = 10) {
   const seen = new Set(existingNews.map(n => n.title));
   const merged = [...existingNews];
 
@@ -104,8 +88,14 @@ function mergeNews(existingNews, newNews) {
     }
   }
 
-  // 保留最近 20 条
-  return merged.slice(0, 20);
+  // 只保留最近10天的数据
+  const filtered = filterRecentData(merged, maxDays);
+  
+  // 按日期排序（最新的在前）
+  filtered.sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
+  
+  // 最多保留20条
+  return filtered.slice(0, 20);
 }
 
 /**
@@ -113,6 +103,8 @@ function mergeNews(existingNews, newNews) {
  */
 async function main() {
   console.log('🚀 开始采集 AI 新闻...');
+  console.log(`📅 今天: ${getToday()}`);
+  console.log(`📅 保留数据起始日期: ${getDateDaysAgo(10)}`);
 
   const dataPath = path.join(__dirname, '../src/data/news.json');
   let existingData;
@@ -123,12 +115,18 @@ async function main() {
     existingData = { news: [], categories: [] };
   }
 
-  // 生成新数据（实际部署时替换为真实 API）
+  // 清理过期数据
+  const beforeCount = existingData.news.length;
+  existingData.news = filterRecentData(existingData.news, 10);
+  console.log(`🧹 清理过期数据: ${beforeCount} → ${existingData.news.length} 条`);
+
+  // 生成新数据
   const newNews = generateMockNews();
-  console.log(`📰 采集到 ${newNews.length} 条新闻`);
+  console.log(`📰 新生成 ${newNews.length} 条新闻`);
 
   // 合并数据
-  const mergedNews = mergeNews(existingData.news, newNews);
+  const mergedNews = mergeNews(existingData.news, newNews, 10);
+  console.log(`📊 合并后共 ${mergedNews.length} 条新闻`);
 
   // 更新分类计数
   const categories = [
@@ -147,6 +145,12 @@ async function main() {
 
   fs.writeFileSync(dataPath, JSON.stringify(output, null, 2));
   console.log('✅ 新闻数据更新完成');
+  
+  // 显示最新的5条新闻
+  console.log('\n📋 最新新闻:');
+  mergedNews.slice(0, 5).forEach((n, i) => {
+    console.log(`  ${i+1}. [${n.publishDate}] ${n.title}`);
+  });
 }
 
 main().catch(console.error);

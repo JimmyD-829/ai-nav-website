@@ -59,3 +59,13 @@ jobs:
             git push
             echo "✅ 数据提交完成"
           fi
+      
+      - name: Trigger website rebuild
+        run: |
+          echo "🔄 触发网站重新构建..."
+          # 创建一个空提交来触发 Cloudflare Pages 重新构建
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit --allow-empty -m "chore: trigger rebuild $(date +%Y-%m-%d)"
+          git push
+          echo "✅ 网站重新构建已触发"

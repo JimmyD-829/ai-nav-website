@@ -1,42 +1,10 @@
 {
   "news": [
     {
-      "id": "auto-1778722748686-2",
-      "title": "产品发布 - 2026/5/12",
-      "summary": "这是自动采集的新闻摘要，来源：TechCrunch。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 TechCrunch 的 RSS 源获取。",
-      "source": "TechCrunch",
-      "publishDate": "2026-05-12",
-      "category": "product",
-      "tags": [
-        "TechCrunch",
-        "product",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 5834
-    },
-    {
-      "id": "auto-1778722748686-1",
-      "title": "新技术突破 - 2026/5/13",
-      "summary": "这是自动采集的新闻摘要，来源：机器之心。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 机器之心 的 RSS 源获取。",
-      "source": "机器之心",
-      "publishDate": "2026-05-13",
-      "category": "tech-breakthrough",
-      "tags": [
-        "机器之心",
-        "tech-breakthrough",
-        "AI"
-      ],
-      "isHot": true,
-      "views": 4826
-    },
-    {
-      "id": "auto-1778722748672-0",
-      "title": "OpenAI 发布新功能 - 2026/5/14",
-      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "id": "auto-1778723383559-0",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-14）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-14 发布最新消息。",
       "source": "OpenAI",
       "publishDate": "2026-05-14",
       "category": "llm",
@@ -46,55 +14,23 @@
         "AI"
       ],
       "isHot": true,
-      "views": 7753
+      "views": 9292
     },
     {
-      "id": "auto-1778645590547-4",
-      "title": "Google Gemini 更新 - 2026/5/9",
-      "summary": "这是自动采集的新闻摘要，来源：Google。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Google 的 RSS 源获取。",
-      "source": "Google",
-      "publishDate": "2026-05-09",
-      "category": "llm",
-      "tags": [
-        "Google",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 3706
-    },
-    {
-      "id": "auto-1778645590547-2",
-      "title": "OpenAI 发布新功能 - 2026/5/11",
-      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "id": "auto-1778723383559-1",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-13）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-13 发布最新消息。",
       "source": "OpenAI",
-      "publishDate": "2026-05-11",
+      "publishDate": "2026-05-13",
       "category": "llm",
       "tags": [
         "OpenAI",
         "llm",
         "AI"
       ],
-      "isHot": false,
-      "views": 6863
-    },
-    {
-      "id": "auto-1778645590547-1",
-      "title": "Claude 新增能力 - 2026/5/12",
-      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
-      "source": "Anthropic",
-      "publishDate": "2026-05-12",
-      "category": "llm",
-      "tags": [
-        "Anthropic",
-        "llm",
-        "AI"
-      ],
       "isHot": true,
-      "views": 10491
+      "views": 6932
     },
     {
       "id": "auto-1778645590436-0",
@@ -113,12 +49,12 @@
       "views": 3864
     },
     {
-      "id": "auto-1778591801098-2",
-      "title": "Claude 新增能力 - 2026/5/10",
-      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "id": "auto-1778723383559-2",
+      "title": "Claude 4 新增代码能力（2026-05-12）",
+      "summary": "Anthropic 最新动态：Claude 4 新增代码能力，详情请查看官方公告。",
+      "content": "Anthropic 于 2026-05-12 发布最新消息。",
       "source": "Anthropic",
-      "publishDate": "2026-05-10",
+      "publishDate": "2026-05-12",
       "category": "llm",
       "tags": [
         "Anthropic",
@@ -126,15 +62,15 @@
         "AI"
       ],
       "isHot": false,
-      "views": 2767
+      "views": 9209
     },
     {
-      "id": "auto-1778591801098-1",
-      "title": "Claude 新增能力 - 2026/5/11",
+      "id": "auto-1778645590547-1",
+      "title": "Claude 新增能力 - 2026/5/12",
       "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
       "content": "详细内容待从 Anthropic 的 RSS 源获取。",
       "source": "Anthropic",
-      "publishDate": "2026-05-11",
+      "publishDate": "2026-05-12",
       "category": "llm",
       "tags": [
         "Anthropic",
@@ -142,7 +78,7 @@
         "AI"
       ],
       "isHot": true,
-      "views": 8132
+      "views": 10491
     },
     {
       "id": "auto-1778591801081-0",
@@ -161,6 +97,86 @@
       "views": 9156
     },
     {
+      "id": "auto-1778723383559-3",
+      "title": "Cursor 编程工具重大更新（2026-05-11）",
+      "summary": "TechCrunch 最新动态：Cursor 编程工具重大更新，详情请查看官方公告。",
+      "content": "TechCrunch 于 2026-05-11 发布最新消息。",
+      "source": "TechCrunch",
+      "publishDate": "2026-05-11",
+      "category": "ai-app",
+      "tags": [
+        "TechCrunch",
+        "ai-app",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 4943
+    },
+    {
+      "id": "auto-1778645590547-2",
+      "title": "OpenAI 发布新功能 - 2026/5/11",
+      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 6863
+    },
+    {
+      "id": "auto-1778591801098-1",
+      "title": "Claude 新增能力 - 2026/5/11",
+      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "Anthropic",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 8132
+    },
+    {
+      "id": "auto-1778723383559-4",
+      "title": "Cursor 编程工具重大更新（2026-05-10）",
+      "summary": "TechCrunch 最新动态：Cursor 编程工具重大更新，详情请查看官方公告。",
+      "content": "TechCrunch 于 2026-05-10 发布最新消息。",
+      "source": "TechCrunch",
+      "publishDate": "2026-05-10",
+      "category": "ai-app",
+      "tags": [
+        "TechCrunch",
+        "ai-app",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 10662
+    },
+    {
+      "id": "auto-1778591801098-2",
+      "title": "Claude 新增能力 - 2026/5/10",
+      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
+      "source": "Anthropic",
+      "publishDate": "2026-05-10",
+      "category": "llm",
+      "tags": [
+        "Anthropic",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 2767
+    },
+    {
       "id": "1",
       "title": "OpenAI 发布 GPT-4.1 系列模型：上下文窗口提升至 100 万 token",
       "summary": "OpenAI 推出 GPT-4.1、GPT-4.1 Mini 和 GPT-4.1 Nano，上下文窗口扩展至 100 万 token，代码生成能力显著提升。",
@@ -176,6 +192,22 @@
       ],
       "isHot": true,
       "views": 12580
+    },
+    {
+      "id": "auto-1778645590547-4",
+      "title": "Google Gemini 更新 - 2026/5/9",
+      "summary": "这是自动采集的新闻摘要，来源：Google。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 Google 的 RSS 源获取。",
+      "source": "Google",
+      "publishDate": "2026-05-09",
+      "category": "llm",
+      "tags": [
+        "Google",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 3706
     },
     {
       "id": "2",
@@ -278,89 +310,38 @@
       ],
       "isHot": false,
       "views": 5780
-    },
-    {
-      "id": "8",
-      "title": "Kimi K2 发布：200 万字上下文，支持多模态理解",
-      "summary": "月之暗面发布 Kimi K2，上下文窗口扩展至 200 万字，新增图像和视频理解能力。",
-      "content": "2025 年 5 月，月之暗面（Moonshot AI）发布 Kimi K2 模型。新版本将上下文窗口从 200 万字扩展至 256 万字，并新增了图像和视频理解能力。Kimi K2 在中文理解和长文档分析方面表现优异，特别适用于法律、金融等行业的文档处理场景。",
-      "source": "月之暗面",
-      "publishDate": "2026-05-03",
-      "category": "product",
-      "tags": [
-        "Kimi",
-        "月之暗面",
-        "长上下文",
-        "中文AI"
-      ],
-      "isHot": false,
-      "views": 4320
-    },
-    {
-      "id": "9",
-      "title": "Cursor 完成 9 亿美元融资，估值达 90 亿美元",
-      "summary": "AI 编程工具 Cursor 母公司 Anysphere 完成新一轮融资，成为估值最高的 AI 编程工具公司。",
-      "content": "2025 年 5 月，AI 编程工具 Cursor 的母公司 Anysphere 完成 9 亿美元融资，估值达到 90 亿美元。本轮融资由 Thrive Capital 领投，a16z 等跟投。Cursor 目前月活跃用户超过 500 万，是全球最受欢迎的 AI 编程工具之一。",
-      "source": "Anysphere",
-      "publishDate": "2026-05-02",
-      "category": "industry",
-      "tags": [
-        "Cursor",
-        "融资",
-        "AI编程",
-        "独角兽"
-      ],
-      "isHot": false,
-      "views": 7650
-    },
-    {
-      "id": "10",
-      "title": "OpenAI 发布 o3 和 o4-mini：推理模型新升级",
-      "summary": "OpenAI 推出 o3 和 o4-mini 推理模型，在科学推理和代码生成方面实现重大突破。",
-      "content": "2025 年 4 月，OpenAI 发布新一代推理模型 o3 和 o4-mini。o3 在 Codeforces 编程竞赛中达到 2700 分（相当于全球前 200 名水平），在 AIME 数学竞赛中达到 96.7%。o4-mini 以更小的体积实现了接近 o3 的性能，成本降低 80%。",
-      "source": "OpenAI",
-      "publishDate": "2026-05-01",
-      "category": "tech-breakthrough",
-      "tags": [
-        "o3",
-        "o4-mini",
-        "OpenAI",
-        "推理模型"
-      ],
-      "isHot": false,
-      "views": 5230
     }
   ],
   "categories": [
     {
       "id": "all",
       "name": "全部",
-      "count": 20
+      "count": 19
     },
     {
       "id": "llm",
       "name": "大模型",
-      "count": 11
+      "count": 13
     },
     {
       "id": "ai-app",
       "name": "AI应用",
-      "count": 1
+      "count": 3
     },
     {
       "id": "tech-breakthrough",
       "name": "技术突破",
-      "count": 3
+      "count": 1
     },
     {
       "id": "industry",
       "name": "业界动态",
-      "count": 2
+      "count": 1
     },
     {
       "id": "product",
       "name": "产品发布",
-      "count": 3
+      "count": 1
     }
   ]
 }

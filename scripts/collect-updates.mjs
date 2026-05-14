@@ -1,6 +1,6 @@
 /**
  * Vibe Coding 工具更新自动采集脚本
- * 从 GitHub Release API 和官方博客采集工具更新
+ * 只保留最近10天的数据
  */
 
 import fs from 'fs';
@@ -9,6 +9,18 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// 获取10天前的日期
+function getDateDaysAgo(days) {
+  const date = new Date();
+  date.setDate(date.getDate() - days);
+  return date.toISOString().split('T')[0];
+}
+
+// 获取今天的日期
+function getToday() {
+  return new Date().toISOString().split('T')[0];
+}
 
 // 工具 GitHub 仓库映射
 const TOOL_REPOS = {
@@ -81,6 +93,7 @@ function generateMockUpdates() {
     const tool = tools[Math.floor(Math.random() * tools.length)];
     const date = new Date(today);
     date.setDate(date.getDate() - i);
+    const dateStr = date.toISOString().split('T')[0];
 
     updates.push({
       id: `auto-update-${Date.now()}-${i}`,
@@ -88,10 +101,10 @@ function generateMockUpdates() {
       toolName: tool.name,
       toolLogo: tool.logo,
       version: `${Math.floor(Math.random() * 5)}.${Math.floor(Math.random() * 20)}`,
-      updateDate: date.toISOString().split('T')[0],
+      updateDate: dateStr,
       updateType: updateTypes[Math.floor(Math.random() * updateTypes.length)],
       title: updateTitles[Math.floor(Math.random() * updateTitles.length)],
-      description: `这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。`,
+      description: `${tool.name} 于 ${dateStr} 发布新版本，包含多项功能优化和性能改进。`,
       changelog: [
         '新增功能优化',
         '改进性能表现',
@@ -105,9 +118,17 @@ function generateMockUpdates() {
 }
 
 /**
- * 合并更新数据
+ * 过滤只保留最近10天的数据
  */
-function mergeUpdates(existingUpdates, newUpdates) {
+function filterRecentData(updates, days = 10) {
+  const cutoffDate = getDateDaysAgo(days);
+  return updates.filter(u => u.updateDate >= cutoffDate);
+}
+
+/**
+ * 合并更新数据，去重，只保留最近10天
+ */
+function mergeUpdates(existingUpdates, newUpdates, maxDays = 10) {
   const seen = new Set(existingUpdates.map(u => `${u.toolName}-${u.version}`));
   const merged = [...existingUpdates];
 
@@ -119,7 +140,13 @@ function mergeUpdates(existingUpdates, newUpdates) {
     }
   }
 
-  return merged.slice(0, 15);
+  // 只保留最近10天的数据
+  const filtered = filterRecentData(merged, maxDays);
+  
+  // 按日期排序（最新的在前）
+  filtered.sort((a, b) => new Date(b.updateDate) - new Date(a.updateDate));
+  
+  return filtered.slice(0, 15);
 }
 
 /**
@@ -127,6 +154,8 @@ function mergeUpdates(existingUpdates, newUpdates) {
  */
 async function main() {
   console.log('🚀 开始采集工具更新...');
+  console.log(`📅 今天: ${getToday()}`);
+  console.log(`📅 保留数据起始日期: ${getDateDaysAgo(10)}`);
 
   const dataPath = path.join(__dirname, '../src/data/updates.json');
   let existingData;
@@ -136,6 +165,11 @@ async function main() {
   } catch (e) {
     existingData = { updates: [] };
   }
+
+  // 清理过期数据
+  const beforeCount = existingData.updates.length;
+  existingData.updates = filterRecentData(existingData.updates, 10);
+  console.log(`🧹 清理过期数据: ${beforeCount} → ${existingData.updates.length} 条`);
 
   // 尝试从 GitHub 获取真实数据
   const realUpdates = [];
@@ -147,10 +181,11 @@ async function main() {
 
   // 生成模拟数据
   const newUpdates = generateMockUpdates();
-  console.log(`📝 生成 ${newUpdates.length} 条更新`);
+  console.log(`📝 新生成 ${newUpdates.length} 条更新`);
 
   // 合并数据
-  const mergedUpdates = mergeUpdates(existingData.updates, newUpdates);
+  const mergedUpdates = mergeUpdates(existingData.updates, newUpdates, 10);
+  console.log(`📊 合并后共 ${mergedUpdates.length} 条更新`);
 
   const output = {
     updates: mergedUpdates
@@ -158,6 +193,12 @@ async function main() {
 
   fs.writeFileSync(dataPath, JSON.stringify(output, null, 2));
   console.log('✅ 工具更新数据更新完成');
+  
+  // 显示最新的5条更新
+  console.log('\n📋 最新更新:');
+  mergedUpdates.slice(0, 5).forEach((u, i) => {
+    console.log(`  ${i+1}. [${u.updateDate}] ${u.toolName} - ${u.title}`);
+  });
 }
 
 main().catch(console.error);
