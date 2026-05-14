@@ -1,6 +1,57 @@
 {
   "updates": [
     {
+      "id": "auto-update-1778722749265-2",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "4.19",
+      "updateDate": "2026-05-12",
+      "updateType": "improvement",
+      "title": "优化大型项目性能",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778722749265-1",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "4.17",
+      "updateDate": "2026-05-13",
+      "updateType": "improvement",
+      "title": "优化大型项目性能",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778722749265-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "4.9",
+      "updateDate": "2026-05-14",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "这是自动采集的更新描述。实际部署时将替换为真实的 GitHub Release 数据。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1778645591340-2",
       "toolId": "5",
       "toolName": "Cursor",
@@ -208,60 +259,6 @@
         "集成 Prisma ORM 数据库工具",
         "新增 Vercel/Netlify 一键部署",
         "支持 OAuth 认证流程生成"
-      ]
-    },
-    {
-      "id": "7",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.47",
-      "updateDate": "2026-05-04",
-      "updateType": "improvement",
-      "title": "优化大型项目性能和索引",
-      "description": "Cursor 0.47 版本针对大型代码库进行性能优化，索引速度提升 3 倍。",
-      "changelog": [
-        "大型项目索引速度提升 300%",
-        "内存占用降低 40%",
-        "支持百万行代码项目",
-        "优化符号搜索准确性",
-        "新增代码依赖关系图"
-      ]
-    },
-    {
-      "id": "8",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "1.295",
-      "updateDate": "2026-05-03",
-      "updateType": "fix",
-      "title": "修复代码补全延迟问题",
-      "description": "GitHub Copilot 1.295 版本修复了部分用户遇到的代码补全延迟问题。",
-      "changelog": [
-        "修复代码补全 3 秒延迟问题",
-        "优化网络连接稳定性",
-        "修复 Python 类型推断错误",
-        "改进中文注释支持",
-        "修复 JetBrains IDE 兼容性问题"
-      ]
-    },
-    {
-      "id": "9",
-      "toolId": "17",
-      "toolName": "Codex",
-      "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-      "version": "1.1",
-      "updateDate": "2026-05-02",
-      "updateType": "improvement",
-      "title": "支持更多编程语言和框架",
-      "description": "Codex 1.1 版本扩展了对 Rust、Go、Kotlin 等语言的支持。",
-      "changelog": [
-        "新增 Rust 语言支持",
-        "新增 Go 语言支持",
-        "新增 Kotlin 语言支持",
-        "支持 Django 和 Flask 框架",
-        "改进代码重构建议质量"
       ]
     }
   ]

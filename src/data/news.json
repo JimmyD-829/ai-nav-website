@@ -1,6 +1,54 @@
 {
   "news": [
     {
+      "id": "auto-1778722748686-2",
+      "title": "产品发布 - 2026/5/12",
+      "summary": "这是自动采集的新闻摘要，来源：TechCrunch。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 TechCrunch 的 RSS 源获取。",
+      "source": "TechCrunch",
+      "publishDate": "2026-05-12",
+      "category": "product",
+      "tags": [
+        "TechCrunch",
+        "product",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 5834
+    },
+    {
+      "id": "auto-1778722748686-1",
+      "title": "新技术突破 - 2026/5/13",
+      "summary": "这是自动采集的新闻摘要，来源：机器之心。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 机器之心 的 RSS 源获取。",
+      "source": "机器之心",
+      "publishDate": "2026-05-13",
+      "category": "tech-breakthrough",
+      "tags": [
+        "机器之心",
+        "tech-breakthrough",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 4826
+    },
+    {
+      "id": "auto-1778722748672-0",
+      "title": "OpenAI 发布新功能 - 2026/5/14",
+      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
+      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-14",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 7753
+    },
+    {
       "id": "auto-1778645590547-4",
       "title": "Google Gemini 更新 - 2026/5/9",
       "summary": "这是自动采集的新闻摘要，来源：Google。实际部署时将替换为真实 RSS 数据。",
@@ -287,12 +335,12 @@
     {
       "id": "all",
       "name": "全部",
-      "count": 17
+      "count": 20
     },
     {
       "id": "llm",
       "name": "大模型",
-      "count": 10
+      "count": 11
     },
     {
       "id": "ai-app",
@@ -302,7 +350,7 @@
     {
       "id": "tech-breakthrough",
       "name": "技术突破",
-      "count": 2
+      "count": 3
     },
     {
       "id": "industry",
@@ -312,7 +360,7 @@
     {
       "id": "product",
       "name": "产品发布",
-      "count": 2
+      "count": 3
     }
   ]
 }
