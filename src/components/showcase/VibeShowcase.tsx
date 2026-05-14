@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Code2, ExternalLink, Heart, Eye, GitFork, Filter } from "lucide-react";
+import { Code2, Heart, Eye, GitFork, Filter } from "lucide-react";
+import showcaseData from "../../data/showcase.json";
 
 interface ShowcaseItem {
   id: string;
@@ -18,108 +19,17 @@ interface ShowcaseItem {
   createdAt: string;
 }
 
-const showcaseData: ShowcaseItem[] = [
-  {
-    id: "1",
-    title: "AI 智能简历生成器",
-    description: "使用 Cursor + Claude 3.5 开发的智能简历生成工具，支持一键优化、AI 润色和多模板切换",
-    author: "张明",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhangming",
-    image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop",
-    tags: ["Cursor", "React", "AI"],
-    likes: 234,
-    views: 1890,
-    forks: 45,
-    tool: "Cursor",
-    demoUrl: "#",
-    createdAt: "2026-05-10",
-  },
-  {
-    id: "2",
-    title: "语音转文字实时字幕",
-    description: "基于 Whisper API 的实时语音转文字工具，支持多语言和实时字幕显示",
-    author: "李华",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=lihua",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    tags: ["Windsurf", "Python", "Whisper"],
-    likes: 189,
-    views: 1456,
-    forks: 32,
-    tool: "Windsurf",
-    demoUrl: "#",
-    createdAt: "2026-05-09",
-  },
-  {
-    id: "3",
-    title: "AI 图片风格迁移",
-    description: "使用 Stable Diffusion 和 ControlNet 实现的图片风格迁移工具，支持多种艺术风格",
-    author: "王芳",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=wangfang",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop",
-    tags: ["GitHub Copilot", "Next.js", "SD"],
-    likes: 312,
-    views: 2341,
-    forks: 67,
-    tool: "GitHub Copilot",
-    demoUrl: "#",
-    createdAt: "2026-05-08",
-  },
-  {
-    id: "4",
-    title: "智能代码审查助手",
-    description: "自动分析代码质量、发现潜在 Bug 并提供修复建议的 AI 工具",
-    author: "陈杰",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=chenjie",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-    tags: ["Cursor", "TypeScript", "AI"],
-    likes: 156,
-    views: 1123,
-    forks: 28,
-    tool: "Cursor",
-    demoUrl: "#",
-    createdAt: "2026-05-07",
-  },
-  {
-    id: "5",
-    title: "AI 数据分析仪表盘",
-    description: "自然语言查询数据库，自动生成可视化图表和数据分析报告",
-    author: "刘洋",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=liuyang",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    tags: ["Windsurf", "Vue", "SQL"],
-    likes: 278,
-    views: 1987,
-    forks: 54,
-    tool: "Windsurf",
-    demoUrl: "#",
-    createdAt: "2026-05-06",
-  },
-  {
-    id: "6",
-    title: "多语言 AI 翻译器",
-    description: "支持 50+ 语言的实时翻译工具，保留原文格式和语境",
-    author: "赵雪",
-    authorAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=zhaoxue",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
-    tags: ["GitHub Copilot", "React", "NLP"],
-    likes: 198,
-    views: 1567,
-    forks: 41,
-    tool: "GitHub Copilot",
-    demoUrl: "#",
-    createdAt: "2026-05-05",
-  },
-];
-
 const toolFilters = ["全部", "Cursor", "Windsurf", "GitHub Copilot", "Trae", "v0"];
 
 export default function VibeShowcase() {
   const [selectedTool, setSelectedTool] = useState("全部");
   const navigate = useNavigate();
 
+  const showcases: ShowcaseItem[] = showcaseData.showcases;
+
   const filteredItems = selectedTool === "全部"
-    ? showcaseData
-    : showcaseData.filter(item => item.tool === selectedTool);
+    ? showcases
+    : showcases.filter(item => item.tool === selectedTool);
 
   return (
     <section id="showcase-section" className="mb-12">

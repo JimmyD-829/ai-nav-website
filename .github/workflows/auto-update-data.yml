@@ -37,6 +37,7 @@ jobs:
           node scripts/collect-news.mjs
           node scripts/collect-updates.mjs
           node scripts/collect-tools.mjs
+          node scripts/collect-showcase.mjs
           echo "✅ 数据采集完成"
       
       - name: Check data changes

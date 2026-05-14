@@ -379,24 +379,100 @@
         "代码生成"
       ],
       "pricing": "freemium"
+    },
+    {
+      "id": "21",
+      "name": "Pixso",
+      "description": "国产 AI 设计协作平台，支持 AI 生成 UI 设计稿、原型设计和团队协作，中文友好",
+      "logo": "https://pixso.cn/favicon.ico",
+      "category": "design",
+      "mau": 2850000,
+      "rating": 4.4,
+      "updateFrequency": "weekly",
+      "website": "https://pixso.cn",
+      "features": [
+        "AI生成UI",
+        "原型设计",
+        "团队协作",
+        "设计规范",
+        "中文支持"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "22",
+      "name": "Trae",
+      "description": "字节跳动推出的 AI 编程 IDE，基于 VS Code，支持 Builder 模式自动生成完整项目",
+      "logo": "https://trae.ai/favicon.ico",
+      "category": "code",
+      "mau": 890000,
+      "rating": 4.5,
+      "updateFrequency": "daily",
+      "website": "https://trae.ai",
+      "features": [
+        "Builder模式",
+        "代码生成",
+        "智能补全",
+        "多语言支持",
+        "中文界面"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "23",
+      "name": "即梦",
+      "description": "字节跳动推出的 AI 创作平台，支持 AI 绘画、视频生成和智能写作，中文用户友好",
+      "logo": "https://jimeng.jianying.com/favicon.ico",
+      "category": "image",
+      "mau": 5620000,
+      "rating": 4.3,
+      "updateFrequency": "weekly",
+      "website": "https://jimeng.jianying.com",
+      "features": [
+        "AI绘画",
+        "视频生成",
+        "智能写作",
+        "中文支持",
+        "模板丰富"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "24",
+      "name": "通义千问",
+      "description": "阿里云推出的通义千问 2.5 大模型，支持文本、图像、音频多模态理解，中文能力强",
+      "logo": "https://tongyi.aliyun.com/favicon.ico",
+      "category": "text",
+      "mau": 45600000,
+      "rating": 4.4,
+      "updateFrequency": "weekly",
+      "website": "https://tongyi.aliyun.com",
+      "features": [
+        "多模态理解",
+        "代码生成",
+        "文档分析",
+        "中文优化",
+        "阿里生态"
+      ],
+      "pricing": "freemium"
     }
   ],
   "categories": [
     {
       "id": "all",
       "name": "全部",
-      "count": 20
+      "count": 24
     },
     {
       "id": "text",
       "name": "文本生成",
-      "count": 5,
+      "count": 6,
       "icon": "MessageSquare"
     },
     {
       "id": "image",
       "name": "图像生成",
-      "count": 3,
+      "count": 4,
       "icon": "Image"
     },
     {
@@ -408,7 +484,7 @@
     {
       "id": "code",
       "name": "代码助手",
-      "count": 5,
+      "count": 6,
       "icon": "Code"
     },
     {
@@ -420,7 +496,7 @@
     {
       "id": "design",
       "name": "设计工具",
-      "count": 2,
+      "count": 3,
       "icon": "Palette"
     }
   ]

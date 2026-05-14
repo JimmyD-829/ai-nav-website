@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { Clock, Eye, Flame, ArrowUpRight } from "lucide-react";
 import { News } from "../../types";
 
@@ -21,6 +22,12 @@ const newsImages: Record<string, string> = {
 };
 
 export default function NewsCard({ news, featured = false }: NewsCardProps) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/news/${news.id}`);
+  };
+
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
     const now = new Date();
@@ -52,7 +59,9 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
 
   if (featured) {
     return (
-      <div className="group card-base card-hover overflow-hidden">
+      <div 
+        onClick={handleClick}
+        className="group card-base card-hover overflow-hidden cursor-pointer">
         {/* 封面图 */}
         <div className="relative h-48 overflow-hidden">
           <img
@@ -104,7 +113,9 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
   }
 
   return (
-    <div className="group card-base card-hover overflow-hidden h-full flex flex-col">
+    <div 
+      onClick={handleClick}
+      className="group card-base card-hover overflow-hidden h-full flex flex-col cursor-pointer">
       {/* 封面图 */}
       <div className="relative h-36 overflow-hidden flex-shrink-0">
         <img

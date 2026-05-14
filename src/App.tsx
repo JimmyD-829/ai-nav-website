@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { Layout } from "./components/layout";
 import Home from "./pages/Home";
+import NewsDetail from "./pages/NewsDetail";
 import ShowcaseDetail from "./components/showcase/ShowcaseDetail";
 import ToolDetail from "./components/tools/ToolDetail";
 
@@ -10,7 +11,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="news" element={<Home />} />
-        <Route path="news/:id" element={<Home />} />
+        <Route path="news/:id" element={<NewsDetail />} />
         <Route path="tools" element={<Home />} />
         <Route path="tools/:id" element={<ToolDetail />} />
         <Route path="updates" element={<Home />} />
