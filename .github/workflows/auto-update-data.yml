@@ -2,7 +2,7 @@ name: Auto Update AI Data
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 00:00 运行
+    - cron: '0 0 * * *'  # 每天 UTC 00:00 运行 (北京时间 08:00)
   workflow_dispatch:  # 支持手动触发
 
 jobs:
@@ -12,23 +12,50 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       
       - name: Install dependencies
-        run: npm install
+        run: |
+          echo "📦 开始安装依赖..."
+          npm install
+          echo "✅ 依赖安装完成"
+      
+      - name: Check scripts exist
+        run: |
+          echo "📂 检查脚本文件..."
+          ls -la scripts/
+          echo "✅ 脚本文件检查完成"
       
       - name: Run data collection scripts
         run: |
+          echo "🚀 开始采集数据..."
           node scripts/collect-news.mjs
           node scripts/collect-updates.mjs
           node scripts/collect-tools.mjs
+          echo "✅ 数据采集完成"
+      
+      - name: Check data changes
+        run: |
+          echo "📊 检查数据变化..."
+          git status
+          git diff --stat
+          echo "✅ 数据变化检查完成"
       
       - name: Commit and push changes
         run: |
+          echo "💾 开始提交数据..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add src/data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update data $(date +%Y-%m-%d)" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "📝 没有数据变化，跳过提交"
+          else
+            git commit -m "chore: auto-update data $(date +%Y-%m-%d)"
+            git push
+            echo "✅ 数据提交完成"
+          fi
