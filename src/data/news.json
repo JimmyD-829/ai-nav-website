@@ -1,6 +1,22 @@
 {
   "news": [
     {
+      "id": "auto-1778839299040-0",
+      "title": "AI 创业公司获大额融资（2026-05-15）",
+      "summary": "36氪 最新动态：AI 创业公司获大额融资，详情请查看官方公告。",
+      "content": "36氪 于 2026-05-15 发布最新消息。",
+      "source": "36氪",
+      "publishDate": "2026-05-15",
+      "category": "industry",
+      "tags": [
+        "36氪",
+        "industry",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 10005
+    },
+    {
       "id": "auto-1778751611618-0",
       "title": "DeepSeek 发布新版本（2026-05-14）",
       "summary": "DeepSeek 最新动态：DeepSeek 发布新版本，详情请查看官方公告。",
@@ -31,6 +47,22 @@
       ],
       "isHot": true,
       "views": 9292
+    },
+    {
+      "id": "auto-1778839299040-2",
+      "title": "Google Gemini 2.5 Pro 更新（2026-05-13）",
+      "summary": "Google 最新动态：Google Gemini 2.5 Pro 更新，详情请查看官方公告。",
+      "content": "Google 于 2026-05-13 发布最新消息。",
+      "source": "Google",
+      "publishDate": "2026-05-13",
+      "category": "llm",
+      "tags": [
+        "Google",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 10235
     },
     {
       "id": "auto-1778751611618-1",
@@ -79,6 +111,22 @@
       ],
       "isHot": true,
       "views": 3864
+    },
+    {
+      "id": "auto-1778839299040-3",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-12）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-12 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-12",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 10716
     },
     {
       "id": "auto-1778751611618-2",
@@ -143,6 +191,22 @@
       ],
       "isHot": true,
       "views": 9156
+    },
+    {
+      "id": "auto-1778839299040-4",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-11）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-11 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-11",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 4897
     },
     {
       "id": "auto-1778751611618-3",
@@ -256,73 +320,6 @@
       ],
       "isHot": true,
       "views": 12580
-    },
-    {
-      "id": "auto-1778645590547-4",
-      "title": "Google Gemini 更新 - 2026/5/9",
-      "summary": "这是自动采集的新闻摘要，来源：Google。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Google 的 RSS 源获取。",
-      "source": "Google",
-      "publishDate": "2026-05-09",
-      "category": "llm",
-      "tags": [
-        "Google",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 3706
-    },
-    {
-      "id": "2",
-      "title": "Google 发布 Gemini 2.5 Pro：推理能力大幅提升",
-      "summary": "Google DeepMind 推出 Gemini 2.5 Pro，在数学推理和代码生成方面超越前代模型，支持 200 万 token 上下文。",
-      "content": "Google 于 2025 年 4 月发布 Gemini 2.5 Pro，这是目前 Google 最强大的 AI 模型。在 HumanEval 代码生成基准测试中达到 85.6% 的通过率，在 MATH 数学推理测试中达到 92.3%。该模型支持 200 万 token 的上下文窗口，能够处理整本书籍和大型代码库。",
-      "source": "Google",
-      "publishDate": "2026-05-09",
-      "category": "llm",
-      "tags": [
-        "Gemini",
-        "Google",
-        "推理",
-        "代码生成"
-      ],
-      "isHot": true,
-      "views": 9840
-    },
-    {
-      "id": "3",
-      "title": "Claude 4 发布：Sonnet 和 Opus 双版本，编程能力登顶",
-      "summary": "Anthropic 发布 Claude 4 系列，Claude 4 Opus 在 SWE-bench 编程基准测试中创下 72.7% 的历史新高。",
-      "content": "2025 年 5 月，Anthropic 正式发布 Claude 4 系列模型，包括 Claude 4 Sonnet 和 Claude 4 Opus。Claude 4 Opus 在 SWE-bench（真实软件工程任务基准测试）中达到 72.7% 的通过率，创下行业新高。新模型支持长达 20 万 token 的上下文窗口，并具备更强的工具使用能力。",
-      "source": "Anthropic",
-      "publishDate": "2026-05-08",
-      "category": "llm",
-      "tags": [
-        "Claude 4",
-        "Anthropic",
-        "编程",
-        "SWE-bench"
-      ],
-      "isHot": false,
-      "views": 7620
-    },
-    {
-      "id": "4",
-      "title": "OpenAI Codex 正式发布：云端 AI 编程智能体",
-      "summary": "OpenAI 推出 Codex 云端编程助手，基于云端的软件工程智能体，支持多文件编辑和终端操作。",
-      "content": "2025 年 5 月，OpenAI 正式发布 Codex，这是一个基于云端的 AI 编程智能体。Codex 能够自主完成复杂的软件工程任务，包括多文件编辑、代码审查、终端命令执行等。它基于 GPT-4o 和 o3 模型构建，在 SWE-bench 测试中达到 72.1% 的通过率。Codex 目前通过 ChatGPT Pro 和 Team 计划提供。",
-      "source": "OpenAI",
-      "publishDate": "2026-05-07",
-      "category": "ai-app",
-      "tags": [
-        "Codex",
-        "OpenAI",
-        "编程",
-        "AI智能体"
-      ],
-      "isHot": true,
-      "views": 8930
     }
   ],
   "categories": [
@@ -339,7 +336,7 @@
     {
       "id": "ai-app",
       "name": "AI应用",
-      "count": 3
+      "count": 2
     },
     {
       "id": "tech-breakthrough",
@@ -349,7 +346,7 @@
     {
       "id": "industry",
       "name": "业界动态",
-      "count": 0
+      "count": 1
     },
     {
       "id": "product",

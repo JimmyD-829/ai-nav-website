@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1778839300323-0",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "1.9",
+      "updateDate": "2026-05-15",
+      "updateType": "improvement",
+      "title": "支持新的编程语言",
+      "description": "Windsurf 于 2026-05-15 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778839300323-1",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "2.13",
+      "updateDate": "2026-05-14",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "Cursor 于 2026-05-14 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1778751612734-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -27,6 +61,23 @@
       "updateType": "improvement",
       "title": "优化内存占用",
       "description": "V0 于 2026-05-14 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1778839300323-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "2.0",
+      "updateDate": "2026-05-13",
+      "updateType": "feature",
+      "title": "新增团队协作功能",
+      "description": "Windsurf 于 2026-05-13 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -202,60 +253,6 @@
         "改进性能表现",
         "修复已知问题",
         "优化用户体验"
-      ]
-    },
-    {
-      "id": "1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.48",
-      "updateDate": "2026-05-10",
-      "updateType": "feature",
-      "title": "新增 Agent 模式，支持自主多文件编辑",
-      "description": "Cursor 0.48 版本引入全新的 Agent 模式，AI 可以自主分析代码库、规划修改方案并执行多文件编辑操作。",
-      "changelog": [
-        "新增 Agent 模式，支持端到端代码修改",
-        "改进 Composer 的上下文理解能力",
-        "支持 Git 提交信息自动生成",
-        "优化大型代码库的索引速度",
-        "新增 20+ 编程语言的语法支持"
-      ]
-    },
-    {
-      "id": "2",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "1.300",
-      "updateDate": "2026-05-09",
-      "updateType": "feature",
-      "title": "Copilot Workspace 正式上线",
-      "description": "GitHub Copilot Workspace 正式发布，支持从自然语言描述直接生成完整项目代码。",
-      "changelog": [
-        "Copilot Workspace 全面开放",
-        "支持多文件协同编辑",
-        "新增代码审查助手功能",
-        "改进 Python 和 TypeScript 代码生成质量",
-        "集成 GitHub Actions 工作流建议"
-      ]
-    },
-    {
-      "id": "3",
-      "toolId": "17",
-      "toolName": "Codex",
-      "toolLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-      "version": "1.0",
-      "updateDate": "2026-05-08",
-      "updateType": "feature",
-      "title": "OpenAI Codex 正式发布",
-      "description": "OpenAI 发布 Codex 云端编程智能体，基于 GPT-4o 和 o3 模型，支持自主完成复杂软件工程任务。",
-      "changelog": [
-        "云端 AI 编程智能体正式上线",
-        "支持多文件编辑和终端操作",
-        "集成 Git 版本控制",
-        "SWE-bench 测试通过率达 72.1%",
-        "支持 Python、JavaScript、TypeScript 等主流语言"
       ]
     }
   ]
