@@ -1,6 +1,44 @@
 {
   "showcases": [
     {
+      "id": "auto-1778916772747-0",
+      "title": "AI 数据分析仪表盘（2026-05-16）",
+      "description": "自然语言查询数据库，自动生成可视化图表和数据分析报告",
+      "author": "张明",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=1778916772747-0",
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop",
+      "tags": [
+        "Windsurf",
+        "Vue",
+        "SQL"
+      ],
+      "likes": 271,
+      "views": 1211,
+      "forks": 26,
+      "tool": "Windsurf",
+      "demoUrl": "#",
+      "createdAt": "2026-05-16"
+    },
+    {
+      "id": "auto-1778916772747-1",
+      "title": "AI 智能简历生成器（2026-05-15）",
+      "description": "使用 Cursor + Claude 3.5 开发的智能简历生成工具，支持一键优化、AI 润色和多模板切换",
+      "author": "孙伟",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=1778916772747-1",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+      "tags": [
+        "Cursor",
+        "React",
+        "AI"
+      ],
+      "likes": 136,
+      "views": 2034,
+      "forks": 48,
+      "tool": "Cursor",
+      "demoUrl": "#",
+      "createdAt": "2026-05-15"
+    },
+    {
       "id": "auto-1778839301588-0",
       "title": "多语言 AI 翻译器（2026-05-15）",
       "description": "支持 50+ 语言的实时翻译工具，保留原文格式和语境",
@@ -18,6 +56,25 @@
       "tool": "GitHub Copilot",
       "demoUrl": "#",
       "createdAt": "2026-05-15"
+    },
+    {
+      "id": "auto-1778916772747-2",
+      "title": "AI 数据分析仪表盘（2026-05-14）",
+      "description": "自然语言查询数据库，自动生成可视化图表和数据分析报告",
+      "author": "孙伟",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=1778916772747-2",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "tags": [
+        "Windsurf",
+        "Vue",
+        "SQL"
+      ],
+      "likes": 118,
+      "views": 804,
+      "forks": 70,
+      "tool": "Windsurf",
+      "demoUrl": "#",
+      "createdAt": "2026-05-14"
     },
     {
       "id": "auto-1778839301588-1",
@@ -75,6 +132,25 @@
       "tool": "Cursor",
       "demoUrl": "#",
       "createdAt": "2026-05-14"
+    },
+    {
+      "id": "auto-1778916772747-3",
+      "title": "AI 数据分析仪表盘（2026-05-13）",
+      "description": "自然语言查询数据库，自动生成可视化图表和数据分析报告",
+      "author": "陈杰",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=1778916772747-3",
+      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop",
+      "tags": [
+        "Windsurf",
+        "Vue",
+        "SQL"
+      ],
+      "likes": 123,
+      "views": 1324,
+      "forks": 69,
+      "tool": "Windsurf",
+      "demoUrl": "#",
+      "createdAt": "2026-05-13"
     },
     {
       "id": "auto-1778839301588-2",
@@ -151,82 +227,6 @@
       "tool": "Windsurf",
       "demoUrl": "#",
       "createdAt": "2026-05-12"
-    },
-    {
-      "id": "3",
-      "title": "AI 图片风格迁移",
-      "description": "使用 Stable Diffusion 和 ControlNet 实现的图片风格迁移工具，支持多种艺术风格",
-      "author": "王芳",
-      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=wangfang",
-      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop",
-      "tags": [
-        "GitHub Copilot",
-        "Next.js",
-        "SD"
-      ],
-      "likes": 312,
-      "views": 2341,
-      "forks": 67,
-      "tool": "GitHub Copilot",
-      "demoUrl": "#",
-      "createdAt": "2026-05-12"
-    },
-    {
-      "id": "auto-1778751613867-3",
-      "title": "多语言 AI 翻译器（2026-05-11）",
-      "description": "支持 50+ 语言的实时翻译工具，保留原文格式和语境",
-      "author": "刘洋",
-      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=1778751613867-3",
-      "image": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=600&h=400&fit=crop",
-      "tags": [
-        "GitHub Copilot",
-        "React",
-        "NLP"
-      ],
-      "likes": 228,
-      "views": 1042,
-      "forks": 68,
-      "tool": "GitHub Copilot",
-      "demoUrl": "#",
-      "createdAt": "2026-05-11"
-    },
-    {
-      "id": "4",
-      "title": "智能代码审查助手",
-      "description": "自动分析代码质量、发现潜在 Bug 并提供修复建议的 AI 工具",
-      "author": "陈杰",
-      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=chenjie",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-      "tags": [
-        "Cursor",
-        "TypeScript",
-        "AI"
-      ],
-      "likes": 156,
-      "views": 1123,
-      "forks": 28,
-      "tool": "Cursor",
-      "demoUrl": "#",
-      "createdAt": "2026-05-11"
-    },
-    {
-      "id": "5",
-      "title": "AI 数据分析仪表盘",
-      "description": "自然语言查询数据库，自动生成可视化图表和数据分析报告",
-      "author": "刘洋",
-      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=liuyang",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      "tags": [
-        "Windsurf",
-        "Vue",
-        "SQL"
-      ],
-      "likes": 278,
-      "views": 1987,
-      "forks": 54,
-      "tool": "Windsurf",
-      "demoUrl": "#",
-      "createdAt": "2026-05-10"
     }
   ]
 }

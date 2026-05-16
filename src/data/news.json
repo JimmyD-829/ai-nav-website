@@ -1,6 +1,38 @@
 {
   "news": [
     {
+      "id": "auto-1778916770452-0",
+      "title": "Kimi 上下文窗口扩展（2026-05-16）",
+      "summary": "月之暗面 最新动态：Kimi 上下文窗口扩展，详情请查看官方公告。",
+      "content": "月之暗面 于 2026-05-16 发布最新消息。",
+      "source": "月之暗面",
+      "publishDate": "2026-05-16",
+      "category": "product",
+      "tags": [
+        "月之暗面",
+        "product",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 3994
+    },
+    {
+      "id": "auto-1778916770452-1",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-15）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-15 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-15",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 3951
+    },
+    {
       "id": "auto-1778839299040-0",
       "title": "AI 创业公司获大额融资（2026-05-15）",
       "summary": "36氪 最新动态：AI 创业公司获大额融资，详情请查看官方公告。",
@@ -15,6 +47,22 @@
       ],
       "isHot": true,
       "views": 10005
+    },
+    {
+      "id": "auto-1778916770452-2",
+      "title": "新技术突破：模型效率提升（2026-05-14）",
+      "summary": "机器之心 最新动态：新技术突破：模型效率提升，详情请查看官方公告。",
+      "content": "机器之心 于 2026-05-14 发布最新消息。",
+      "source": "机器之心",
+      "publishDate": "2026-05-14",
+      "category": "tech-breakthrough",
+      "tags": [
+        "机器之心",
+        "tech-breakthrough",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 6431
     },
     {
       "id": "auto-1778751611618-0",
@@ -47,6 +95,22 @@
       ],
       "isHot": true,
       "views": 9292
+    },
+    {
+      "id": "auto-1778916770452-3",
+      "title": "ChatGPT 推出新功能（2026-05-13）",
+      "summary": "OpenAI 最新动态：ChatGPT 推出新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-13 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-13",
+      "category": "product",
+      "tags": [
+        "OpenAI",
+        "product",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 5556
     },
     {
       "id": "auto-1778839299040-2",
@@ -255,71 +319,6 @@
       ],
       "isHot": false,
       "views": 6863
-    },
-    {
-      "id": "auto-1778591801098-1",
-      "title": "Claude 新增能力 - 2026/5/11",
-      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
-      "source": "Anthropic",
-      "publishDate": "2026-05-11",
-      "category": "llm",
-      "tags": [
-        "Anthropic",
-        "llm",
-        "AI"
-      ],
-      "isHot": true,
-      "views": 8132
-    },
-    {
-      "id": "auto-1778723383559-4",
-      "title": "Cursor 编程工具重大更新（2026-05-10）",
-      "summary": "TechCrunch 最新动态：Cursor 编程工具重大更新，详情请查看官方公告。",
-      "content": "TechCrunch 于 2026-05-10 发布最新消息。",
-      "source": "TechCrunch",
-      "publishDate": "2026-05-10",
-      "category": "ai-app",
-      "tags": [
-        "TechCrunch",
-        "ai-app",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 10662
-    },
-    {
-      "id": "auto-1778591801098-2",
-      "title": "Claude 新增能力 - 2026/5/10",
-      "summary": "这是自动采集的新闻摘要，来源：Anthropic。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 Anthropic 的 RSS 源获取。",
-      "source": "Anthropic",
-      "publishDate": "2026-05-10",
-      "category": "llm",
-      "tags": [
-        "Anthropic",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 2767
-    },
-    {
-      "id": "1",
-      "title": "OpenAI 发布 GPT-4.1 系列模型：上下文窗口提升至 100 万 token",
-      "summary": "OpenAI 推出 GPT-4.1、GPT-4.1 Mini 和 GPT-4.1 Nano，上下文窗口扩展至 100 万 token，代码生成能力显著提升。",
-      "content": "2025 年 4 月，OpenAI 正式发布 GPT-4.1 系列模型，包括标准版、Mini 版和 Nano 版。新版本将上下文窗口从 12.8 万 token 扩展至 100 万 token，能够处理更长的文档和视频内容。在代码生成基准测试中，GPT-4.1 相比 GPT-4o 提升了 21.4%，特别是在前端开发和代码 diff 任务上表现突出。",
-      "source": "OpenAI",
-      "publishDate": "2026-05-10",
-      "category": "llm",
-      "tags": [
-        "GPT-4.1",
-        "OpenAI",
-        "大模型",
-        "长上下文"
-      ],
-      "isHot": true,
-      "views": 12580
     }
   ],
   "categories": [
@@ -331,17 +330,17 @@
     {
       "id": "llm",
       "name": "大模型",
-      "count": 14
+      "count": 12
     },
     {
       "id": "ai-app",
       "name": "AI应用",
-      "count": 2
+      "count": 1
     },
     {
       "id": "tech-breakthrough",
       "name": "技术突破",
-      "count": 1
+      "count": 2
     },
     {
       "id": "industry",
@@ -351,7 +350,7 @@
     {
       "id": "product",
       "name": "产品发布",
-      "count": 2
+      "count": 4
     }
   ]
 }
