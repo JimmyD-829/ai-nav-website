@@ -1,6 +1,38 @@
 {
   "news": [
     {
+      "id": "auto-1779006922609-0",
+      "title": "AI 创业公司获大额融资（2026-05-17）",
+      "summary": "36氪 最新动态：AI 创业公司获大额融资，详情请查看官方公告。",
+      "content": "36氪 于 2026-05-17 发布最新消息。",
+      "source": "36氪",
+      "publishDate": "2026-05-17",
+      "category": "industry",
+      "tags": [
+        "36氪",
+        "industry",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 3788
+    },
+    {
+      "id": "auto-1779006922609-1",
+      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-16）",
+      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
+      "content": "OpenAI 于 2026-05-16 发布最新消息。",
+      "source": "OpenAI",
+      "publishDate": "2026-05-16",
+      "category": "llm",
+      "tags": [
+        "OpenAI",
+        "llm",
+        "AI"
+      ],
+      "isHot": true,
+      "views": 2574
+    },
+    {
       "id": "auto-1778916770452-0",
       "title": "Kimi 上下文窗口扩展（2026-05-16）",
       "summary": "月之暗面 最新动态：Kimi 上下文窗口扩展，详情请查看官方公告。",
@@ -15,6 +47,22 @@
       ],
       "isHot": true,
       "views": 3994
+    },
+    {
+      "id": "auto-1779006922609-2",
+      "title": "Cursor 编程工具重大更新（2026-05-15）",
+      "summary": "TechCrunch 最新动态：Cursor 编程工具重大更新，详情请查看官方公告。",
+      "content": "TechCrunch 于 2026-05-15 发布最新消息。",
+      "source": "TechCrunch",
+      "publishDate": "2026-05-15",
+      "category": "ai-app",
+      "tags": [
+        "TechCrunch",
+        "ai-app",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 4811
     },
     {
       "id": "auto-1778916770452-1",
@@ -95,6 +143,22 @@
       ],
       "isHot": true,
       "views": 9292
+    },
+    {
+      "id": "auto-1779006922609-4",
+      "title": "DeepSeek 发布新版本（2026-05-13）",
+      "summary": "DeepSeek 最新动态：DeepSeek 发布新版本，详情请查看官方公告。",
+      "content": "DeepSeek 于 2026-05-13 发布最新消息。",
+      "source": "DeepSeek",
+      "publishDate": "2026-05-13",
+      "category": "llm",
+      "tags": [
+        "DeepSeek",
+        "llm",
+        "AI"
+      ],
+      "isHot": false,
+      "views": 9811
     },
     {
       "id": "auto-1778916770452-3",
@@ -255,70 +319,6 @@
       ],
       "isHot": true,
       "views": 9156
-    },
-    {
-      "id": "auto-1778839299040-4",
-      "title": "OpenAI 发布 GPT-4.1 新功能（2026-05-11）",
-      "summary": "OpenAI 最新动态：OpenAI 发布 GPT-4.1 新功能，详情请查看官方公告。",
-      "content": "OpenAI 于 2026-05-11 发布最新消息。",
-      "source": "OpenAI",
-      "publishDate": "2026-05-11",
-      "category": "llm",
-      "tags": [
-        "OpenAI",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 4897
-    },
-    {
-      "id": "auto-1778751611618-3",
-      "title": "DeepSeek 发布新版本（2026-05-11）",
-      "summary": "DeepSeek 最新动态：DeepSeek 发布新版本，详情请查看官方公告。",
-      "content": "DeepSeek 于 2026-05-11 发布最新消息。",
-      "source": "DeepSeek",
-      "publishDate": "2026-05-11",
-      "category": "llm",
-      "tags": [
-        "DeepSeek",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 7991
-    },
-    {
-      "id": "auto-1778723383559-3",
-      "title": "Cursor 编程工具重大更新（2026-05-11）",
-      "summary": "TechCrunch 最新动态：Cursor 编程工具重大更新，详情请查看官方公告。",
-      "content": "TechCrunch 于 2026-05-11 发布最新消息。",
-      "source": "TechCrunch",
-      "publishDate": "2026-05-11",
-      "category": "ai-app",
-      "tags": [
-        "TechCrunch",
-        "ai-app",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 4943
-    },
-    {
-      "id": "auto-1778645590547-2",
-      "title": "OpenAI 发布新功能 - 2026/5/11",
-      "summary": "这是自动采集的新闻摘要，来源：OpenAI。实际部署时将替换为真实 RSS 数据。",
-      "content": "详细内容待从 OpenAI 的 RSS 源获取。",
-      "source": "OpenAI",
-      "publishDate": "2026-05-11",
-      "category": "llm",
-      "tags": [
-        "OpenAI",
-        "llm",
-        "AI"
-      ],
-      "isHot": false,
-      "views": 6863
     }
   ],
   "categories": [
@@ -330,7 +330,7 @@
     {
       "id": "llm",
       "name": "大模型",
-      "count": 12
+      "count": 11
     },
     {
       "id": "ai-app",
@@ -345,7 +345,7 @@
     {
       "id": "industry",
       "name": "业界动态",
-      "count": 1
+      "count": 2
     },
     {
       "id": "product",
