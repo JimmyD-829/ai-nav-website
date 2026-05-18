@@ -1,8 +1,22 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { ArrowLeft, Clock, Eye, Share2, ExternalLink } from "lucide-react";
+import { ArrowLeft, Clock, Eye, Share2, ExternalLink, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 import { News } from "../types";
 import newsData from "../data/news.json";
+
+const categoryConfig: Record<string, { name: string; color: string; bgColor: string }> = {
+  ai: { name: "AI", color: "text-blue-600", bgColor: "bg-blue-50" },
+  robotics: { name: "机器人", color: "text-orange-600", bgColor: "bg-orange-50" },
+  "basic-science": { name: "基础科学", color: "text-purple-600", bgColor: "bg-purple-50" },
+  physics: { name: "物理", color: "text-indigo-600", bgColor: "bg-indigo-50" },
+  biology: { name: "生物", color: "text-green-600", bgColor: "bg-green-50" },
+  chemistry: { name: "化学", color: "text-cyan-600", bgColor: "bg-cyan-50" },
+  medical: { name: "医疗", color: "text-red-600", bgColor: "bg-red-50" },
+  aerospace: { name: "航空航天", color: "text-sky-600", bgColor: "bg-sky-50" },
+  psychology: { name: "心理学", color: "text-pink-600", bgColor: "bg-pink-50" },
+  sociology: { name: "社会学", color: "text-amber-600", bgColor: "bg-amber-50" },
+  "information-engineering": { name: "信息工程", color: "text-teal-600", bgColor: "bg-teal-50" },
+};
 
 export default function NewsDetail() {
   const { id } = useParams<{ id: string }>();
@@ -41,21 +55,7 @@ export default function NewsDetail() {
     });
   };
 
-  const categoryLabels: Record<string, string> = {
-    llm: "大模型",
-    "ai-app": "AI应用",
-    "tech-breakthrough": "技术突破",
-    industry: "业界动态",
-    product: "产品发布",
-  };
-
-  const categoryColors: Record<string, string> = {
-    llm: "bg-blue-50 text-blue-600",
-    "ai-app": "bg-purple-50 text-purple-600",
-    "tech-breakthrough": "bg-emerald-50 text-emerald-600",
-    industry: "bg-amber-50 text-amber-600",
-    product: "bg-rose-50 text-rose-600",
-  };
+  const catConfig = categoryConfig[news.category] || { name: "其他", color: "text-gray-600", bgColor: "bg-gray-50" };
 
   const handleShare = async () => {
     if (navigator.share) {
@@ -87,28 +87,31 @@ export default function NewsDetail() {
 
       {/* Article Header */}
       <article className="card-base overflow-hidden">
-        {/* Category & Meta */}
+        {/* Category & Importance */}
         <div className="p-6 pb-0">
           <div className="flex items-center space-x-3 mb-4">
-            <span
-              className={`inline-block px-3 py-1 text-sm font-medium rounded-lg ${
-                categoryColors[news.category] || "bg-gray-100 text-gray-600"
-              }`}
-            >
-              {categoryLabels[news.category] || news.category}
+            <span className={`inline-block px-3 py-1 text-sm font-medium rounded-lg ${catConfig.bgColor} ${catConfig.color}`}>
+              {catConfig.name}
             </span>
-            {news.isHot && (
+            {news.importance >= 9 && (
               <span className="inline-flex items-center space-x-1 px-3 py-1 text-sm font-medium rounded-lg bg-red-50 text-red-600">
-                <span>🔥</span>
-                <span>热门</span>
+                <Star className="w-3.5 h-3.5" />
+                <span>重要度 {news.importance}/10</span>
               </span>
             )}
           </div>
 
-          <h1 className="text-2xl md:text-3xl font-bold text-text-primary mb-4 leading-tight">
+          {/* Chinese Title */}
+          <h1 className="text-2xl md:text-3xl font-bold text-text-primary mb-2 leading-tight">
             {news.title}
           </h1>
 
+          {/* English Title */}
+          <p className="text-base text-text-muted mb-4 italic">
+            {news.titleEn}
+          </p>
+
+          {/* Meta Info */}
           <div className="flex items-center justify-between text-sm text-text-muted mb-6">
             <div className="flex items-center space-x-4">
               <span className="flex items-center space-x-1">
@@ -121,17 +124,23 @@ export default function NewsDetail() {
               </span>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="text-text-secondary">{news.source}</span>
+              <span className="text-text-secondary font-medium">{news.source}</span>
             </div>
           </div>
         </div>
 
         {/* Content */}
         <div className="p-6 pt-0">
-          <div className="prose prose-slate max-w-none">
-            <p className="text-lg text-text-secondary leading-relaxed mb-6">
+          {/* Summary */}
+          <div className="bg-primary/5 border-l-4 border-primary p-4 rounded-r-lg mb-6">
+            <h3 className="text-sm font-semibold text-primary mb-2">内容提要</h3>
+            <p className="text-text-secondary leading-relaxed">
               {news.summary}
             </p>
+          </div>
+
+          {/* Full Content */}
+          <div className="prose prose-slate max-w-none">
             <div className="text-text-primary leading-relaxed whitespace-pre-line">
               {news.content}
             </div>
@@ -139,6 +148,7 @@ export default function NewsDetail() {
 
           {/* Tags */}
           <div className="mt-8 pt-6 border-t border-border">
+            <h3 className="text-sm font-semibold text-text-primary mb-3">相关标签</h3>
             <div className="flex flex-wrap gap-2">
               {news.tags.map((tag) => (
                 <span
@@ -151,6 +161,20 @@ export default function NewsDetail() {
             </div>
           </div>
 
+          {/* Source Link */}
+          <div className="mt-6 pt-6 border-t border-border">
+            <h3 className="text-sm font-semibold text-text-primary mb-3">信息来源</h3>
+            <a
+              href={news.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              <span>查看原文：{news.source}</span>
+            </a>
+          </div>
+
           {/* Actions */}
           <div className="mt-6 pt-6 border-t border-border flex items-center justify-between">
             <button
@@ -161,7 +185,7 @@ export default function NewsDetail() {
               <span>分享</span>
             </button>
             <a
-              href={`https://www.google.com/search?q=${encodeURIComponent(news.title)}`}
+              href={`https://www.google.com/search?q=${encodeURIComponent(news.titleEn)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 px-4 py-2 rounded-lg bg-primary text-white hover:bg-primary-dark transition-colors"

@@ -1,13 +1,15 @@
 export interface News {
   id: string;
   title: string;
+  titleEn: string;
   summary: string;
   content: string;
   source: string;
+  sourceUrl: string;
   publishDate: string;
-  category: "llm" | "ai-app" | "tech-breakthrough" | "industry" | "product";
+  category: "ai" | "robotics" | "basic-science" | "physics" | "biology" | "chemistry" | "medical" | "aerospace" | "psychology" | "sociology" | "information-engineering";
   tags: string[];
-  isHot: boolean;
+  importance: number;
   views: number;
 }
 

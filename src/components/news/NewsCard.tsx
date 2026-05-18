@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Clock, Eye, Flame, ArrowUpRight } from "lucide-react";
+import { Clock, Eye, ArrowUpRight } from "lucide-react";
 import { News } from "../../types";
 
 interface NewsCardProps {
@@ -7,18 +7,18 @@ interface NewsCardProps {
   featured?: boolean;
 }
 
-// 新闻封面图映射
-const newsImages: Record<string, string> = {
-  "1": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop",
-  "2": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop",
-  "3": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop",
-  "4": "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=400&h=250&fit=crop",
-  "5": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=400&h=250&fit=crop",
-  "6": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400&h=250&fit=crop",
-  "7": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=400&h=250&fit=crop",
-  "8": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=400&h=250&fit=crop",
-  "9": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop",
-  "10": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=400&h=250&fit=crop",
+const categoryConfig: Record<string, { name: string; color: string; bgColor: string }> = {
+  ai: { name: "AI", color: "text-blue-600", bgColor: "bg-blue-50" },
+  robotics: { name: "机器人", color: "text-orange-600", bgColor: "bg-orange-50" },
+  "basic-science": { name: "基础科学", color: "text-purple-600", bgColor: "bg-purple-50" },
+  physics: { name: "物理", color: "text-indigo-600", bgColor: "bg-indigo-50" },
+  biology: { name: "生物", color: "text-green-600", bgColor: "bg-green-50" },
+  chemistry: { name: "化学", color: "text-cyan-600", bgColor: "bg-cyan-50" },
+  medical: { name: "医疗", color: "text-red-600", bgColor: "bg-red-50" },
+  aerospace: { name: "航空航天", color: "text-sky-600", bgColor: "bg-sky-50" },
+  psychology: { name: "心理学", color: "text-pink-600", bgColor: "bg-pink-50" },
+  sociology: { name: "社会学", color: "text-amber-600", bgColor: "bg-amber-50" },
+  "information-engineering": { name: "信息工程", color: "text-teal-600", bgColor: "bg-teal-50" },
 };
 
 export default function NewsCard({ news, featured = false }: NewsCardProps) {
@@ -39,61 +39,41 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
     return date.toLocaleDateString("zh-CN", { month: "short", day: "numeric" });
   };
 
-  const categoryLabels: Record<string, string> = {
-    llm: "大模型",
-    "ai-app": "AI应用",
-    "tech-breakthrough": "技术突破",
-    industry: "业界动态",
-    product: "产品发布",
-  };
-
-  const categoryColors: Record<string, string> = {
-    llm: "bg-blue-50 text-blue-600",
-    "ai-app": "bg-purple-50 text-purple-600",
-    "tech-breakthrough": "bg-emerald-50 text-emerald-600",
-    industry: "bg-amber-50 text-amber-600",
-    product: "bg-rose-50 text-rose-600",
-  };
-
-  const imageUrl = newsImages[news.id] || "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop";
+  const catConfig = categoryConfig[news.category] || { name: "其他", color: "text-gray-600", bgColor: "bg-gray-50" };
 
   if (featured) {
     return (
       <div 
         onClick={handleClick}
-        className="group card-base card-hover overflow-hidden cursor-pointer">
-        {/* 封面图 */}
-        <div className="relative h-48 overflow-hidden">
-          <img
-            src={imageUrl}
-            alt={news.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-          
-          {/* 标签 - 放在图片底部 */}
-          <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <span className="inline-flex items-center space-x-1 px-2.5 py-1 text-xs font-medium rounded-full bg-red-500 text-white">
-                <Flame className="w-3 h-3" />
-                <span>热门</span>
+        className="group card-base card-hover overflow-hidden cursor-pointer"
+      >
+        {/* 头部：类别和重要性 */}
+        <div className="p-4 pb-0">
+          <div className="flex items-center justify-between mb-3">
+            <span className={`inline-flex items-center px-2.5 py-1 text-xs font-medium rounded-md ${catConfig.bgColor} ${catConfig.color}`}>
+              {catConfig.name}
+            </span>
+            {news.importance >= 9 && (
+              <span className="inline-flex items-center space-x-1 px-2 py-1 text-xs font-medium rounded-md bg-red-50 text-red-600">
+                <span>🔥</span>
+                <span>重要</span>
               </span>
-              <span className={`inline-block px-2.5 py-1 text-xs font-medium rounded-full ${categoryColors[news.category] || "bg-gray-100 text-gray-600"}`}>
-                {categoryLabels[news.category] || news.category}
-              </span>
-            </div>
-            <span className="text-xs text-white/80">{formatDate(news.publishDate)}</span>
+            )}
           </div>
         </div>
 
         {/* 内容 */}
-        <div className="p-5">
-          <h2 className="text-lg font-bold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2">
+        <div className="px-4 pb-4">
+          <h2 className="text-base font-bold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2 leading-snug">
             {news.title}
           </h2>
+          <p className="text-xs text-text-muted mb-2 line-clamp-1">
+            {news.titleEn}
+          </p>
           <p className="text-sm text-text-secondary leading-relaxed mb-4 line-clamp-2">
             {news.summary}
           </p>
+          
           <div className="flex items-center justify-between text-xs text-text-muted">
             <div className="flex items-center space-x-3">
               <span className="flex items-center space-x-1">
@@ -115,52 +95,44 @@ export default function NewsCard({ news, featured = false }: NewsCardProps) {
   return (
     <div 
       onClick={handleClick}
-      className="group card-base card-hover overflow-hidden h-full flex flex-col cursor-pointer">
-      {/* 封面图 */}
-      <div className="relative h-36 overflow-hidden flex-shrink-0">
-        <img
-          src={imageUrl}
-          alt={news.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-        
-        {/* 标签 - 放在图片左下角 */}
-        <div className="absolute bottom-3 left-3 flex items-center space-x-2">
-          <span className={`inline-block px-2 py-0.5 text-xs font-medium rounded-md ${categoryColors[news.category] || "bg-gray-100 text-gray-600"}`}>
-            {categoryLabels[news.category] || news.category}
+      className="group card-base card-hover overflow-hidden h-full flex flex-col cursor-pointer"
+    >
+      {/* 头部：类别 */}
+      <div className="p-3 pb-0">
+        <div className="flex items-center justify-between mb-2">
+          <span className={`inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-md ${catConfig.bgColor} ${catConfig.color}`}>
+            {catConfig.name}
           </span>
-          {news.isHot && (
-            <span className="inline-flex items-center space-x-1 px-2 py-0.5 text-xs font-medium rounded-md bg-red-500 text-white">
-              <Flame className="w-3 h-3" />
-              <span>热</span>
-            </span>
+          {news.importance >= 9 && (
+            <span className="text-xs text-red-500 font-medium">🔥 重要</span>
           )}
         </div>
       </div>
 
       {/* 内容 */}
-      <div className="p-4 flex flex-col flex-grow">
-        <h3 className="font-semibold text-text-primary mb-2 group-hover:text-primary transition-colors line-clamp-2 text-sm leading-snug h-[40px]">
+      <div className="px-3 pb-3 flex flex-col flex-grow">
+        <h3 className="font-semibold text-text-primary mb-1 group-hover:text-primary transition-colors line-clamp-2 text-sm leading-snug">
           {news.title}
         </h3>
-
-        <p className="text-xs text-text-secondary line-clamp-2 mb-3 leading-relaxed h-[32px]">
+        <p className="text-[11px] text-text-muted mb-2 line-clamp-1">
+          {news.titleEn}
+        </p>
+        <p className="text-xs text-text-secondary line-clamp-2 mb-3 leading-relaxed flex-grow">
           {news.summary}
         </p>
 
         <div className="flex items-center justify-between text-xs text-text-muted mt-auto">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2">
             <span className="flex items-center space-x-1">
               <Clock className="w-3 h-3" />
               <span>{formatDate(news.publishDate)}</span>
             </span>
             <span className="flex items-center space-x-1">
               <Eye className="w-3 h-3" />
-              <span>{news.views.toLocaleString()}</span>
+              <span>{(news.views / 1000).toFixed(1)}k</span>
             </span>
           </div>
-          <span className="text-text-light">{news.source}</span>
+          <span className="text-text-light text-[11px]">{news.source}</span>
         </div>
       </div>
     </div>
