@@ -33,7 +33,7 @@ export default function Home() {
               <span>为产品经理打造的 AI 资讯平台</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-5 animate-slide-up">
+            <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-5 animate-slide-up leading-tight">
               掌握 AI 前沿动态
               <br />
               <span className="text-primary">赋能产品决策</span>
