@@ -22,7 +22,7 @@
       ],
       "likes": 502119,
       "views": 502119,
-      "forks": 47613,
+      "forks": 47612,
       "language": "Markdown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/codecrafters-io/build-your-own-x",
@@ -47,8 +47,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 467559,
-      "views": 467559,
+      "likes": 467563,
+      "views": 467563,
       "forks": 35048,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -74,8 +74,8 @@
         "careers",
         "certification"
       ],
-      "likes": 445054,
-      "views": 445054,
+      "likes": 445055,
+      "views": 445055,
       "forks": 44621,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -101,8 +101,8 @@
         "api",
         "apis"
       ],
-      "likes": 435597,
-      "views": 435597,
+      "likes": 435599,
+      "views": 435599,
       "forks": 47751,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -155,8 +155,8 @@
         "ai",
         "assistant"
       ],
-      "likes": 372817,
-      "views": 372817,
+      "likes": 372818,
+      "views": 372818,
       "forks": 77299,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 6,
-      "openIssues": 7028
+      "openIssues": 7031
     },
     {
       "id": "github-85077558",
@@ -182,8 +182,8 @@
         "angular-roadmap",
         "backend-roadmap"
       ],
-      "likes": 354985,
-      "views": 354985,
+      "likes": 354987,
+      "views": 354987,
       "forks": 44081,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -236,8 +236,8 @@
         "algorithm",
         "algorithms"
       ],
-      "likes": 346976,
-      "views": 346976,
+      "likes": 346975,
+      "views": 346975,
       "forks": 82921,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -263,8 +263,8 @@
         "awesome",
         "collections"
       ],
-      "likes": 298287,
-      "views": 298287,
+      "likes": 298288,
+      "views": 298288,
       "forks": 27930,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -315,8 +315,8 @@
       "tags": [
         "Unknown"
       ],
-      "likes": 276197,
-      "views": 276197,
+      "likes": 276199,
+      "views": 276199,
       "forks": 20868,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -344,7 +344,7 @@
       ],
       "likes": 265972,
       "views": 265972,
-      "forks": 34593,
+      "forks": 34594,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/practical-tutorials/project-based-learning",
@@ -380,7 +380,7 @@
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 14,
-      "openIssues": 1305
+      "openIssues": 1304
     },
     {
       "id": "github-2325298",
@@ -448,8 +448,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 220777,
-      "views": 220777,
+      "likes": 220778,
+      "views": 220778,
       "forks": 13202,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -475,8 +475,8 @@
         "framework",
         "frontend"
       ],
-      "likes": 209771,
-      "views": 209771,
+      "likes": 209770,
+      "views": 209770,
       "forks": 33849,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -531,7 +531,7 @@
       ],
       "likes": 195968,
       "views": 195968,
-      "forks": 31071,
+      "forks": 31070,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/trekhleb/javascript-algorithms",
