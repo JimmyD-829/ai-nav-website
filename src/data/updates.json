@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1779099886098-0",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "3.0",
+      "updateDate": "2026-05-18",
+      "updateType": "fix",
+      "title": "支持更多框架集成",
+      "description": "V0 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1779099321768-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -154,6 +171,23 @@
       ]
     },
     {
+      "id": "auto-update-1779099886098-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "3.16",
+      "updateDate": "2026-05-17",
+      "updateType": "fix",
+      "title": "新增团队协作功能",
+      "description": "GitHub Copilot 于 2026-05-17 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1779099321768-1",
       "toolId": "12",
       "toolName": "V0",
@@ -212,40 +246,6 @@
       "version": "3.3",
       "updateDate": "2026-05-17",
       "updateType": "feature",
-      "title": "新增团队协作功能",
-      "description": "Cursor 于 2026-05-17 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1779096696171-1",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "1.12",
-      "updateDate": "2026-05-17",
-      "updateType": "improvement",
-      "title": "优化内存占用",
-      "description": "GitHub Copilot 于 2026-05-17 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1779095779839-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "3.4",
-      "updateDate": "2026-05-17",
-      "updateType": "improvement",
       "title": "新增团队协作功能",
       "description": "Cursor 于 2026-05-17 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [

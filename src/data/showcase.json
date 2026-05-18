@@ -20,8 +20,8 @@
         "awesome-list",
         "free"
       ],
-      "likes": 502129,
-      "views": 502129,
+      "likes": 502130,
+      "views": 502130,
       "forks": 47612,
       "language": "Markdown",
       "languageColor": "#8b949e",
@@ -47,8 +47,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 467582,
-      "views": 467582,
+      "likes": 467587,
+      "views": 467587,
       "forks": 35048,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -101,8 +101,8 @@
         "api",
         "apis"
       ],
-      "likes": 435611,
-      "views": 435611,
+      "likes": 435612,
+      "views": 435612,
       "forks": 47750,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -128,8 +128,8 @@
         "books",
         "education"
       ],
-      "likes": 388484,
-      "views": 388484,
+      "likes": 388485,
+      "views": 388485,
       "forks": 66307,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -155,9 +155,9 @@
         "ai",
         "assistant"
       ],
-      "likes": 372836,
-      "views": 372836,
-      "forks": 77308,
+      "likes": 372840,
+      "views": 372840,
+      "forks": 77309,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/openclaw/openclaw",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 6,
-      "openIssues": 7038
+      "openIssues": 7040
     },
     {
       "id": "github-85077558",
@@ -263,8 +263,8 @@
         "awesome",
         "collections"
       ],
-      "likes": 298300,
-      "views": 298300,
+      "likes": 298302,
+      "views": 298302,
       "forks": 27930,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -290,8 +290,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 293367,
-      "views": 293367,
+      "likes": 293368,
+      "views": 293368,
       "forks": 13596,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -448,8 +448,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 220781,
-      "views": 220781,
+      "likes": 220782,
+      "views": 220782,
       "forks": 13202,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -527,9 +527,9 @@
       "tags": [
         "Shell"
       ],
-      "likes": 195979,
-      "views": 195979,
-      "forks": 17443,
+      "likes": 195988,
+      "views": 195988,
+      "forks": 17445,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/obra/superpowers",

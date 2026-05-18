@@ -270,6 +270,31 @@
       "openIssues": 0
     },
     {
+      "id": "vc-988805877",
+      "title": "edge-ai-sizing-tool",
+      "fullName": "open-edge-platform/edge-ai-sizing-tool",
+      "description": "The Edge AI Sizing Tool is designed to showcase the scalability and performance of AI use cases on edge devices. ",
+      "author": "open-edge-platform",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/198827667?v=4",
+      "authorUrl": "https://github.com/open-edge-platform",
+      "image": "https://opengraph.githubassets.com/1/open-edge-platform/edge-ai-sizing-tool",
+      "tags": [
+        "AI工具展示"
+      ],
+      "likes": 8,
+      "views": 8,
+      "forks": 4,
+      "language": "TypeScript",
+      "languageColor": "#2b7489",
+      "repoUrl": "https://github.com/open-edge-platform/edge-ai-sizing-tool",
+      "homepage": "",
+      "createdAt": "2025-05-23",
+      "updatedAt": "2026-04-09",
+      "collectedAt": "2026-05-18",
+      "rank": 11,
+      "openIssues": 18
+    },
+    {
       "id": "vc-657153187",
       "title": "genai-for-marketing",
       "fullName": "GoogleCloudPlatform/genai-for-marketing",
@@ -293,7 +318,7 @@
       "createdAt": "2023-06-22",
       "updatedAt": "2026-05-16",
       "collectedAt": "2026-05-18",
-      "rank": 11,
+      "rank": 12,
       "openIssues": 44
     },
     {
@@ -318,33 +343,8 @@
       "createdAt": "2025-06-20",
       "updatedAt": "2026-05-12",
       "collectedAt": "2026-05-18",
-      "rank": 12,
-      "openIssues": 1
-    },
-    {
-      "id": "vc-988805877",
-      "title": "edge-ai-sizing-tool",
-      "fullName": "open-edge-platform/edge-ai-sizing-tool",
-      "description": "The Edge AI Sizing Tool is designed to showcase the scalability and performance of AI use cases on edge devices. ",
-      "author": "open-edge-platform",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/198827667?v=4",
-      "authorUrl": "https://github.com/open-edge-platform",
-      "image": "https://opengraph.githubassets.com/1/open-edge-platform/edge-ai-sizing-tool",
-      "tags": [
-        "AI工具展示"
-      ],
-      "likes": 8,
-      "views": 8,
-      "forks": 4,
-      "language": "TypeScript",
-      "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/open-edge-platform/edge-ai-sizing-tool",
-      "homepage": "",
-      "createdAt": "2025-05-23",
-      "updatedAt": "2026-04-09",
-      "collectedAt": "2026-05-18",
       "rank": 13,
-      "openIssues": 18
+      "openIssues": 1
     },
     {
       "id": "vc-1147381577",
@@ -374,6 +374,31 @@
       "openIssues": 0
     },
     {
+      "id": "vc-822463741",
+      "title": "Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "fullName": "raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "description": "This project leverages Meta's AI tools to analyze social media posts for sentiment, detect emerging trends, and predi...",
+      "author": "raj200501",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/65059626?v=4",
+      "authorUrl": "https://github.com/raj200501",
+      "image": "https://opengraph.githubassets.com/1/raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "tags": [
+        "AI工具展示"
+      ],
+      "likes": 6,
+      "views": 6,
+      "forks": 3,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "repoUrl": "https://github.com/raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "homepage": null,
+      "createdAt": "2024-07-01",
+      "updatedAt": "2026-04-26",
+      "collectedAt": "2026-05-18",
+      "rank": 15,
+      "openIssues": 0
+    },
+    {
       "id": "vc-1008259783",
       "title": "sample-ai-learning-assistant",
       "fullName": "aws-samples/sample-ai-learning-assistant",
@@ -395,33 +420,8 @@
       "createdAt": "2025-06-25",
       "updatedAt": "2026-04-20",
       "collectedAt": "2026-05-18",
-      "rank": 15,
-      "openIssues": 4
-    },
-    {
-      "id": "vc-1124023703",
-      "title": "autotest_flame-cast-be",
-      "fullName": "PeterPanPink/autotest_flame-cast-be",
-      "description": "An AI-augmented automation framework showcasing data-driven API testing (httpx + YAML cases), Playwright-based UI tes...",
-      "author": "PeterPanPink",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/27761247?v=4",
-      "authorUrl": "https://github.com/PeterPanPink",
-      "image": "https://opengraph.githubassets.com/1/PeterPanPink/autotest_flame-cast-be",
-      "tags": [
-        "AI工具展示"
-      ],
-      "likes": 8,
-      "views": 8,
-      "forks": 1,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "repoUrl": "https://github.com/PeterPanPink/autotest_flame-cast-be",
-      "homepage": null,
-      "createdAt": "2025-12-28",
-      "updatedAt": "2026-04-23",
-      "collectedAt": "2026-05-18",
       "rank": 16,
-      "openIssues": 0
+      "openIssues": 4
     },
     {
       "id": "vc-1223170290",
@@ -437,9 +437,9 @@
         "agent-skills",
         "ai-agents"
       ],
-      "likes": 44279,
-      "views": 44279,
-      "forks": 5052,
+      "likes": 44289,
+      "views": 44289,
+      "forks": 5054,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/nexu-io/open-design",
@@ -448,7 +448,7 @@
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 17,
-      "openIssues": 421
+      "openIssues": 423
     },
     {
       "id": "vc-1131238324",
@@ -475,7 +475,34 @@
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 18,
-      "openIssues": 111
+      "openIssues": 109
+    },
+    {
+      "id": "vc-1239537127",
+      "title": "codeSee",
+      "fullName": "Kaka-cheaper/codeSee",
+      "description": "Visualize your project's feature logic as a semantic flow graph — not call graphs, not import maps. AI writes the dat...",
+      "author": "Kaka-cheaper",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/122336926?v=4",
+      "authorUrl": "https://github.com/Kaka-cheaper",
+      "image": "https://opengraph.githubassets.com/1/Kaka-cheaper/codeSee",
+      "tags": [
+        "VibeCoding",
+        "ai-agent",
+        "code-review"
+      ],
+      "likes": 25,
+      "views": 25,
+      "forks": 5,
+      "language": "TypeScript",
+      "languageColor": "#2b7489",
+      "repoUrl": "https://github.com/Kaka-cheaper/codeSee",
+      "homepage": "",
+      "createdAt": "2026-05-15",
+      "updatedAt": "2026-05-18",
+      "collectedAt": "2026-05-18",
+      "rank": 19,
+      "openIssues": 0
     },
     {
       "id": "vc-805155266",
@@ -501,35 +528,8 @@
       "createdAt": "2024-05-24",
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
-      "rank": 19,
-      "openIssues": 1168
-    },
-    {
-      "id": "vc-1196583327",
-      "title": "Zephyr",
-      "fullName": "Juwan-Hwang/Zephyr",
-      "description": "Zephyr: A modern, lightweight, and secure Mihomo / Clash Meta GUI client built with Tauri and Rust.",
-      "author": "Juwan-Hwang",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/180104975?v=4",
-      "authorUrl": "https://github.com/Juwan-Hwang",
-      "image": "https://opengraph.githubassets.com/1/Juwan-Hwang/Zephyr",
-      "tags": [
-        "VibeCoding",
-        "clash",
-        "clash-meta"
-      ],
-      "likes": 246,
-      "views": 246,
-      "forks": 19,
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "repoUrl": "https://github.com/Juwan-Hwang/Zephyr",
-      "homepage": "https://juwan-hwang.github.io/Zephyr/",
-      "createdAt": "2026-03-30",
-      "updatedAt": "2026-05-18",
-      "collectedAt": "2026-05-18",
       "rank": 20,
-      "openIssues": 5
+      "openIssues": 1169
     }
   ]
 }
