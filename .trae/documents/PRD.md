@@ -197,6 +197,15 @@ interface Update {
 
 ## 6. 版本历史
 
+### v2.5 (2026-05-18)
+- **新增 GitHub 热门开源项目独立页面**: 创建 `/github-trending` 独立页面
+  - 展示 GitHub 上 Stars 最多的前 20 个顶级开源项目
+  - 支持按编程语言筛选
+  - 显示排名徽章（前3名金色奖杯）、语言颜色标签
+  - 与 VibeCoding 页面并列，作为独立栏目
+- **导航栏更新**: 顶部导航和 Footer 同时添加「GitHub热门」入口
+- **Footer 更新**: 「作品展示」拆分为「VibeCoding」和「GitHub热门」两个链接
+
 ### v2.4 (2026-05-18)
 - **新增 VibeCoding 独立作品展示页面**: 创建 `/vibecoding` 独立页面
   - 采集逻辑: 每天从 GitHub Search API 轮换搜索 VibeCoding 相关项目

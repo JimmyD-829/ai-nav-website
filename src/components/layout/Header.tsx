@@ -8,6 +8,7 @@ const navLinks = [
   { path: "/#news", label: "新闻动态", sectionId: "news-section" },
   { path: "/#tools", label: "AI工具", sectionId: "tools-section" },
   { path: "/vibecoding", label: "VibeCoding" },
+  { path: "/github-trending", label: "GitHub热门" },
 ];
 
 export default function Header() {

@@ -5,6 +5,7 @@ import NewsDetail from "./pages/NewsDetail";
 import ShowcaseDetail from "./components/showcase/ShowcaseDetail";
 import ToolDetail from "./components/tools/ToolDetail";
 import VibeCodingPage from "./pages/VibeCodingPage";
+import GitHubTrendingPage from "./pages/GitHubTrendingPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="tools/:id" element={<ToolDetail />} />
         <Route path="showcase/:id" element={<ShowcaseDetail />} />
         <Route path="vibecoding" element={<VibeCodingPage />} />
+        <Route path="github-trending" element={<GitHubTrendingPage />} />
       </Route>
     </Routes>
   );
