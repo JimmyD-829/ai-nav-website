@@ -1,7 +1,13 @@
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { ArrowLeft, ExternalLink, Star, Users, Zap, Clock, CheckCircle, BookOpen, Play, Lightbulb, AlertCircle } from "lucide-react";
+import {
+  ArrowLeft, ExternalLink, Star, Users, Zap, Clock, CheckCircle,
+  BookOpen, Play, Lightbulb, AlertCircle, GitBranch, Sparkles,
+  Wrench, Bug, ChevronDown, ChevronUp
+} from "lucide-react";
+import { useState } from "react";
 import toolsData from "../../data/tools.json";
+import updatesData from "../../data/updates.json";
 import type { Tool } from "../../types";
 
 // 工具使用手册数据
@@ -12,7 +18,7 @@ const toolGuides: Record<string, {
   commonIssues: string[];
   shortcuts?: string[];
 }> = {
-  "1": { // ChatGPT
+  "1": {
     quickStart: [
       "访问 chat.openai.com 注册账号",
       "在输入框中描述你的需求或问题",
@@ -38,7 +44,7 @@ const toolGuides: Record<string, {
       "中文回答质量：明确要求使用中文回答",
     ],
   },
-  "2": { // Claude
+  "2": {
     quickStart: [
       "访问 claude.ai 注册账号",
       "上传文档或直接在对话框输入内容",
@@ -64,7 +70,7 @@ const toolGuides: Record<string, {
       "中文支持：明确要求使用中文",
     ],
   },
-  "17": { // Codex
+  "17": {
     quickStart: [
       "访问 openai.com/codex 获取访问权限",
       "在支持的 IDE 中安装 Codex 插件",
@@ -96,7 +102,7 @@ const toolGuides: Record<string, {
       "Esc：取消当前操作",
     ],
   },
-  "5": { // Cursor
+  "5": {
     quickStart: [
       "下载并安装 Cursor IDE（cursor.sh）",
       "登录账号并配置 API Key",
@@ -128,7 +134,7 @@ const toolGuides: Record<string, {
       "Tab：接受建议",
     ],
   },
-  "20": { // Windsurf
+  "20": {
     quickStart: [
       "下载 Windsurf IDE（codeium.com/windsurf）",
       "登录 Codeium 账号",
@@ -156,7 +162,6 @@ const toolGuides: Record<string, {
   },
 };
 
-// 默认指南
 const defaultGuide = {
   quickStart: [
     "访问官方网站注册账号",
@@ -185,10 +190,46 @@ const defaultGuide = {
   shortcuts: undefined as string[] | undefined,
 };
 
+// 更新类型配置
+const updateTypeConfig = {
+  feature: {
+    label: "新功能",
+    icon: Sparkles,
+    color: "text-purple-600 bg-purple-50 border-purple-200",
+    dotColor: "bg-purple-500",
+  },
+  improvement: {
+    label: "优化",
+    icon: Wrench,
+    color: "text-blue-600 bg-blue-50 border-blue-200",
+    dotColor: "bg-blue-500",
+  },
+  fix: {
+    label: "修复",
+    icon: Bug,
+    color: "text-green-600 bg-green-50 border-green-200",
+    dotColor: "bg-green-500",
+  },
+};
+
+interface UpdateItem {
+  id: string;
+  toolId: string;
+  toolName: string;
+  toolLogo: string;
+  version: string;
+  updateDate: string;
+  updateType: "feature" | "improvement" | "fix";
+  title: string;
+  description: string;
+  changelog: string[];
+}
+
 export default function ToolDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const location = useLocation();
+  const [expandedUpdate, setExpandedUpdate] = useState<string | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -196,6 +237,13 @@ export default function ToolDetail() {
 
   const tool = toolsData.tools.find((t: Tool) => t.id === id) as Tool | undefined;
   const guide = toolGuides[id || ""] || defaultGuide;
+
+  // 获取该工具的更新记录
+  const toolUpdates: UpdateItem[] = (updatesData as any).updates
+    ?.filter((u: UpdateItem) => u.toolId === id)
+    ?.sort((a: UpdateItem, b: UpdateItem) =>
+      new Date(b.updateDate).getTime() - new Date(a.updateDate).getTime()
+    ) || [];
 
   if (!tool) {
     return (
@@ -224,6 +272,10 @@ export default function ToolDetail() {
     if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
     if (num >= 1000) return (num / 1000).toFixed(0) + "K";
     return num.toString();
+  };
+
+  const toggleUpdate = (updateId: string) => {
+    setExpandedUpdate(expandedUpdate === updateId ? null : updateId);
   };
 
   return (
@@ -273,6 +325,12 @@ export default function ToolDetail() {
                   <Clock className="w-4 h-4" />
                   <span>更新: {tool.updateFrequency}</span>
                 </span>
+                {toolUpdates.length > 0 && (
+                  <span className="flex items-center space-x-1">
+                    <GitBranch className="w-4 h-4 text-primary" />
+                    <span>最近更新: {toolUpdates[0].updateDate}</span>
+                  </span>
+                )}
               </div>
             </div>
             <a
@@ -290,6 +348,93 @@ export default function ToolDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-6">
+            {/* Update Timeline */}
+            {toolUpdates.length > 0 && (
+              <div className="card-base p-6">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center space-x-2">
+                    <GitBranch className="w-5 h-5 text-primary" />
+                    <h2 className="text-lg font-bold text-text-primary">更新历史</h2>
+                  </div>
+                  <span className="text-sm text-text-muted">
+                    共 {toolUpdates.length} 条更新
+                  </span>
+                </div>
+
+                <div className="relative">
+                  {/* 时间轴线 */}
+                  <div className="absolute left-[19px] top-2 bottom-2 w-0.5 bg-border" />
+
+                  <div className="space-y-4">
+                    {toolUpdates.map((update, index) => {
+                      const config = updateTypeConfig[update.updateType];
+                      const Icon = config.icon;
+                      const isExpanded = expandedUpdate === update.id;
+
+                      return (
+                        <div key={update.id} className="relative pl-12">
+                          {/* 时间节点圆点 */}
+                          <div className={`absolute left-3 top-2 w-3 h-3 rounded-full border-2 border-white ${config.dotColor} shadow-sm z-10`} />
+
+                          {/* 更新卡片 */}
+                          <div
+                            className={`rounded-xl border transition-all duration-200 ${
+                              isExpanded
+                                ? "border-primary/30 shadow-sm"
+                                : "border-border hover:border-primary/20"
+                            }`}
+                          >
+                            {/* 头部 - 可点击展开 */}
+                            <button
+                              onClick={() => toggleUpdate(update.id)}
+                              className="w-full flex items-center justify-between p-4 text-left"
+                            >
+                              <div className="flex items-center gap-3 flex-1 min-w-0">
+                                <span className={`px-2 py-0.5 text-xs font-medium rounded-md border ${config.color}`}>
+                                  <Icon className="w-3 h-3 inline mr-1" />
+                                  {config.label}
+                                </span>
+                                <span className="text-sm font-medium text-text-primary truncate">
+                                  v{update.version} · {update.title}
+                                </span>
+                              </div>
+                              <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+                                <span className="text-xs text-text-muted">{update.updateDate}</span>
+                                {isExpanded ? (
+                                  <ChevronUp className="w-4 h-4 text-text-muted" />
+                                ) : (
+                                  <ChevronDown className="w-4 h-4 text-text-muted" />
+                                )}
+                              </div>
+                            </button>
+
+                            {/* 展开内容 */}
+                            {isExpanded && (
+                              <div className="px-4 pb-4 pt-0 border-t border-border">
+                                <p className="text-sm text-text-secondary mt-3 mb-3">
+                                  {update.description}
+                                </p>
+                                {update.changelog.length > 0 && (
+                                  <div className="space-y-1.5">
+                                    {update.changelog.map((item, i) => (
+                                      <div key={i} className="flex items-start gap-2">
+                                        <div className="w-1 h-1 rounded-full bg-primary mt-2 flex-shrink-0" />
+                                        <span className="text-sm text-text-secondary">{item}</span>
+                                      </div>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Quick Start */}
             <div className="card-base p-6">
               <div className="flex items-center space-x-2 mb-4">
