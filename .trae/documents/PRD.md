@@ -197,6 +197,18 @@ interface Update {
 
 ## 6. 版本历史
 
+### v2.4 (2026-05-18)
+- **新增 VibeCoding 独立作品展示页面**: 创建 `/vibecoding` 独立页面
+  - 采集逻辑: 每天从 GitHub Search API 轮换搜索 VibeCoding 相关项目
+  - 搜索词池: 14 个关键词（vibe-coding/ai-generated-app/cursor-ai-project 等）
+  - 每天轮换 3 个搜索词，确保内容多样性
+  - 展示 20 个最新项目，支持按分类筛选
+  - 显示排名徽章、语言标签、Stars/Forks 数据
+- **移除首页 GitHub 热门项目模块**: 原 showcase-section 从首页移除
+- **导航栏更新**: 顶部导航「作品展示」改为「VibeCoding」，指向独立页面
+- **Footer 更新**: 移除「工具更新」链接，「作品展示」指向 `/vibecoding`
+- **新增采集脚本**: `scripts/collect-vibecoding.mjs` 每天自动采集
+
 ### v2.3 (2026-05-18)
 - **合并工具更新到工具详情页**: 将独立的「工具更新」模块合并到工具详情页内
   - 以时间轴形式展示该工具的更新历史

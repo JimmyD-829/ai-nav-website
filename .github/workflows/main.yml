@@ -24,6 +24,7 @@ jobs:
           node scripts/collect-updates.mjs
           node scripts/collect-tools.mjs
           node scripts/collect-showcase.mjs
+          node scripts/collect-vibecoding.mjs
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

@@ -7,7 +7,7 @@ const navLinks = [
   { path: "/", label: "首页" },
   { path: "/#news", label: "新闻动态", sectionId: "news-section" },
   { path: "/#tools", label: "AI工具", sectionId: "tools-section" },
-  { path: "/#showcase", label: "作品展示", sectionId: "showcase-section" },
+  { path: "/vibecoding", label: "VibeCoding" },
 ];
 
 export default function Header() {
@@ -17,19 +17,22 @@ export default function Header() {
 
   const isActive = (path: string) => {
     if (path === "/") return location.pathname === "/" && !location.hash;
-    return location.hash === path.replace("/", "");
+    if (path.startsWith("/#")) return location.hash === path.replace("/", "");
+    return location.pathname === path;
   };
 
   const handleNavClick = (e: React.MouseEvent, link: typeof navLinks[0]) => {
     if (link.sectionId) {
       e.preventDefault();
       setIsMenuOpen(false);
-      
+
       if (location.pathname !== "/") {
         window.location.href = "/" + link.path.replace("/", "");
       } else {
         scrollToSection(link.sectionId);
       }
+    } else if (!link.path.startsWith("/#")) {
+      setIsMenuOpen(false);
     }
   };
 

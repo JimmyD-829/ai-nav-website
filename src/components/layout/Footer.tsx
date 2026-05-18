@@ -5,7 +5,6 @@ const footerLinks = {
   product: [
     { label: "新闻动态", path: "/news" },
     { label: "AI工具", path: "/tools" },
-    { label: "工具更新", path: "/updates" },
     { label: "作品展示", path: "/showcase" },
   ],
   resources: [
