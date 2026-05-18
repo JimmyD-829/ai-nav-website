@@ -455,48 +455,276 @@
         "阿里生态"
       ],
       "pricing": "freemium"
+    },
+    {
+      "id": "25",
+      "name": "Claude Code",
+      "description": "Anthropic 推出的 AI 编程助手，命令行工具形式，能自主完成代码审查、重构和开发任务",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Claude_icon.svg",
+      "category": "code",
+      "mau": 2100000,
+      "rating": 4.8,
+      "updateFrequency": "weekly",
+      "website": "https://claude.ai/code",
+      "features": [
+        "命令行编程",
+        "代码审查",
+        "自主重构",
+        "Git集成",
+        "终端操作"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "26",
+      "name": "Openclaw",
+      "description": "AI 智能助理平台，支持多 Agent 协作完成复杂任务，集成多种大模型能力",
+      "logo": "https://placehold.co/64x64/FF6B35/FFFFFF?text=OC",
+      "category": "agent",
+      "mau": 850000,
+      "rating": 4.3,
+      "updateFrequency": "weekly",
+      "website": "https://openclaw.ai",
+      "features": [
+        "多Agent协作",
+        "任务自动化",
+        "模型集成",
+        "工作流编排",
+        "API接入"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "27",
+      "name": "Pencil",
+      "description": "AI 驱动的 UI 设计工具，通过自然语言生成界面设计稿，支持实时协作和代码导出",
+      "logo": "https://placehold.co/64x64/F59E0B/FFFFFF?text=Pe",
+      "category": "design",
+      "mau": 1200000,
+      "rating": 4.5,
+      "updateFrequency": "weekly",
+      "website": "https://pencil.design",
+      "features": [
+        "AI生成UI",
+        "自然语言设计",
+        "实时协作",
+        "代码导出",
+        "设计规范"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "28",
+      "name": "Lovart",
+      "description": "AI 品牌设计平台，一键生成品牌视觉识别系统，包括 Logo、配色、字体和营销物料",
+      "logo": "https://placehold.co/64x64/8B5CF6/FFFFFF?text=Lo",
+      "category": "design",
+      "mau": 680000,
+      "rating": 4.4,
+      "updateFrequency": "monthly",
+      "website": "https://lovart.ai",
+      "features": [
+        "品牌VI生成",
+        "Logo设计",
+        "配色方案",
+        "营销物料",
+        "品牌规范"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "29",
+      "name": "Nano Banana Pro",
+      "description": "专业级 AI 图像生成和编辑工具，支持高精度图像创作、风格迁移和批量处理",
+      "logo": "https://placehold.co/64x64/EAB308/FFFFFF?text=NB",
+      "category": "image",
+      "mau": 950000,
+      "rating": 4.5,
+      "updateFrequency": "weekly",
+      "website": "https://nanobanana.pro",
+      "features": [
+        "高精度图像生成",
+        "风格迁移",
+        "批量处理",
+        "图像编辑",
+        "专业导出"
+      ],
+      "pricing": "paid"
+    },
+    {
+      "id": "30",
+      "name": "Seedance 2.0",
+      "description": "字节跳动推出的 AI 视频生成平台 2.0 版本，支持高质量舞蹈和动作视频生成",
+      "logo": "https://placehold.co/64x64/10B981/FFFFFF?text=SD",
+      "category": "video",
+      "mau": 1800000,
+      "rating": 4.4,
+      "updateFrequency": "weekly",
+      "website": "https://seedance.io",
+      "features": [
+        "舞蹈视频生成",
+        "动作捕捉",
+        "视频编辑",
+        "特效合成",
+        "多风格支持"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "31",
+      "name": "NotebookLM",
+      "description": "Google 推出的 AI 笔记和文档工具，支持多源文档分析、智能摘要和对话式学习",
+      "logo": "https://notebooklm.google/favicon.ico",
+      "category": "text",
+      "mau": 5200000,
+      "rating": 4.6,
+      "updateFrequency": "weekly",
+      "website": "https://notebooklm.google",
+      "features": [
+        "文档分析",
+        "智能摘要",
+        "对话学习",
+        "多源整合",
+        "音频生成"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "32",
+      "name": "Rows",
+      "description": "AI 驱动的电子表格工具，支持自然语言数据分析、自动化公式和可视化图表生成",
+      "logo": "https://placehold.co/64x64/3B82F6/FFFFFF?text=Ro",
+      "category": "text",
+      "mau": 1400000,
+      "rating": 4.3,
+      "updateFrequency": "weekly",
+      "website": "https://rows.com",
+      "features": [
+        "自然语言公式",
+        "数据分析",
+        "可视化图表",
+        "自动化报表",
+        "团队协作"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "33",
+      "name": "Atlas",
+      "description": "AI 智能浏览器，内置大模型助手，支持网页内容智能分析、自动填表和隐私保护",
+      "logo": "https://placehold.co/64x64/6366F1/FFFFFF?text=At",
+      "category": "agent",
+      "mau": 3200000,
+      "rating": 4.2,
+      "updateFrequency": "weekly",
+      "website": "https://atlasbrowser.com",
+      "features": [
+        "AI网页分析",
+        "智能填表",
+        "隐私保护",
+        "广告拦截",
+        "语音控制"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "34",
+      "name": "Lovable",
+      "description": "AI 网站构建平台，通过对话式交互快速生成完整网站，支持自定义设计和一键部署",
+      "logo": "https://placehold.co/64x64/EC4899/FFFFFF?text=Lv",
+      "category": "code",
+      "mau": 2800000,
+      "rating": 4.5,
+      "updateFrequency": "weekly",
+      "website": "https://lovable.dev",
+      "features": [
+        "对话式建站",
+        "自定义设计",
+        "一键部署",
+        "响应式布局",
+        "SEO优化"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "35",
+      "name": "Search1",
+      "description": "新一代 AI 搜索引擎，基于自研大模型，提供深度研究、多源对比和知识图谱展示",
+      "logo": "https://placehold.co/64x64/14B8A6/FFFFFF?text=S1",
+      "category": "text",
+      "mau": 1900000,
+      "rating": 4.4,
+      "updateFrequency": "weekly",
+      "website": "https://search1.ai",
+      "features": [
+        "深度研究",
+        "多源对比",
+        "知识图谱",
+        "实时搜索",
+        "学术检索"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "36",
+      "name": "Mem.ai",
+      "description": "AI 原生笔记应用，自动组织笔记内容，支持智能搜索、知识关联和团队协作",
+      "logo": "https://mem.ai/favicon.ico",
+      "category": "text",
+      "mau": 1100000,
+      "rating": 4.3,
+      "updateFrequency": "weekly",
+      "website": "https://mem.ai",
+      "features": [
+        "AI自动组织",
+        "智能搜索",
+        "知识关联",
+        "团队协作",
+        "日历集成"
+      ],
+      "pricing": "freemium"
     }
   ],
   "categories": [
     {
       "id": "all",
       "name": "全部",
-      "count": 24
+      "count": 36
     },
     {
       "id": "text",
       "name": "文本生成",
-      "count": 6,
+      "count": 10,
       "icon": "MessageSquare"
     },
     {
       "id": "image",
       "name": "图像生成",
-      "count": 4,
+      "count": 5,
       "icon": "Image"
     },
     {
       "id": "video",
       "name": "视频生成",
-      "count": 2,
+      "count": 3,
       "icon": "Video"
     },
     {
       "id": "code",
       "name": "代码助手",
-      "count": 6,
+      "count": 8,
       "icon": "Code"
     },
     {
       "id": "agent",
       "name": "AI Agent",
-      "count": 1,
+      "count": 3,
       "icon": "Bot"
     },
     {
       "id": "design",
       "name": "设计工具",
-      "count": 3,
+      "count": 5,
       "icon": "Palette"
     }
   ]
