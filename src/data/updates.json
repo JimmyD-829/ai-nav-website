@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1779094285655-0",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "0.18",
+      "updateDate": "2026-05-18",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "V0 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1779092876980-0",
       "toolId": "20",
       "toolName": "Windsurf",
@@ -44,6 +61,23 @@
       "updateType": "feature",
       "title": "支持更多框架集成",
       "description": "GitHub Copilot 于 2026-05-17 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1779094285655-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "2.19",
+      "updateDate": "2026-05-16",
+      "updateType": "fix",
+      "title": "改进用户界面体验",
+      "description": "Bolt 于 2026-05-16 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -214,40 +248,6 @@
       "updateType": "improvement",
       "title": "优化内存占用",
       "description": "V0 于 2026-05-14 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1778839300323-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "2.0",
-      "updateDate": "2026-05-13",
-      "updateType": "feature",
-      "title": "新增团队协作功能",
-      "description": "Windsurf 于 2026-05-13 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1778751612734-1",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "2.15",
-      "updateDate": "2026-05-13",
-      "updateType": "feature",
-      "title": "支持新的编程语言",
-      "description": "V0 于 2026-05-13 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
