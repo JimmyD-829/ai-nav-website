@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   update-data:
@@ -17,9 +20,10 @@ jobs:
           node-version: '20'
       - run: npm install
       - run: |
-          node scripts/collect-news.js
-          node scripts/collect-updates.js
-          node scripts/collect-tools.js
+          node scripts/collect-news.mjs
+          node scripts/collect-updates.mjs
+          node scripts/collect-tools.mjs
+          node scripts/collect-showcase.mjs
       - run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

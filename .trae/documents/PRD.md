@@ -2,8 +2,8 @@
 
 ## 产品需求文档 (PRD)
 
-**版本**: v2.1  
-**更新日期**: 2026-05-14  
+**版本**: v2.2  
+**更新日期**: 2026-05-18  
 **作者**: AI导航团队
 
 ---
@@ -49,11 +49,14 @@
 - 每条更新展示版本号、更新类型、更新日志
 - **数据更新**: 每天自动采集 GitHub Release，保留最近 10 天数据
 
-### 2.4 Vibe Coding 作品展示（作品模块）
-- 展示开发者使用 AI 工具创作的优秀作品
-- 支持按工具筛选（Cursor、Windsurf、Copilot 等）
-- 每个作品展示：作者、点赞、浏览、复刻数据
-- 点击作品进入详情页
+### 2.4 GitHub 热门开源项目展示（作品模块）
+- 展示 GitHub 上 Stars 最多的前 20 个热门开源项目
+- 支持按编程语言筛选（动态生成语言标签）
+- 每个项目展示：排名、作者、Stars、Forks、Open Issues
+- 显示项目语言标签（带颜色标识）
+- 提供「访问仓库」「访问官网」外链按钮
+- 点击项目进入详情页，展示完整项目信息
+- **数据更新**: 每天自动采集，从 GitHub Search API 获取
 
 ### 2.5 右侧悬浮导航
 - 快速跳转到各模块
@@ -84,16 +87,19 @@
 | 新闻 | 每天 8:00 | RSS/API |
 | 工具更新 | 每天 8:00 | GitHub Release API |
 | 工具数据 | 每周一 8:00 | GitHub API + 模拟增长 |
+| 热门项目 | 每天 8:00 | GitHub Search API |
 
 #### 3.3.2 采集脚本
 - `scripts/collect-news.mjs`: 新闻采集（ESM 格式）
 - `scripts/collect-updates.mjs`: 工具更新采集（ESM 格式）
 - `scripts/collect-tools.mjs`: 工具数据采集（ESM 格式）
+- `scripts/collect-showcase.mjs`: GitHub 热门项目采集（ESM 格式）
 
 #### 3.3.3 数据保留策略
 - **新闻数据**: 保留最近 10 天，最多 20 条
 - **更新数据**: 保留最近 10 天，最多 15 条
 - **工具数据**: 保留最近 10 天，MAU 自动增长模拟
+- **热门项目**: 每天全量替换，保留前 20 名
 - **自动清理**: 每天运行时自动删除过期数据
 
 #### 3.3.4 工作流配置
@@ -191,6 +197,17 @@ interface Update {
 
 ## 6. 版本历史
 
+### v2.2 (2026-05-18)
+- **重构作品展示模块**: 从模拟数据改为 GitHub 热门开源项目
+  - 采集逻辑: 从 GitHub Search API 获取 stars 最多的前 20 个项目
+  - 筛选方式: 从按工具筛选改为按编程语言筛选（动态生成）
+  - 展示内容: 显示真实 Stars/Forks/Open Issues 数据，带排名徽章
+  - 新增外链: 提供「访问仓库」「访问官网」按钮
+  - 图片源: 使用 GitHub Open Graph 图片
+- **更新作品详情页**: 适配 GitHub 项目数据，展示完整统计信息
+- **新增采集脚本**: `scripts/collect-showcase.mjs` 自动采集 GitHub 热门项目
+- **修复 tsconfig**: 移除弃用的 ignoreDeprecations 配置
+
 ### v2.1 (2026-05-14)
 - **优化数据保留策略**: 只保留最近 10 天数据，自动清理过期数据
 - **优化数据质量**: 改进模拟数据生成逻辑，标题包含日期避免重复
@@ -231,6 +248,7 @@ interface Update {
 ## 7. 后续规划
 
 ### 7.1 短期计划（1-2周）
+- [x] 接入 GitHub API 采集热门开源项目（已完成 2026-05-18）
 - [ ] 接入真实 RSS API 采集新闻
 - [ ] 接入 GitHub API 采集工具更新
 - [ ] 添加数据更新日志页面
@@ -258,6 +276,7 @@ interface Update {
 | AI新闻 | 机器之心、36氪、TechCrunch | 每日 |
 | 工具更新 | GitHub Release API | 每日 |
 | 工具数据 | GitHub API、Product Hunt | 每周 |
+| 热门项目 | GitHub Search API | 每日 |
 | 工具MAU | SimilarWeb、公开财报 | 每月 |
 
 
