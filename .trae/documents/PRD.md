@@ -197,6 +197,22 @@ interface Update {
 
 ## 6. 版本历史
 
+### v2.8 (2026-05-18)
+- **首页展示全部4个模块**: 新闻动态、AI工具、VibeCoding、GitHub热门
+  - Hero 区域添加第4个卡片「GitHub热门」
+  - 首页内容区添加 GitHub 热门开源项目展示区块（显示前6个）
+  - 每个区块都有「查看全部」按钮跳转到独立页面
+- **浮动导航改为滚动定位**: 点击浮动导航滚动到首页对应模块
+  - 新闻动态 → 滚动到 `news-section`
+  - AI工具 → 滚动到 `tools-section`
+  - VibeCoding → 滚动到 `vibecoding-section`
+  - GitHub热门 → 滚动到 `github-section`
+- **顶部导航保持跳转独立页面**: 点击顶部导航跳转到对应独立页面
+  - 新闻动态 → `/news`
+  - AI工具 → `/tools`
+  - VibeCoding → `/vibecoding`
+  - GitHub热门 → `/github-trending`
+
 ### v2.7 (2026-05-18)
 - **导航全部改为跳转到独立页面**: 顶部导航和浮动导航点击后直接跳转
   - 新闻动态 → `/news`

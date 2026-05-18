@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Sparkles, Zap, TrendingUp, ArrowRight, Code2 } from "lucide-react";
+import { Sparkles, Zap, TrendingUp, ArrowRight, Code2, Flame } from "lucide-react";
 import { NewsList } from "../components/news";
 import { ToolGrid } from "../components/tools";
 import VibeShowcase from "../components/showcase/VibeShowcase";
+import GitHubTrendingShowcase from "../components/showcase/GitHubTrendingShowcase";
 import { scrollToSection } from "../utils/scroll";
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
             <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "300ms" }} onClick={() => scrollToSection('news-section')}>
               <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-3">
                 <TrendingUp className="w-5 h-5 text-primary" />
@@ -71,12 +72,20 @@ export default function Home() {
               <p className="text-xs text-text-muted">MAU、评分对比</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => scrollToSection('showcase-section')}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => scrollToSection('vibecoding-section')}>
               <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center mx-auto mb-3">
                 <Code2 className="w-5 h-5 text-purple-500" />
               </div>
               <h3 className="font-semibold text-text-primary mb-1">Vibe Coding</h3>
               <p className="text-xs text-text-muted">作品展示与灵感</p>
+            </div>
+
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "600ms" }} onClick={() => scrollToSection('github-section')}>
+              <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center mx-auto mb-3">
+                <Flame className="w-5 h-5 text-orange-500" />
+              </div>
+              <h3 className="font-semibold text-text-primary mb-1">GitHub热门</h3>
+              <p className="text-xs text-text-muted">顶级开源项目</p>
             </div>
           </div>
         </div>
@@ -92,6 +101,9 @@ export default function Home() {
         </div>
         <div id="vibecoding-section">
           <VibeShowcase />
+        </div>
+        <div id="github-section">
+          <GitHubTrendingShowcase />
         </div>
       </section>
     </div>
