@@ -270,6 +270,31 @@
       "openIssues": 0
     },
     {
+      "id": "vc-988805877",
+      "title": "edge-ai-sizing-tool",
+      "fullName": "open-edge-platform/edge-ai-sizing-tool",
+      "description": "The Edge AI Sizing Tool is designed to showcase the scalability and performance of AI use cases on edge devices. ",
+      "author": "open-edge-platform",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/198827667?v=4",
+      "authorUrl": "https://github.com/open-edge-platform",
+      "image": "https://opengraph.githubassets.com/1/open-edge-platform/edge-ai-sizing-tool",
+      "tags": [
+        "AI工具展示"
+      ],
+      "likes": 8,
+      "views": 8,
+      "forks": 4,
+      "language": "TypeScript",
+      "languageColor": "#2b7489",
+      "repoUrl": "https://github.com/open-edge-platform/edge-ai-sizing-tool",
+      "homepage": "",
+      "createdAt": "2025-05-23",
+      "updatedAt": "2026-04-09",
+      "collectedAt": "2026-05-18",
+      "rank": 11,
+      "openIssues": 17
+    },
+    {
       "id": "vc-657153187",
       "title": "genai-for-marketing",
       "fullName": "GoogleCloudPlatform/genai-for-marketing",
@@ -293,7 +318,7 @@
       "createdAt": "2023-06-22",
       "updatedAt": "2026-05-16",
       "collectedAt": "2026-05-18",
-      "rank": 11,
+      "rank": 12,
       "openIssues": 44
     },
     {
@@ -318,33 +343,8 @@
       "createdAt": "2025-06-20",
       "updatedAt": "2026-05-12",
       "collectedAt": "2026-05-18",
-      "rank": 12,
-      "openIssues": 1
-    },
-    {
-      "id": "vc-988805877",
-      "title": "edge-ai-sizing-tool",
-      "fullName": "open-edge-platform/edge-ai-sizing-tool",
-      "description": "The Edge AI Sizing Tool is designed to showcase the scalability and performance of AI use cases on edge devices. ",
-      "author": "open-edge-platform",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/198827667?v=4",
-      "authorUrl": "https://github.com/open-edge-platform",
-      "image": "https://opengraph.githubassets.com/1/open-edge-platform/edge-ai-sizing-tool",
-      "tags": [
-        "AI工具展示"
-      ],
-      "likes": 8,
-      "views": 8,
-      "forks": 4,
-      "language": "TypeScript",
-      "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/open-edge-platform/edge-ai-sizing-tool",
-      "homepage": "",
-      "createdAt": "2025-05-23",
-      "updatedAt": "2026-04-09",
-      "collectedAt": "2026-05-18",
       "rank": 13,
-      "openIssues": 17
+      "openIssues": 1
     },
     {
       "id": "vc-1147381577",
@@ -374,6 +374,31 @@
       "openIssues": 0
     },
     {
+      "id": "vc-822463741",
+      "title": "Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "fullName": "raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "description": "This project leverages Meta's AI tools to analyze social media posts for sentiment, detect emerging trends, and predi...",
+      "author": "raj200501",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/65059626?v=4",
+      "authorUrl": "https://github.com/raj200501",
+      "image": "https://opengraph.githubassets.com/1/raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "tags": [
+        "AI工具展示"
+      ],
+      "likes": 6,
+      "views": 6,
+      "forks": 3,
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "repoUrl": "https://github.com/raj200501/Social-Media-Sentiment-Analysis-and-Trend-Prediction-System",
+      "homepage": null,
+      "createdAt": "2024-07-01",
+      "updatedAt": "2026-04-26",
+      "collectedAt": "2026-05-18",
+      "rank": 15,
+      "openIssues": 0
+    },
+    {
       "id": "vc-1008259783",
       "title": "sample-ai-learning-assistant",
       "fullName": "aws-samples/sample-ai-learning-assistant",
@@ -395,112 +420,8 @@
       "createdAt": "2025-06-25",
       "updatedAt": "2026-04-20",
       "collectedAt": "2026-05-18",
-      "rank": 15,
-      "openIssues": 4
-    },
-    {
-      "id": "vc-1124023703",
-      "title": "autotest_flame-cast-be",
-      "fullName": "PeterPanPink/autotest_flame-cast-be",
-      "description": "An AI-augmented automation framework showcasing data-driven API testing (httpx + YAML cases), Playwright-based UI tes...",
-      "author": "PeterPanPink",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/27761247?v=4",
-      "authorUrl": "https://github.com/PeterPanPink",
-      "image": "https://opengraph.githubassets.com/1/PeterPanPink/autotest_flame-cast-be",
-      "tags": [
-        "AI工具展示"
-      ],
-      "likes": 8,
-      "views": 8,
-      "forks": 1,
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "repoUrl": "https://github.com/PeterPanPink/autotest_flame-cast-be",
-      "homepage": null,
-      "createdAt": "2025-12-28",
-      "updatedAt": "2026-04-23",
-      "collectedAt": "2026-05-18",
       "rank": 16,
-      "openIssues": 0
-    },
-    {
-      "id": "vc-1106803980",
-      "title": "go-claude-code-comment-checker",
-      "fullName": "code-yeongyu/go-claude-code-comment-checker",
-      "description": "Multi-language comment detection hook for Claude Code. 100% vibe coded by Claude Opus 4.5.",
-      "author": "code-yeongyu",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/11153873?v=4",
-      "authorUrl": "https://github.com/code-yeongyu",
-      "image": "https://opengraph.githubassets.com/1/code-yeongyu/go-claude-code-comment-checker",
-      "tags": [
-        "VibeCoding"
-      ],
-      "likes": 17,
-      "views": 17,
-      "forks": 5,
-      "language": "Go",
-      "languageColor": "#00ADD8",
-      "repoUrl": "https://github.com/code-yeongyu/go-claude-code-comment-checker",
-      "homepage": null,
-      "createdAt": "2025-11-30",
-      "updatedAt": "2026-05-18",
-      "collectedAt": "2026-05-18",
-      "rank": 17,
-      "openIssues": 0
-    },
-    {
-      "id": "vc-1092687660",
-      "title": "aidevops",
-      "fullName": "marcusquinn/aidevops",
-      "description": "Vibe-Coding is easy. DevOps is hard. OpenCode & Git token-efficient AI agent automation for your app, business, and p...",
-      "author": "marcusquinn",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/6428977?v=4",
-      "authorUrl": "https://github.com/marcusquinn",
-      "image": "https://opengraph.githubassets.com/1/marcusquinn/aidevops",
-      "tags": [
-        "VibeCoding",
-        "agents",
-        "agents-md"
-      ],
-      "likes": 245,
-      "views": 245,
-      "forks": 46,
-      "language": "Shell",
-      "languageColor": "#89e051",
-      "repoUrl": "https://github.com/marcusquinn/aidevops",
-      "homepage": "https://www.aidevops.sh",
-      "createdAt": "2025-11-09",
-      "updatedAt": "2026-05-18",
-      "collectedAt": "2026-05-18",
-      "rank": 18,
-      "openIssues": 13
-    },
-    {
-      "id": "vc-805155266",
-      "title": "cherry-studio",
-      "fullName": "CherryHQ/cherry-studio",
-      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-      "author": "CherryHQ",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/187777663?v=4",
-      "authorUrl": "https://github.com/CherryHQ",
-      "image": "https://opengraph.githubassets.com/1/CherryHQ/cherry-studio",
-      "tags": [
-        "VibeCoding",
-        "agent-skills",
-        "ai-agent"
-      ],
-      "likes": 45860,
-      "views": 45860,
-      "forks": 4360,
-      "language": "TypeScript",
-      "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/CherryHQ/cherry-studio",
-      "homepage": "https://cherry-ai.com",
-      "createdAt": "2024-05-24",
-      "updatedAt": "2026-05-18",
-      "collectedAt": "2026-05-18",
-      "rank": 19,
-      "openIssues": 1167
+      "openIssues": 4
     },
     {
       "id": "vc-1223170290",
@@ -516,9 +437,9 @@
         "agent-skills",
         "ai-agents"
       ],
-      "likes": 44211,
-      "views": 44211,
-      "forks": 5046,
+      "likes": 44217,
+      "views": 44217,
+      "forks": 5048,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/nexu-io/open-design",
@@ -526,8 +447,89 @@
       "createdAt": "2026-04-28",
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
+      "rank": 17,
+      "openIssues": 409
+    },
+    {
+      "id": "vc-1172991789",
+      "title": "Shelly",
+      "fullName": "RYOITABASHI/Shelly",
+      "description": "AI-powered chat-first terminal IDE for Android. Built entirely on a phone, by someone who can't write code.",
+      "author": "RYOITABASHI",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/71633475?v=4",
+      "authorUrl": "https://github.com/RYOITABASHI",
+      "image": "https://opengraph.githubassets.com/1/RYOITABASHI/Shelly",
+      "tags": [
+        "VibeCoding",
+        "ai",
+        "android"
+      ],
+      "likes": 20,
+      "views": 20,
+      "forks": 3,
+      "language": "TypeScript",
+      "languageColor": "#2b7489",
+      "repoUrl": "https://github.com/RYOITABASHI/Shelly",
+      "homepage": null,
+      "createdAt": "2026-03-04",
+      "updatedAt": "2026-05-18",
+      "collectedAt": "2026-05-18",
+      "rank": 18,
+      "openIssues": 20
+    },
+    {
+      "id": "vc-1209077765",
+      "title": "claudepot-app",
+      "fullName": "xiaolai/claudepot-app",
+      "description": "A control panel for Claude Code and Claude Desktop.",
+      "author": "xiaolai",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/152970?v=4",
+      "authorUrl": "https://github.com/xiaolai",
+      "image": "https://opengraph.githubassets.com/1/xiaolai/claudepot-app",
+      "tags": [
+        "VibeCoding",
+        "ai",
+        "claude"
+      ],
+      "likes": 75,
+      "views": 75,
+      "forks": 8,
+      "language": "Rust",
+      "languageColor": "#dea584",
+      "repoUrl": "https://github.com/xiaolai/claudepot-app",
+      "homepage": "https://claudepot.com",
+      "createdAt": "2026-04-13",
+      "updatedAt": "2026-05-18",
+      "collectedAt": "2026-05-18",
+      "rank": 19,
+      "openIssues": 1
+    },
+    {
+      "id": "vc-1090518613",
+      "title": "agentops",
+      "fullName": "boshu2/agentops",
+      "description": "The operational layer for coding agents. Memory, validation, and feedback loops that compound between sessions.",
+      "author": "boshu2",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/241868352?v=4",
+      "authorUrl": "https://github.com/boshu2",
+      "image": "https://opengraph.githubassets.com/1/boshu2/agentops",
+      "tags": [
+        "VibeCoding",
+        "ai-agents",
+        "claude"
+      ],
+      "likes": 351,
+      "views": 351,
+      "forks": 34,
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "repoUrl": "https://github.com/boshu2/agentops",
+      "homepage": "https://www.12factoragentops.com",
+      "createdAt": "2025-11-05",
+      "updatedAt": "2026-05-18",
+      "collectedAt": "2026-05-18",
       "rank": 20,
-      "openIssues": 408
+      "openIssues": 14
     }
   ]
 }
