@@ -7,25 +7,22 @@ import {
   Flame,
   ArrowUp,
 } from "lucide-react";
-import { scrollToSection, scrollToTop } from "../../utils/scroll";
+import { scrollToTop } from "../../utils/scroll";
 
 interface NavItem {
-  id?: string;
   label: string;
   icon: React.ComponentType<{ className?: string }>;
-  path?: string;
-  sectionId?: string;
+  path: string;
 }
 
 const navItems: NavItem[] = [
-  { id: "news-section", label: "新闻动态", icon: Newspaper, sectionId: "news-section" },
-  { id: "tools-section", label: "AI工具", icon: Wrench, sectionId: "tools-section" },
-  { id: "vibecoding-section", label: "VibeCoding", icon: Sparkles, sectionId: "vibecoding-section" },
-  { id: "github-section", label: "GitHub热门", icon: Flame, path: "/github-trending" },
+  { label: "新闻动态", icon: Newspaper, path: "/news" },
+  { label: "AI工具", icon: Wrench, path: "/tools" },
+  { label: "VibeCoding", icon: Sparkles, path: "/vibecoding" },
+  { label: "GitHub热门", icon: Flame, path: "/github-trending" },
 ];
 
 export default function FloatingNav() {
-  const [activeSection, setActiveSection] = useState("");
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
@@ -36,7 +33,7 @@ export default function FloatingNav() {
 
   useEffect(() => {
     if (!isHomePage) {
-      setIsVisible(false);
+      setIsVisible(true);
       return;
     }
 
@@ -48,25 +45,6 @@ export default function FloatingNav() {
           const scrollY = window.scrollY;
           setShowBackToTop(scrollY > 400);
           setIsVisible(scrollY > 200);
-
-          const sections = navItems
-            .filter(item => item.sectionId)
-            .map((item) => ({
-              id: item.id!,
-              element: document.getElementById(item.sectionId!),
-            }));
-
-          for (let i = sections.length - 1; i >= 0; i--) {
-            const section = sections[i];
-            if (section.element) {
-              const rect = section.element.getBoundingClientRect();
-              if (rect.top <= 120) {
-                setActiveSection(section.id);
-                break;
-              }
-            }
-          }
-
           ticking = false;
         });
         ticking = true;
@@ -79,15 +57,11 @@ export default function FloatingNav() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [isHomePage]);
 
-  if (!isHomePage) return null;
-
-  const handleClick = (item: NavItem) => {
-    if (item.path) {
-      navigate(item.path);
-    } else if (item.sectionId) {
-      scrollToSection(item.sectionId);
-    }
+  const handleClick = (path: string) => {
+    navigate(path);
   };
+
+  const isActive = (path: string) => location.pathname === path;
 
   return (
     <div
@@ -98,16 +72,16 @@ export default function FloatingNav() {
       <div className="bg-surface/95 backdrop-blur-sm border border-border rounded-2xl shadow-card p-2 flex flex-col gap-1">
         {navItems.map((item) => {
           const Icon = item.icon;
-          const isActive = activeSection === item.id;
-          const isHovered = hoveredItem === item.id;
+          const active = isActive(item.path);
+          const isHovered = hoveredItem === item.path;
           return (
             <button
-              key={item.id || item.path}
-              onClick={() => handleClick(item)}
-              onMouseEnter={() => setHoveredItem(item.id || item.path || null)}
+              key={item.path}
+              onClick={() => handleClick(item.path)}
+              onMouseEnter={() => setHoveredItem(item.path)}
               onMouseLeave={() => setHoveredItem(null)}
               className={`group relative flex items-center justify-center w-10 h-10 rounded-xl transition-colors duration-200 ${
-                isActive
+                active
                   ? "bg-primary text-white"
                   : "text-text-muted hover:text-primary hover:bg-primary/5"
               }`}
@@ -121,7 +95,7 @@ export default function FloatingNav() {
                     ? "opacity-100 translate-x-0"
                     : "opacity-0 translate-x-2 pointer-events-none"
                 } ${
-                  isActive
+                  active
                     ? "bg-primary text-white"
                     : "bg-surface text-text-secondary border border-border shadow-sm"
                 }`}

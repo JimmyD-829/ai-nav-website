@@ -1,124 +1,108 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Search, Menu, X, Sparkles } from "lucide-react";
-import { scrollToSection } from "../../utils/scroll";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { path: "/", label: "首页" },
-  { path: "/#news", label: "新闻动态", sectionId: "news-section" },
-  { path: "/#tools", label: "AI工具", sectionId: "tools-section" },
+  { path: "/news", label: "新闻动态" },
+  { path: "/tools", label: "AI工具" },
   { path: "/vibecoding", label: "VibeCoding" },
   { path: "/github-trending", label: "GitHub热门" },
 ];
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   const location = useLocation();
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location.pathname]);
+
   const isActive = (path: string) => {
-    if (path === "/") return location.pathname === "/" && !location.hash;
-    if (path.startsWith("/#")) return location.hash === path.replace("/", "");
+    if (path === "/") return location.pathname === "/";
     return location.pathname === path;
   };
 
-  const handleNavClick = (e: React.MouseEvent, link: typeof navLinks[0]) => {
-    if (link.sectionId) {
-      e.preventDefault();
-      setIsMenuOpen(false);
-
-      if (location.pathname !== "/") {
-        window.location.href = "/" + link.path.replace("/", "");
-      } else {
-        scrollToSection(link.sectionId);
-      }
-    } else if (!link.path.startsWith("/#")) {
-      setIsMenuOpen(false);
-    }
-  };
-
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-sm border-b border-border">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? "bg-background/90 backdrop-blur-md shadow-sm border-b border-border"
+          : "bg-transparent"
+      }`}
+    >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
+          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-white" />
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
             </div>
-            <span className="text-xl font-bold text-text-primary">
-              AI<span className="text-primary">导航</span>
-            </span>
+            <span className="font-bold text-text-primary text-lg">AI导航</span>
           </Link>
 
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-1">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.path}
-                href={link.path}
-                onClick={(e) => handleNavClick(e, link)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 cursor-pointer ${
+                to={link.path}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
                     ? "text-primary bg-primary/5"
-                    : "text-text-secondary hover:text-text-primary hover:bg-background"
+                    : "text-text-secondary hover:text-primary hover:bg-primary/5"
                 }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-light" />
-              <input
-                type="text"
-                placeholder="搜索 AI 工具、新闻..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-64 pl-10 pr-4 py-2 bg-background border border-border rounded-xl text-sm text-text-primary placeholder-text-light focus:outline-none focus:border-primary/40 transition-all"
-              />
-            </div>
-          </div>
-
+          {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-text-secondary hover:text-text-primary"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden p-2 rounded-lg hover:bg-primary/5 transition-colors"
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-5 h-5 text-text-primary" />
+            ) : (
+              <Menu className="w-5 h-5 text-text-primary" />
+            )}
           </button>
         </div>
-
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border">
-            <nav className="flex flex-col space-y-2 mb-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.path}
-                  href={link.path}
-                  onClick={(e) => handleNavClick(e, link)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer ${
-                    isActive(link.path)
-                      ? "text-primary bg-primary/5"
-                      : "text-text-secondary hover:text-text-primary hover:bg-background"
-                  }`}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </nav>
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-light" />
-              <input
-                type="text"
-                placeholder="搜索..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 bg-background border border-border rounded-xl text-sm text-text-primary placeholder-text-light focus:outline-none focus:border-primary/40"
-              />
-            </div>
-          </div>
-        )}
       </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border">
+          <nav className="container mx-auto px-6 py-4 space-y-1">
+            {navLinks.map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
+                  isActive(link.path)
+                    ? "text-primary bg-primary/5"
+                    : "text-text-secondary hover:text-primary hover:bg-primary/5"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
