@@ -1,23 +1,27 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   Newspaper,
   Wrench,
-  Palette,
+  Sparkles,
+  Flame,
   ArrowUp,
 } from "lucide-react";
 import { scrollToSection, scrollToTop } from "../../utils/scroll";
 
 interface NavItem {
-  id: string;
+  id?: string;
   label: string;
   icon: React.ComponentType<{ className?: string }>;
+  path?: string;
+  sectionId?: string;
 }
 
 const navItems: NavItem[] = [
-  { id: "news-section", label: "新闻动态", icon: Newspaper },
-  { id: "tools-section", label: "AI工具", icon: Wrench },
-  { id: "showcase-section", label: "作品展示", icon: Palette },
+  { id: "news-section", label: "新闻动态", icon: Newspaper, sectionId: "news-section" },
+  { id: "tools-section", label: "AI工具", icon: Wrench, sectionId: "tools-section" },
+  { id: "vibecoding-section", label: "VibeCoding", icon: Sparkles, sectionId: "vibecoding-section" },
+  { id: "github-section", label: "GitHub热门", icon: Flame, path: "/github-trending" },
 ];
 
 export default function FloatingNav() {
@@ -26,6 +30,7 @@ export default function FloatingNav() {
   const [isVisible, setIsVisible] = useState(false);
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const isHomePage = location.pathname === "/";
 
@@ -44,10 +49,12 @@ export default function FloatingNav() {
           setShowBackToTop(scrollY > 400);
           setIsVisible(scrollY > 200);
 
-          const sections = navItems.map((item) => ({
-            id: item.id,
-            element: document.getElementById(item.id),
-          }));
+          const sections = navItems
+            .filter(item => item.sectionId)
+            .map((item) => ({
+              id: item.id!,
+              element: document.getElementById(item.sectionId!),
+            }));
 
           for (let i = sections.length - 1; i >= 0; i--) {
             const section = sections[i];
@@ -74,6 +81,14 @@ export default function FloatingNav() {
 
   if (!isHomePage) return null;
 
+  const handleClick = (item: NavItem) => {
+    if (item.path) {
+      navigate(item.path);
+    } else if (item.sectionId) {
+      scrollToSection(item.sectionId);
+    }
+  };
+
   return (
     <div
       className={`fixed right-6 top-1/2 -translate-y-1/2 z-40 flex flex-col items-center gap-2 transition-opacity duration-300 ${
@@ -87,9 +102,9 @@ export default function FloatingNav() {
           const isHovered = hoveredItem === item.id;
           return (
             <button
-              key={item.id}
-              onClick={() => scrollToSection(item.id)}
-              onMouseEnter={() => setHoveredItem(item.id)}
+              key={item.id || item.path}
+              onClick={() => handleClick(item)}
+              onMouseEnter={() => setHoveredItem(item.id || item.path || null)}
               onMouseLeave={() => setHoveredItem(null)}
               className={`group relative flex items-center justify-center w-10 h-10 rounded-xl transition-colors duration-200 ${
                 isActive

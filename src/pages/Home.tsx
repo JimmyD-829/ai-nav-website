@@ -90,7 +90,7 @@ export default function Home() {
         <div id="tools-section">
           <ToolGrid />
         </div>
-        <div id="showcase-section">
+        <div id="vibecoding-section">
           <VibeShowcase />
         </div>
       </section>

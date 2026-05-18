@@ -197,6 +197,18 @@ interface Update {
 
 ## 6. 版本历史
 
+### v2.6 (2026-05-18)
+- **浮动导航与顶部导航对齐**: 右侧浮动导航与顶部导航栏一一对应
+  - 新闻动态 → Newspaper 图标
+  - AI工具 → Wrench 图标
+  - VibeCoding → Sparkles 图标（滚动定位到首页区块）
+  - GitHub热门 → Flame 图标（点击跳转到独立页面）
+- **首页恢复 VibeCoding 展示**: 首页重新展示 VibeCoding 作品区块
+  - 展示前 6 个作品卡片
+  - 支持分类筛选
+  - 右上角「查看全部」按钮跳转到独立页面
+  - 区块 id 改为 `vibecoding-section`
+
 ### v2.5 (2026-05-18)
 - **新增 GitHub 热门开源项目独立页面**: 创建 `/github-trending` 独立页面
   - 展示 GitHub 上 Stars 最多的前 20 个顶级开源项目
