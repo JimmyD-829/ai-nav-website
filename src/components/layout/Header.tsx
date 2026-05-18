@@ -7,7 +7,6 @@ const navLinks = [
   { path: "/", label: "首页" },
   { path: "/#news", label: "新闻动态", sectionId: "news-section" },
   { path: "/#tools", label: "AI工具", sectionId: "tools-section" },
-  { path: "/#updates", label: "工具更新", sectionId: "updates-section" },
   { path: "/#showcase", label: "作品展示", sectionId: "showcase-section" },
 ];
 

@@ -1,10 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Sparkles, Zap, TrendingUp, ArrowRight, RefreshCw, Code2 } from "lucide-react";
+import { Sparkles, Zap, TrendingUp, ArrowRight, Code2 } from "lucide-react";
 import { NewsList } from "../components/news";
 import { ToolGrid } from "../components/tools";
-import { UpdateTimeline } from "../components/updates";
-import { VibeShowcase } from "../components/showcase";
+import VibeShowcase from "../components/showcase/VibeShowcase";
 import { scrollToSection } from "../utils/scroll";
 
 export default function Home() {
@@ -72,15 +71,7 @@ export default function Home() {
               <p className="text-xs text-text-muted">MAU、评分对比</p>
             </div>
 
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => scrollToSection('updates-section')}>
-              <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center mx-auto mb-3">
-                <RefreshCw className="w-5 h-5 text-orange-500" />
-              </div>
-              <h3 className="font-semibold text-text-primary mb-1">每日更新</h3>
-              <p className="text-xs text-text-muted">自动同步行业信息</p>
-            </div>
-
-            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "600ms" }} onClick={() => scrollToSection('showcase-section')}>
+            <div className="card-base p-5 text-center animate-slide-up cursor-pointer" style={{ animationDelay: "500ms" }} onClick={() => scrollToSection('showcase-section')}>
               <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center mx-auto mb-3">
                 <Code2 className="w-5 h-5 text-purple-500" />
               </div>
@@ -98,9 +89,6 @@ export default function Home() {
         </div>
         <div id="tools-section">
           <ToolGrid />
-        </div>
-        <div id="updates-section">
-          <UpdateTimeline />
         </div>
         <div id="showcase-section">
           <VibeShowcase />

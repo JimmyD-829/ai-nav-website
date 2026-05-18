@@ -14,7 +14,6 @@ function App() {
         <Route path="news/:id" element={<NewsDetail />} />
         <Route path="tools" element={<Home />} />
         <Route path="tools/:id" element={<ToolDetail />} />
-        <Route path="updates" element={<Home />} />
         <Route path="showcase/:id" element={<ShowcaseDetail />} />
       </Route>
     </Routes>

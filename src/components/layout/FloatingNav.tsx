@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 import {
   Newspaper,
   Wrench,
-  RefreshCw,
   Palette,
   ArrowUp,
 } from "lucide-react";
@@ -18,7 +17,6 @@ interface NavItem {
 const navItems: NavItem[] = [
   { id: "news-section", label: "新闻动态", icon: Newspaper },
   { id: "tools-section", label: "AI工具", icon: Wrench },
-  { id: "updates-section", label: "工具更新", icon: RefreshCw },
   { id: "showcase-section", label: "作品展示", icon: Palette },
 ];
 
