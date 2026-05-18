@@ -292,7 +292,7 @@
       "updatedAt": "2026-04-09",
       "collectedAt": "2026-05-18",
       "rank": 11,
-      "openIssues": 18
+      "openIssues": 19
     },
     {
       "id": "vc-657153187",
@@ -424,31 +424,58 @@
       "openIssues": 4
     },
     {
-      "id": "vc-1223170290",
-      "title": "open-design",
-      "fullName": "nexu-io/open-design",
-      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems \ud83d...",
-      "author": "nexu-io",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/263625318?v=4",
-      "authorUrl": "https://github.com/nexu-io",
-      "image": "https://opengraph.githubassets.com/1/nexu-io/open-design",
+      "id": "vc-1131107802",
+      "title": "claude-code-ultimate-guide",
+      "fullName": "FlorianBruniaux/claude-code-ultimate-guide",
+      "description": "A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready ...",
+      "author": "FlorianBruniaux",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3902606?v=4",
+      "authorUrl": "https://github.com/FlorianBruniaux",
+      "image": "https://opengraph.githubassets.com/1/FlorianBruniaux/claude-code-ultimate-guide",
       "tags": [
         "VibeCoding",
-        "agent-skills",
-        "ai-agents"
+        "agentic-coding",
+        "ai-assistant"
       ],
-      "likes": 44289,
-      "views": 44289,
-      "forks": 5054,
+      "likes": 4385,
+      "views": 4385,
+      "forks": 581,
       "language": "TypeScript",
       "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/nexu-io/open-design",
-      "homepage": "https://open-design.ai",
-      "createdAt": "2026-04-28",
+      "repoUrl": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "homepage": "https://cc.bruniaux.com/",
+      "createdAt": "2026-01-09",
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 17,
-      "openIssues": 423
+      "openIssues": 11
+    },
+    {
+      "id": "vc-1090518613",
+      "title": "agentops",
+      "fullName": "boshu2/agentops",
+      "description": "The operational layer for coding agents. Memory, validation, and feedback loops that compound between sessions.",
+      "author": "boshu2",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/241868352?v=4",
+      "authorUrl": "https://github.com/boshu2",
+      "image": "https://opengraph.githubassets.com/1/boshu2/agentops",
+      "tags": [
+        "VibeCoding",
+        "ai-agents",
+        "claude"
+      ],
+      "likes": 351,
+      "views": 351,
+      "forks": 34,
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "repoUrl": "https://github.com/boshu2/agentops",
+      "homepage": "https://www.12factoragentops.com",
+      "createdAt": "2025-11-05",
+      "updatedAt": "2026-05-18",
+      "collectedAt": "2026-05-18",
+      "rank": 18,
+      "openIssues": 15
     },
     {
       "id": "vc-1131238324",
@@ -464,8 +491,8 @@
         "ai-coding",
         "claude"
       ],
-      "likes": 2286,
-      "views": 2286,
+      "likes": 2288,
+      "views": 2288,
       "forks": 196,
       "language": "Rust",
       "languageColor": "#dea584",
@@ -474,62 +501,35 @@
       "createdAt": "2026-01-09",
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
-      "rank": 18,
-      "openIssues": 109
-    },
-    {
-      "id": "vc-1239537127",
-      "title": "codeSee",
-      "fullName": "Kaka-cheaper/codeSee",
-      "description": "Visualize your project's feature logic as a semantic flow graph — not call graphs, not import maps. AI writes the dat...",
-      "author": "Kaka-cheaper",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/122336926?v=4",
-      "authorUrl": "https://github.com/Kaka-cheaper",
-      "image": "https://opengraph.githubassets.com/1/Kaka-cheaper/codeSee",
-      "tags": [
-        "VibeCoding",
-        "ai-agent",
-        "code-review"
-      ],
-      "likes": 25,
-      "views": 25,
-      "forks": 5,
-      "language": "TypeScript",
-      "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/Kaka-cheaper/codeSee",
-      "homepage": "",
-      "createdAt": "2026-05-15",
-      "updatedAt": "2026-05-18",
-      "collectedAt": "2026-05-18",
       "rank": 19,
-      "openIssues": 0
+      "openIssues": 107
     },
     {
-      "id": "vc-805155266",
-      "title": "cherry-studio",
-      "fullName": "CherryHQ/cherry-studio",
-      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-      "author": "CherryHQ",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/187777663?v=4",
-      "authorUrl": "https://github.com/CherryHQ",
-      "image": "https://opengraph.githubassets.com/1/CherryHQ/cherry-studio",
+      "id": "vc-1069943001",
+      "title": "gemini-voyager",
+      "fullName": "Nagi-ovo/gemini-voyager",
+      "description": "An all-in-one enhancement suite for Google Gemini & AI Studio - timeline navigation, folder management, prompt librar...",
+      "author": "Nagi-ovo",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/101612750?v=4",
+      "authorUrl": "https://github.com/Nagi-ovo",
+      "image": "https://opengraph.githubassets.com/1/Nagi-ovo/gemini-voyager",
       "tags": [
         "VibeCoding",
-        "agent-skills",
-        "ai-agent"
+        "ai-studio",
+        "bun"
       ],
-      "likes": 45863,
-      "views": 45863,
-      "forks": 4360,
+      "likes": 18007,
+      "views": 18007,
+      "forks": 568,
       "language": "TypeScript",
       "languageColor": "#2b7489",
-      "repoUrl": "https://github.com/CherryHQ/cherry-studio",
-      "homepage": "https://cherry-ai.com",
-      "createdAt": "2024-05-24",
+      "repoUrl": "https://github.com/Nagi-ovo/gemini-voyager",
+      "homepage": "https://voyager.nagi.fun/en",
+      "createdAt": "2025-10-04",
       "updatedAt": "2026-05-18",
       "collectedAt": "2026-05-18",
       "rank": 20,
-      "openIssues": 1169
+      "openIssues": 21
     }
   ]
 }
