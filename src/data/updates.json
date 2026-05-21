@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1779364584315-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "3.18",
+      "updateDate": "2026-05-21",
+      "updateType": "improvement",
+      "title": "新增团队协作功能",
+      "description": "Bolt 于 2026-05-21 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1779364584315-1",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.5",
+      "updateDate": "2026-05-20",
+      "updateType": "fix",
+      "title": "优化内存占用",
+      "description": "Bolt 于 2026-05-20 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1779273511747-0",
       "toolId": "4",
       "toolName": "GitHub Copilot",
@@ -10,6 +44,23 @@
       "updateType": "improvement",
       "title": "新增智能代码补全功能",
       "description": "GitHub Copilot 于 2026-05-20 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1779364584315-2",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "3.8",
+      "updateDate": "2026-05-19",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "Cursor 于 2026-05-19 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "支持更多框架集成",
       "description": "V0 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1779099321768-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "0.1",
-      "updateDate": "2026-05-18",
-      "updateType": "improvement",
-      "title": "新增团队协作功能",
-      "description": "Bolt 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1779098635798-0",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "0.0",
-      "updateDate": "2026-05-18",
-      "updateType": "fix",
-      "title": "新增智能代码补全功能",
-      "description": "Windsurf 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1779098178095-0",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "3.17",
-      "updateDate": "2026-05-18",
-      "updateType": "feature",
-      "title": "新增团队协作功能",
-      "description": "Windsurf 于 2026-05-18 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
