@@ -166,7 +166,7 @@
       "updatedAt": "2026-05-25",
       "collectedAt": "2026-05-25",
       "rank": 6,
-      "openIssues": 6838
+      "openIssues": 6841
     },
     {
       "id": "github-85077558",
@@ -502,7 +502,7 @@
       ],
       "likes": 205836,
       "views": 205836,
-      "forks": 18335,
+      "forks": 18336,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/obra/superpowers",
