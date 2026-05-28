@@ -166,7 +166,7 @@
       "updatedAt": "2026-05-28",
       "collectedAt": "2026-05-28",
       "rank": 6,
-      "openIssues": 6955
+      "openIssues": 6956
     },
     {
       "id": "github-85077558",
@@ -473,8 +473,8 @@
       "tags": [
         "Shell"
       ],
-      "likes": 210556,
-      "views": 210556,
+      "likes": 210557,
+      "views": 210557,
       "forks": 18751,
       "language": "Shell",
       "languageColor": "#89e051",
