@@ -16,25 +16,25 @@
         "科技"
       ],
       "importance": 10,
-      "views": 21286
+      "views": 54874
     },
     {
       "id": "news-2026-05-31-02",
-      "title": "SpaceX 星舰完成首次载人绕月飞行",
-      "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
-      "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
-      "content": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。\n\n【详细内容】\nSpaceX 星舰完成首次载人绕月飞行是今天科技界的重要新闻。该研究成果由SpaceX发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "SpaceX",
-      "sourceUrl": "https://www.spacex.com",
+      "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
+      "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
+      "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
+      "content": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。\n\n【详细内容】\nOpenAI 发布 GPT-5 预览版，推理能力大幅提升是今天科技界的重要新闻。该研究成果由OpenAI Blog发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/blog",
       "publishDate": "2026-05-31",
-      "category": "aerospace",
+      "category": "ai",
       "tags": [
-        "航空航天",
-        "Aerospace",
+        "AI",
+        "Artificial Intelligence",
         "科技"
       ],
       "importance": 10,
-      "views": 33250
+      "views": 42185
     },
     {
       "id": "news-2026-05-31-03",
@@ -52,7 +52,7 @@
         "科技"
       ],
       "importance": 10,
-      "views": 28411
+      "views": 40982
     },
     {
       "id": "news-2026-05-31-04",
@@ -70,100 +70,28 @@
         "科技"
       ],
       "importance": 10,
-      "views": 20245
+      "views": 30884
     },
     {
       "id": "news-2026-05-31-05",
-      "title": "波士顿动力发布全电动 Atlas 机器人",
-      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
-      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
-      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Boston Dynamics",
-      "sourceUrl": "https://bostondynamics.com",
+      "title": "SpaceX 星舰完成首次载人绕月飞行",
+      "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
+      "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
+      "content": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。\n\n【详细内容】\nSpaceX 星舰完成首次载人绕月飞行是今天科技界的重要新闻。该研究成果由SpaceX发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "SpaceX",
+      "sourceUrl": "https://www.spacex.com",
       "publishDate": "2026-05-31",
-      "category": "robotics",
+      "category": "aerospace",
       "tags": [
-        "机器人",
-        "Robotics",
+        "航空航天",
+        "Aerospace",
         "科技"
       ],
-      "importance": 9,
-      "views": 45996
+      "importance": 10,
+      "views": 23779
     },
     {
       "id": "news-2026-05-31-06",
-      "title": "联合国发布 AI 治理全球框架",
-      "titleEn": "UN Releases Global Framework for AI Governance",
-      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
-      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "UN News",
-      "sourceUrl": "https://news.un.org",
-      "publishDate": "2026-05-31",
-      "category": "sociology",
-      "tags": [
-        "社会学",
-        "Sociology",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 12633
-    },
-    {
-      "id": "news-2026-05-31-07",
-      "title": "mRNA 癌症疫苗临床试验效果显著",
-      "titleEn": "mRNA Cancer Vaccine Shows Promising Results in Clinical Trials",
-      "summary": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。",
-      "content": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。\n\n【详细内容】\nmRNA 癌症疫苗临床试验效果显著是今天科技界的重要新闻。该研究成果由The Lancet发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "The Lancet",
-      "sourceUrl": "https://www.thelancet.com",
-      "publishDate": "2026-05-31",
-      "category": "medical",
-      "tags": [
-        "医疗",
-        "Medical",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 6579
-    },
-    {
-      "id": "news-2026-05-31-08",
-      "title": "科学家在实验室合成出人工细胞",
-      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
-      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
-      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "PNAS",
-      "sourceUrl": "https://www.pnas.org",
-      "publishDate": "2026-05-31",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 47253
-    },
-    {
-      "id": "news-2026-05-31-09",
-      "title": "脑机接口帮助瘫痪患者恢复语言功能",
-      "titleEn": "Brain-Computer Interface Helps Paralyzed Patients Regain Speech",
-      "summary": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。",
-      "content": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。\n\n【详细内容】\n脑机接口帮助瘫痪患者恢复语言功能是今天科技界的重要新闻。该研究成果由Stanford Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Stanford Medicine",
-      "sourceUrl": "https://med.stanford.edu",
-      "publishDate": "2026-05-31",
-      "category": "psychology",
-      "tags": [
-        "心理学",
-        "Psychology",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 46990
-    },
-    {
-      "id": "news-2026-05-31-10",
       "title": "量子计算机实现1000量子比特里程碑",
       "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
       "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
@@ -178,10 +106,10 @@
         "科技"
       ],
       "importance": 9,
-      "views": 54605
+      "views": 23970
     },
     {
-      "id": "news-2026-05-31-11",
+      "id": "news-2026-05-31-07",
       "title": "Google DeepMind 蛋白质结构预测新突破",
       "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
       "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
@@ -196,52 +124,70 @@
         "科技"
       ],
       "importance": 9,
-      "views": 44237
+      "views": 8567
     },
     {
-      "id": "news-2026-05-31-12",
-      "title": "室温超导研究取得重大进展",
-      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
-      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
-      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
+      "id": "news-2026-05-31-08",
+      "title": "波士顿动力发布全电动 Atlas 机器人",
+      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
+      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
+      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Boston Dynamics",
+      "sourceUrl": "https://bostondynamics.com",
       "publishDate": "2026-05-31",
-      "category": "physics",
+      "category": "robotics",
       "tags": [
-        "物理",
-        "Physics",
+        "机器人",
+        "Robotics",
         "科技"
       ],
       "importance": 9,
-      "views": 34345
+      "views": 23304
     },
     {
-      "id": "news-2026-05-31-13",
-      "title": "暗物质直接探测实验取得新进展",
-      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
-      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
-      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Physical Review Letters",
-      "sourceUrl": "https://journals.aps.org/prl",
+      "id": "news-2026-05-31-09",
+      "title": "联合国发布 AI 治理全球框架",
+      "titleEn": "UN Releases Global Framework for AI Governance",
+      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
+      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
       "publishDate": "2026-05-31",
-      "category": "basic-science",
+      "category": "sociology",
       "tags": [
-        "基础科学",
-        "Basic Science",
+        "社会学",
+        "Sociology",
         "科技"
       ],
-      "importance": 8,
-      "views": 49103
+      "importance": 9,
+      "views": 32893
     },
     {
-      "id": "news-2026-05-31-14",
-      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
-      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
-      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
-      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Google Health",
-      "sourceUrl": "https://health.google",
+      "id": "news-2026-05-31-10",
+      "title": "脑机接口帮助瘫痪患者恢复语言功能",
+      "titleEn": "Brain-Computer Interface Helps Paralyzed Patients Regain Speech",
+      "summary": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。",
+      "content": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。\n\n【详细内容】\n脑机接口帮助瘫痪患者恢复语言功能是今天科技界的重要新闻。该研究成果由Stanford Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Stanford Medicine",
+      "sourceUrl": "https://med.stanford.edu",
+      "publishDate": "2026-05-31",
+      "category": "psychology",
+      "tags": [
+        "心理学",
+        "Psychology",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 43630
+    },
+    {
+      "id": "news-2026-05-31-11",
+      "title": "mRNA 癌症疫苗临床试验效果显著",
+      "titleEn": "mRNA Cancer Vaccine Shows Promising Results in Clinical Trials",
+      "summary": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。",
+      "content": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。\n\n【详细内容】\nmRNA 癌症疫苗临床试验效果显著是今天科技界的重要新闻。该研究成果由The Lancet发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "The Lancet",
+      "sourceUrl": "https://www.thelancet.com",
       "publishDate": "2026-05-31",
       "category": "medical",
       "tags": [
@@ -249,11 +195,29 @@
         "Medical",
         "科技"
       ],
-      "importance": 8,
-      "views": 19535
+      "importance": 9,
+      "views": 38535
     },
     {
-      "id": "news-2026-05-31-15",
+      "id": "news-2026-05-31-12",
+      "title": "科学家在实验室合成出人工细胞",
+      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
+      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
+      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "PNAS",
+      "sourceUrl": "https://www.pnas.org",
+      "publishDate": "2026-05-31",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 31243
+    },
+    {
+      "id": "news-2026-05-31-13",
       "title": "中国发布新一代人工智能算力基础设施",
       "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
       "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
@@ -268,28 +232,10 @@
         "科技"
       ],
       "importance": 8,
-      "views": 41558
+      "views": 13412
     },
     {
-      "id": "news-2026-05-31-16",
-      "title": "中国空间站完成首个国际合作实验项目",
-      "titleEn": "China Space Station Completes First International Collaboration Experiment",
-      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
-      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "中国航天科技集团",
-      "sourceUrl": "http://www.spacechina.com",
-      "publishDate": "2026-05-31",
-      "category": "aerospace",
-      "tags": [
-        "航空航天",
-        "Aerospace",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 20577
-    },
-    {
-      "id": "news-2026-05-31-17",
+      "id": "news-2026-05-31-14",
       "title": "科学家开发出可降解塑料替代品",
       "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
       "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
@@ -304,7 +250,61 @@
         "科技"
       ],
       "importance": 8,
-      "views": 47804
+      "views": 43475
+    },
+    {
+      "id": "news-2026-05-31-15",
+      "title": "6G 通信技术首次实现太赫兹频段传输",
+      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
+      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
+      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "IEEE",
+      "sourceUrl": "https://www.ieee.org",
+      "publishDate": "2026-05-31",
+      "category": "information-engineering",
+      "tags": [
+        "信息工程",
+        "Information Engineering",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 24461
+    },
+    {
+      "id": "news-2026-05-31-16",
+      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
+      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
+      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
+      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Google Health",
+      "sourceUrl": "https://health.google",
+      "publishDate": "2026-05-31",
+      "category": "medical",
+      "tags": [
+        "医疗",
+        "Medical",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 32800
+    },
+    {
+      "id": "news-2026-05-31-17",
+      "title": "暗物质直接探测实验取得新进展",
+      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
+      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
+      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Physical Review Letters",
+      "sourceUrl": "https://journals.aps.org/prl",
+      "publishDate": "2026-05-31",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 32971
     },
     {
       "id": "news-2026-05-31-18",
@@ -322,25 +322,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 7432
+      "views": 42528
     },
     {
       "id": "news-2026-05-31-19",
-      "title": "6G 通信技术首次实现太赫兹频段传输",
-      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
-      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
-      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IEEE",
-      "sourceUrl": "https://www.ieee.org",
+      "title": "中国空间站完成首个国际合作实验项目",
+      "titleEn": "China Space Station Completes First International Collaboration Experiment",
+      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
+      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "中国航天科技集团",
+      "sourceUrl": "http://www.spacechina.com",
       "publishDate": "2026-05-31",
-      "category": "information-engineering",
+      "category": "aerospace",
       "tags": [
-        "信息工程",
-        "Information Engineering",
+        "航空航天",
+        "Aerospace",
         "科技"
       ],
       "importance": 8,
-      "views": 40714
+      "views": 29193
     },
     {
       "id": "news-2026-05-31-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 19807
+      "views": 30749
     }
   ],
   "categories": [
@@ -370,7 +370,7 @@
     {
       "id": "ai",
       "name": "AI",
-      "count": 2
+      "count": 3
     },
     {
       "id": "robotics",
@@ -385,7 +385,7 @@
     {
       "id": "physics",
       "name": "物理",
-      "count": 2
+      "count": 1
     },
     {
       "id": "biology",
