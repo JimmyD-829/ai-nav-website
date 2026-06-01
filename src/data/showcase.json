@@ -166,7 +166,7 @@
       "updatedAt": "2026-06-01",
       "collectedAt": "2026-06-01",
       "rank": 6,
-      "openIssues": 7018
+      "openIssues": 7020
     },
     {
       "id": "github-85077558",
@@ -396,7 +396,7 @@
       ],
       "likes": 235052,
       "views": 235052,
-      "forks": 62650,
+      "forks": 62649,
       "language": "C",
       "languageColor": "#555555",
       "repoUrl": "https://github.com/torvalds/linux",
