@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1780572985523-0",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "1.11",
+      "updateDate": "2026-06-04",
+      "updateType": "fix",
+      "title": "修复代码生成延迟问题",
+      "description": "Cursor 于 2026-06-04 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1780572899993-0",
       "toolId": "20",
       "toolName": "Windsurf",
@@ -10,6 +27,23 @@
       "updateType": "feature",
       "title": "支持新的编程语言",
       "description": "Windsurf 于 2026-06-04 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1780572985523-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "2.8",
+      "updateDate": "2026-06-03",
+      "updateType": "fix",
+      "title": "修复代码生成延迟问题",
+      "description": "GitHub Copilot 于 2026-06-03 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -61,6 +95,23 @@
       "updateType": "feature",
       "title": "优化大型项目性能",
       "description": "GitHub Copilot 于 2026-06-03 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1780572985523-2",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "4.15",
+      "updateDate": "2026-06-02",
+      "updateType": "feature",
+      "title": "新增团队协作功能",
+      "description": "GitHub Copilot 于 2026-06-02 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -196,57 +247,6 @@
       "updateDate": "2026-06-01",
       "updateType": "feature",
       "title": "修复代码生成延迟问题",
-      "description": "Bolt 于 2026-06-01 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1780405077098-1",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "3.17",
-      "updateDate": "2026-06-01",
-      "updateType": "fix",
-      "title": "新增团队协作功能",
-      "description": "Bolt 于 2026-06-01 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1780342194129-0",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "3.13",
-      "updateDate": "2026-06-01",
-      "updateType": "feature",
-      "title": "新增智能代码补全功能",
-      "description": "Cursor 于 2026-06-01 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1780342125071-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "4.7",
-      "updateDate": "2026-06-01",
-      "updateType": "fix",
-      "title": "支持更多框架集成",
       "description": "Bolt 于 2026-06-01 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
