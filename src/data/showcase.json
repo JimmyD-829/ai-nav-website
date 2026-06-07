@@ -22,7 +22,7 @@
       ],
       "likes": 512668,
       "views": 512668,
-      "forks": 48578,
+      "forks": 48577,
       "language": "Markdown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/codecrafters-io/build-your-own-x",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-06-07",
       "collectedAt": "2026-06-07",
       "rank": 6,
-      "openIssues": 7824
+      "openIssues": 7823
     },
     {
       "id": "github-85077558",
@@ -211,7 +211,7 @@
       ],
       "likes": 352050,
       "views": 352050,
-      "forks": 56614,
+      "forks": 56615,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/donnemartin/system-design-primer",
@@ -236,8 +236,8 @@
         "algorithm",
         "algorithms"
       ],
-      "likes": 350693,
-      "views": 350693,
+      "likes": 350694,
+      "views": 350694,
       "forks": 83336,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -473,8 +473,8 @@
       "tags": [
         "Shell"
       ],
-      "likes": 219989,
-      "views": 219989,
+      "likes": 219990,
+      "views": 219990,
       "forks": 19574,
       "language": "Shell",
       "languageColor": "#89e051",
@@ -527,8 +527,8 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 209431,
-      "views": 209431,
+      "likes": 209432,
+      "views": 209432,
       "forks": 32118,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
