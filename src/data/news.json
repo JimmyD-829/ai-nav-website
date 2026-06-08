@@ -2,24 +2,6 @@
   "news": [
     {
       "id": "news-2026-06-08-01",
-      "title": "人类基因组完整图谱正式发布",
-      "titleEn": "Complete Human Genome Map Officially Released",
-      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
-      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
-      "publishDate": "2026-06-08",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 40050
-    },
-    {
-      "id": "news-2026-06-08-02",
       "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
       "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
       "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
@@ -34,25 +16,43 @@
         "科技"
       ],
       "importance": 10,
-      "views": 19044
+      "views": 51367
     },
     {
-      "id": "news-2026-06-08-03",
-      "title": "SpaceX 星舰完成首次载人绕月飞行",
-      "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
-      "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
-      "content": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。\n\n【详细内容】\nSpaceX 星舰完成首次载人绕月飞行是今天科技界的重要新闻。该研究成果由SpaceX发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "SpaceX",
-      "sourceUrl": "https://www.spacex.com",
+      "id": "news-2026-06-08-02",
+      "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
+      "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
+      "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
+      "content": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。\n\n【详细内容】\nCRISPR 基因编辑技术治愈首例遗传病患者是今天科技界的重要新闻。该研究成果由New England Journal of Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "New England Journal of Medicine",
+      "sourceUrl": "https://www.nejm.org",
       "publishDate": "2026-06-08",
-      "category": "aerospace",
+      "category": "biology",
       "tags": [
-        "航空航天",
-        "Aerospace",
+        "生物",
+        "Biology",
         "科技"
       ],
       "importance": 10,
-      "views": 9112
+      "views": 43134
+    },
+    {
+      "id": "news-2026-06-08-03",
+      "title": "人类基因组完整图谱正式发布",
+      "titleEn": "Complete Human Genome Map Officially Released",
+      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
+      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
+      "publishDate": "2026-06-08",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 11648
     },
     {
       "id": "news-2026-06-08-04",
@@ -70,25 +70,25 @@
         "科技"
       ],
       "importance": 10,
-      "views": 38128
+      "views": 47970
     },
     {
       "id": "news-2026-06-08-05",
-      "title": "科学家在实验室合成出人工细胞",
-      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
-      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
-      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "PNAS",
-      "sourceUrl": "https://www.pnas.org",
+      "title": "量子计算机实现1000量子比特里程碑",
+      "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
+      "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
+      "content": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。\n\n【详细内容】\n量子计算机实现1000量子比特里程碑是今天科技界的重要新闻。该研究成果由IBM Research发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "IBM Research",
+      "sourceUrl": "https://research.ibm.com",
       "publishDate": "2026-06-08",
-      "category": "basic-science",
+      "category": "information-engineering",
       "tags": [
-        "基础科学",
-        "Basic Science",
+        "信息工程",
+        "Information Engineering",
         "科技"
       ],
       "importance": 9,
-      "views": 10406
+      "views": 54330
     },
     {
       "id": "news-2026-06-08-06",
@@ -106,7 +106,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 5611
+      "views": 48503
     },
     {
       "id": "news-2026-06-08-07",
@@ -124,7 +124,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 28913
+      "views": 13913
     },
     {
       "id": "news-2026-06-08-08",
@@ -142,7 +142,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 43576
+      "views": 11023
     },
     {
       "id": "news-2026-06-08-09",
@@ -160,25 +160,25 @@
         "科技"
       ],
       "importance": 9,
-      "views": 18245
+      "views": 32531
     },
     {
       "id": "news-2026-06-08-10",
-      "title": "联合国发布 AI 治理全球框架",
-      "titleEn": "UN Releases Global Framework for AI Governance",
-      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
-      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "UN News",
-      "sourceUrl": "https://news.un.org",
+      "title": "科学家在实验室合成出人工细胞",
+      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
+      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
+      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "PNAS",
+      "sourceUrl": "https://www.pnas.org",
       "publishDate": "2026-06-08",
-      "category": "sociology",
+      "category": "basic-science",
       "tags": [
-        "社会学",
-        "Sociology",
+        "基础科学",
+        "Basic Science",
         "科技"
       ],
       "importance": 9,
-      "views": 30938
+      "views": 34225
     },
     {
       "id": "news-2026-06-08-11",
@@ -196,118 +196,28 @@
         "科技"
       ],
       "importance": 9,
-      "views": 20882
+      "views": 35315
     },
     {
       "id": "news-2026-06-08-12",
-      "title": "量子计算机实现1000量子比特里程碑",
-      "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
-      "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
-      "content": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。\n\n【详细内容】\n量子计算机实现1000量子比特里程碑是今天科技界的重要新闻。该研究成果由IBM Research发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IBM Research",
-      "sourceUrl": "https://research.ibm.com",
+      "title": "联合国发布 AI 治理全球框架",
+      "titleEn": "UN Releases Global Framework for AI Governance",
+      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
+      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
       "publishDate": "2026-06-08",
-      "category": "information-engineering",
+      "category": "sociology",
       "tags": [
-        "信息工程",
-        "Information Engineering",
+        "社会学",
+        "Sociology",
         "科技"
       ],
       "importance": 9,
-      "views": 25171
+      "views": 49413
     },
     {
       "id": "news-2026-06-08-13",
-      "title": "暗物质直接探测实验取得新进展",
-      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
-      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
-      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Physical Review Letters",
-      "sourceUrl": "https://journals.aps.org/prl",
-      "publishDate": "2026-06-08",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 19634
-    },
-    {
-      "id": "news-2026-06-08-14",
-      "title": "中国发布新一代人工智能算力基础设施",
-      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
-      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
-      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "科技日报",
-      "sourceUrl": "http://www.stdaily.com",
-      "publishDate": "2026-06-08",
-      "category": "ai",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 48003
-    },
-    {
-      "id": "news-2026-06-08-15",
-      "title": "特斯拉 Optimus 机器人进入工厂试运行",
-      "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
-      "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
-      "content": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。\n\n【详细内容】\n特斯拉 Optimus 机器人进入工厂试运行是今天科技界的重要新闻。该研究成果由Tesla News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Tesla News",
-      "sourceUrl": "https://www.tesla.com/news",
-      "publishDate": "2026-06-08",
-      "category": "robotics",
-      "tags": [
-        "机器人",
-        "Robotics",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 17851
-    },
-    {
-      "id": "news-2026-06-08-16",
-      "title": "科学家开发出可降解塑料替代品",
-      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
-      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
-      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "MIT News",
-      "sourceUrl": "https://news.mit.edu",
-      "publishDate": "2026-06-08",
-      "category": "chemistry",
-      "tags": [
-        "化学",
-        "Chemistry",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 10870
-    },
-    {
-      "id": "news-2026-06-08-17",
-      "title": "中国空间站完成首个国际合作实验项目",
-      "titleEn": "China Space Station Completes First International Collaboration Experiment",
-      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
-      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "中国航天科技集团",
-      "sourceUrl": "http://www.spacechina.com",
-      "publishDate": "2026-06-08",
-      "category": "aerospace",
-      "tags": [
-        "航空航天",
-        "Aerospace",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 8975
-    },
-    {
-      "id": "news-2026-06-08-18",
       "title": "6G 通信技术首次实现太赫兹频段传输",
       "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
       "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
@@ -322,10 +232,10 @@
         "科技"
       ],
       "importance": 8,
-      "views": 6768
+      "views": 41545
     },
     {
-      "id": "news-2026-06-08-19",
+      "id": "news-2026-06-08-14",
       "title": "AI 诊断系统在早期癌症检测中超越人类医生",
       "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
       "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
@@ -340,7 +250,97 @@
         "科技"
       ],
       "importance": 8,
-      "views": 51590
+      "views": 12065
+    },
+    {
+      "id": "news-2026-06-08-15",
+      "title": "科学家开发出可降解塑料替代品",
+      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
+      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
+      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "MIT News",
+      "sourceUrl": "https://news.mit.edu",
+      "publishDate": "2026-06-08",
+      "category": "chemistry",
+      "tags": [
+        "化学",
+        "Chemistry",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 23734
+    },
+    {
+      "id": "news-2026-06-08-16",
+      "title": "暗物质直接探测实验取得新进展",
+      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
+      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
+      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Physical Review Letters",
+      "sourceUrl": "https://journals.aps.org/prl",
+      "publishDate": "2026-06-08",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 14789
+    },
+    {
+      "id": "news-2026-06-08-17",
+      "title": "特斯拉 Optimus 机器人进入工厂试运行",
+      "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
+      "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
+      "content": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。\n\n【详细内容】\n特斯拉 Optimus 机器人进入工厂试运行是今天科技界的重要新闻。该研究成果由Tesla News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Tesla News",
+      "sourceUrl": "https://www.tesla.com/news",
+      "publishDate": "2026-06-08",
+      "category": "robotics",
+      "tags": [
+        "机器人",
+        "Robotics",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 48512
+    },
+    {
+      "id": "news-2026-06-08-18",
+      "title": "中国空间站完成首个国际合作实验项目",
+      "titleEn": "China Space Station Completes First International Collaboration Experiment",
+      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
+      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "中国航天科技集团",
+      "sourceUrl": "http://www.spacechina.com",
+      "publishDate": "2026-06-08",
+      "category": "aerospace",
+      "tags": [
+        "航空航天",
+        "Aerospace",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 38780
+    },
+    {
+      "id": "news-2026-06-08-19",
+      "title": "中国发布新一代人工智能算力基础设施",
+      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
+      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
+      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "科技日报",
+      "sourceUrl": "http://www.stdaily.com",
+      "publishDate": "2026-06-08",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 12142
     },
     {
       "id": "news-2026-06-08-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 22811
+      "views": 30907
     }
   ],
   "categories": [
@@ -390,7 +390,7 @@
     {
       "id": "biology",
       "name": "生物",
-      "count": 1
+      "count": 2
     },
     {
       "id": "chemistry",
@@ -405,7 +405,7 @@
     {
       "id": "aerospace",
       "name": "航空航天",
-      "count": 2
+      "count": 1
     },
     {
       "id": "psychology",
