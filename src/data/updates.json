@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1781750033959-0",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "3.19",
+      "updateDate": "2026-06-18",
+      "updateType": "improvement",
+      "title": "支持新的编程语言",
+      "description": "GitHub Copilot 于 2026-06-18 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1781670144094-0",
       "toolId": "20",
       "toolName": "Windsurf",
@@ -27,6 +44,23 @@
       "updateType": "fix",
       "title": "支持新的编程语言",
       "description": "Bolt 于 2026-06-17 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1781750033959-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "2.16",
+      "updateDate": "2026-06-16",
+      "updateType": "improvement",
+      "title": "新增智能代码补全功能",
+      "description": "Bolt 于 2026-06-16 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -213,40 +247,6 @@
       "updateDate": "2026-06-14",
       "updateType": "improvement",
       "title": "优化大型项目性能",
-      "description": "Cursor 于 2026-06-14 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781577571904-2",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "2.5",
-      "updateDate": "2026-06-14",
-      "updateType": "feature",
-      "title": "优化内存占用",
-      "description": "GitHub Copilot 于 2026-06-14 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781498657192-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "1.5",
-      "updateDate": "2026-06-14",
-      "updateType": "improvement",
-      "title": "支持新的编程语言",
       "description": "Cursor 于 2026-06-14 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
