@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1781837405225-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.8",
+      "updateDate": "2026-06-19",
+      "updateType": "improvement",
+      "title": "优化内存占用",
+      "description": "Bolt 于 2026-06-19 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1781837405225-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "1.13",
+      "updateDate": "2026-06-18",
+      "updateType": "improvement",
+      "title": "新增智能代码补全功能",
+      "description": "GitHub Copilot 于 2026-06-18 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1781756096074-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -27,6 +61,23 @@
       "updateType": "improvement",
       "title": "支持新的编程语言",
       "description": "GitHub Copilot 于 2026-06-18 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1781837405225-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "0.17",
+      "updateDate": "2026-06-17",
+      "updateType": "improvement",
+      "title": "修复代码生成延迟问题",
+      "description": "Windsurf 于 2026-06-17 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -196,57 +247,6 @@
       "updateDate": "2026-06-15",
       "updateType": "improvement",
       "title": "新增团队协作功能",
-      "description": "Cursor 于 2026-06-15 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781663809562-2",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "2.17",
-      "updateDate": "2026-06-15",
-      "updateType": "fix",
-      "title": "修复代码生成延迟问题",
-      "description": "GitHub Copilot 于 2026-06-15 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781584126507-1",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "1.15",
-      "updateDate": "2026-06-15",
-      "updateType": "improvement",
-      "title": "优化内存占用",
-      "description": "Bolt 于 2026-06-15 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781577571904-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "4.14",
-      "updateDate": "2026-06-15",
-      "updateType": "feature",
-      "title": "新增智能代码补全功能",
       "description": "Cursor 于 2026-06-15 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
