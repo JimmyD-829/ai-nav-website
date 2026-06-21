@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1782009281978-0",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "0.7",
+      "updateDate": "2026-06-21",
+      "updateType": "improvement",
+      "title": "支持新的编程语言",
+      "description": "Cursor 于 2026-06-21 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1782009281978-1",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "2.16",
+      "updateDate": "2026-06-20",
+      "updateType": "fix",
+      "title": "新增团队协作功能",
+      "description": "V0 于 2026-06-20 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1781927817993-0",
       "toolId": "4",
       "toolName": "GitHub Copilot",
@@ -213,40 +247,6 @@
       "updateDate": "2026-06-17",
       "updateType": "improvement",
       "title": "修复代码生成延迟问题",
-      "description": "Windsurf 于 2026-06-17 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781756096074-1",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "4.15",
-      "updateDate": "2026-06-17",
-      "updateType": "fix",
-      "title": "支持更多框架集成",
-      "description": "GitHub Copilot 于 2026-06-17 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781670144094-0",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "4.9",
-      "updateDate": "2026-06-17",
-      "updateType": "feature",
-      "title": "优化大型项目性能",
       "description": "Windsurf 于 2026-06-17 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
