@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1782180293802-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "4.8",
+      "updateDate": "2026-06-23",
+      "updateType": "improvement",
+      "title": "改进用户界面体验",
+      "description": "Bolt 于 2026-06-23 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1782180293802-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "0.10",
+      "updateDate": "2026-06-22",
+      "updateType": "improvement",
+      "title": "改进用户界面体验",
+      "description": "GitHub Copilot 于 2026-06-22 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1782103433010-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -213,40 +247,6 @@
       "updateDate": "2026-06-19",
       "updateType": "improvement",
       "title": "新增团队协作功能",
-      "description": "Bolt 于 2026-06-19 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781921438312-1",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "1.18",
-      "updateDate": "2026-06-19",
-      "updateType": "fix",
-      "title": "新增智能代码补全功能",
-      "description": "V0 于 2026-06-19 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1781844181431-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "4.11",
-      "updateDate": "2026-06-19",
-      "updateType": "improvement",
-      "title": "优化大型项目性能",
       "description": "Bolt 于 2026-06-19 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
