@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1782525811822-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.9",
+      "updateDate": "2026-06-27",
+      "updateType": "improvement",
+      "title": "修复代码生成延迟问题",
+      "description": "Bolt 于 2026-06-27 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1782446296885-0",
       "toolId": "12",
       "toolName": "V0",
@@ -27,6 +44,23 @@
       "updateType": "feature",
       "title": "支持新的编程语言",
       "description": "Bolt 于 2026-06-26 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1782525811822-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "1.16",
+      "updateDate": "2026-06-25",
+      "updateType": "fix",
+      "title": "新增团队协作功能",
+      "description": "Windsurf 于 2026-06-25 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -213,40 +247,6 @@
       "updateDate": "2026-06-23",
       "updateType": "fix",
       "title": "新增智能代码补全功能",
-      "description": "V0 于 2026-06-23 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1782353215253-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "1.3",
-      "updateDate": "2026-06-23",
-      "updateType": "feature",
-      "title": "优化内存占用",
-      "description": "Windsurf 于 2026-06-23 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1782273064560-1",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "0.1",
-      "updateDate": "2026-06-23",
-      "updateType": "feature",
-      "title": "支持新的编程语言",
       "description": "V0 于 2026-06-23 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
