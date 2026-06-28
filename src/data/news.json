@@ -2,21 +2,21 @@
   "news": [
     {
       "id": "news-2026-06-28-01",
-      "title": "人类基因组完整图谱正式发布",
-      "titleEn": "Complete Human Genome Map Officially Released",
-      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
-      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
+      "title": "CERN 发现新粒子，可能突破标准模型",
+      "titleEn": "CERN Discovers New Particle Potentially Breaking Standard Model",
+      "summary": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。",
+      "content": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。\n\n【详细内容】\nCERN 发现新粒子，可能突破标准模型是今天科技界的重要新闻。该研究成果由CERN发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "CERN",
+      "sourceUrl": "https://home.cern",
       "publishDate": "2026-06-28",
-      "category": "basic-science",
+      "category": "physics",
       "tags": [
-        "基础科学",
-        "Basic Science",
+        "物理",
+        "Physics",
         "科技"
       ],
       "importance": 10,
-      "views": 5330
+      "views": 44265
     },
     {
       "id": "news-2026-06-28-02",
@@ -34,7 +34,7 @@
         "科技"
       ],
       "importance": 10,
-      "views": 51686
+      "views": 37716
     },
     {
       "id": "news-2026-06-28-03",
@@ -52,28 +52,10 @@
         "科技"
       ],
       "importance": 10,
-      "views": 10081
+      "views": 47775
     },
     {
       "id": "news-2026-06-28-04",
-      "title": "CERN 发现新粒子，可能突破标准模型",
-      "titleEn": "CERN Discovers New Particle Potentially Breaking Standard Model",
-      "summary": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。",
-      "content": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。\n\n【详细内容】\nCERN 发现新粒子，可能突破标准模型是今天科技界的重要新闻。该研究成果由CERN发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "CERN",
-      "sourceUrl": "https://home.cern",
-      "publishDate": "2026-06-28",
-      "category": "physics",
-      "tags": [
-        "物理",
-        "Physics",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 44602
-    },
-    {
-      "id": "news-2026-06-28-05",
       "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
       "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
       "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
@@ -88,10 +70,10 @@
         "科技"
       ],
       "importance": 10,
-      "views": 5915
+      "views": 17258
     },
     {
-      "id": "news-2026-06-28-06",
+      "id": "news-2026-06-28-05",
       "title": "室温超导研究取得重大进展",
       "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
       "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
@@ -106,28 +88,28 @@
         "科技"
       ],
       "importance": 9,
-      "views": 17174
+      "views": 38317
     },
     {
-      "id": "news-2026-06-28-07",
-      "title": "Google DeepMind 蛋白质结构预测新突破",
-      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
-      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
-      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Nature",
-      "sourceUrl": "https://www.nature.com",
+      "id": "news-2026-06-28-06",
+      "title": "波士顿动力发布全电动 Atlas 机器人",
+      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
+      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
+      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Boston Dynamics",
+      "sourceUrl": "https://bostondynamics.com",
       "publishDate": "2026-06-28",
-      "category": "ai",
+      "category": "robotics",
       "tags": [
-        "AI",
-        "Artificial Intelligence",
+        "机器人",
+        "Robotics",
         "科技"
       ],
       "importance": 9,
-      "views": 19932
+      "views": 7663
     },
     {
-      "id": "news-2026-06-28-08",
+      "id": "news-2026-06-28-07",
       "title": "脑机接口帮助瘫痪患者恢复语言功能",
       "titleEn": "Brain-Computer Interface Helps Paralyzed Patients Regain Speech",
       "summary": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。",
@@ -142,7 +124,25 @@
         "科技"
       ],
       "importance": 9,
-      "views": 50675
+      "views": 22071
+    },
+    {
+      "id": "news-2026-06-28-08",
+      "title": "科学家在实验室合成出人工细胞",
+      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
+      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
+      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "PNAS",
+      "sourceUrl": "https://www.pnas.org",
+      "publishDate": "2026-06-28",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 26910
     },
     {
       "id": "news-2026-06-28-09",
@@ -160,10 +160,28 @@
         "科技"
       ],
       "importance": 9,
-      "views": 54379
+      "views": 46087
     },
     {
       "id": "news-2026-06-28-10",
+      "title": "Google DeepMind 蛋白质结构预测新突破",
+      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
+      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
+      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Nature",
+      "sourceUrl": "https://www.nature.com",
+      "publishDate": "2026-06-28",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 15096
+    },
+    {
+      "id": "news-2026-06-28-11",
       "title": "mRNA 癌症疫苗临床试验效果显著",
       "titleEn": "mRNA Cancer Vaccine Shows Promising Results in Clinical Trials",
       "summary": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。",
@@ -178,25 +196,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 16040
-    },
-    {
-      "id": "news-2026-06-28-11",
-      "title": "波士顿动力发布全电动 Atlas 机器人",
-      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
-      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
-      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Boston Dynamics",
-      "sourceUrl": "https://bostondynamics.com",
-      "publishDate": "2026-06-28",
-      "category": "robotics",
-      "tags": [
-        "机器人",
-        "Robotics",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 20169
+      "views": 39909
     },
     {
       "id": "news-2026-06-28-12",
@@ -214,28 +214,46 @@
         "科技"
       ],
       "importance": 9,
-      "views": 54042
+      "views": 47267
     },
     {
       "id": "news-2026-06-28-13",
-      "title": "科学家在实验室合成出人工细胞",
-      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
-      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
-      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "PNAS",
-      "sourceUrl": "https://www.pnas.org",
+      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
+      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
+      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
+      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Google Health",
+      "sourceUrl": "https://health.google",
       "publishDate": "2026-06-28",
-      "category": "basic-science",
+      "category": "medical",
       "tags": [
-        "基础科学",
-        "Basic Science",
+        "医疗",
+        "Medical",
         "科技"
       ],
-      "importance": 9,
-      "views": 13491
+      "importance": 8,
+      "views": 5269
     },
     {
       "id": "news-2026-06-28-14",
+      "title": "特斯拉 Optimus 机器人进入工厂试运行",
+      "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
+      "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
+      "content": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。\n\n【详细内容】\n特斯拉 Optimus 机器人进入工厂试运行是今天科技界的重要新闻。该研究成果由Tesla News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Tesla News",
+      "sourceUrl": "https://www.tesla.com/news",
+      "publishDate": "2026-06-28",
+      "category": "robotics",
+      "tags": [
+        "机器人",
+        "Robotics",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 12141
+    },
+    {
+      "id": "news-2026-06-28-15",
       "title": "中国发布新一代人工智能算力基础设施",
       "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
       "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
@@ -250,25 +268,7 @@
         "科技"
       ],
       "importance": 8,
-      "views": 53793
-    },
-    {
-      "id": "news-2026-06-28-15",
-      "title": "6G 通信技术首次实现太赫兹频段传输",
-      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
-      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
-      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IEEE",
-      "sourceUrl": "https://www.ieee.org",
-      "publishDate": "2026-06-28",
-      "category": "information-engineering",
-      "tags": [
-        "信息工程",
-        "Information Engineering",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 48210
+      "views": 31105
     },
     {
       "id": "news-2026-06-28-16",
@@ -286,25 +286,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 6835
+      "views": 12952
     },
     {
       "id": "news-2026-06-28-17",
-      "title": "科学家开发出可降解塑料替代品",
-      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
-      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
-      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "MIT News",
-      "sourceUrl": "https://news.mit.edu",
+      "title": "6G 通信技术首次实现太赫兹频段传输",
+      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
+      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
+      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "IEEE",
+      "sourceUrl": "https://www.ieee.org",
       "publishDate": "2026-06-28",
-      "category": "chemistry",
+      "category": "information-engineering",
       "tags": [
-        "化学",
-        "Chemistry",
+        "信息工程",
+        "Information Engineering",
         "科技"
       ],
       "importance": 8,
-      "views": 22367
+      "views": 17366
     },
     {
       "id": "news-2026-06-28-18",
@@ -322,25 +322,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 50747
+      "views": 5739
     },
     {
       "id": "news-2026-06-28-19",
-      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
-      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
-      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
-      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Google Health",
-      "sourceUrl": "https://health.google",
+      "title": "科学家开发出可降解塑料替代品",
+      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
+      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
+      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "MIT News",
+      "sourceUrl": "https://news.mit.edu",
       "publishDate": "2026-06-28",
-      "category": "medical",
+      "category": "chemistry",
       "tags": [
-        "医疗",
-        "Medical",
+        "化学",
+        "Chemistry",
         "科技"
       ],
       "importance": 8,
-      "views": 41281
+      "views": 37801
     },
     {
       "id": "news-2026-06-28-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 19127
+      "views": 30794
     }
   ],
   "categories": [
@@ -375,12 +375,12 @@
     {
       "id": "robotics",
       "name": "机器人",
-      "count": 1
+      "count": 2
     },
     {
       "id": "basic-science",
       "name": "基础科学",
-      "count": 3
+      "count": 2
     },
     {
       "id": "physics",
