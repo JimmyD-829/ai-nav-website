@@ -2,21 +2,21 @@
   "news": [
     {
       "id": "news-2026-07-09-01",
-      "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
-      "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
-      "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
-      "content": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。\n\n【详细内容】\nCRISPR 基因编辑技术治愈首例遗传病患者是今天科技界的重要新闻。该研究成果由New England Journal of Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "New England Journal of Medicine",
-      "sourceUrl": "https://www.nejm.org",
+      "title": "人类基因组完整图谱正式发布",
+      "titleEn": "Complete Human Genome Map Officially Released",
+      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
+      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
       "publishDate": "2026-07-09",
-      "category": "biology",
+      "category": "basic-science",
       "tags": [
-        "生物",
-        "Biology",
+        "基础科学",
+        "Basic Science",
         "科技"
       ],
       "importance": 10,
-      "views": 40232
+      "views": 48444
     },
     {
       "id": "news-2026-07-09-02",
@@ -34,28 +34,10 @@
         "科技"
       ],
       "importance": 10,
-      "views": 52176
+      "views": 26692
     },
     {
       "id": "news-2026-07-09-03",
-      "title": "人类基因组完整图谱正式发布",
-      "titleEn": "Complete Human Genome Map Officially Released",
-      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
-      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
-      "publishDate": "2026-07-09",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 35951
-    },
-    {
-      "id": "news-2026-07-09-04",
       "title": "CERN 发现新粒子，可能突破标准模型",
       "titleEn": "CERN Discovers New Particle Potentially Breaking Standard Model",
       "summary": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。",
@@ -70,7 +52,25 @@
         "科技"
       ],
       "importance": 10,
-      "views": 25097
+      "views": 38673
+    },
+    {
+      "id": "news-2026-07-09-04",
+      "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
+      "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
+      "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
+      "content": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。\n\n【详细内容】\nCRISPR 基因编辑技术治愈首例遗传病患者是今天科技界的重要新闻。该研究成果由New England Journal of Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "New England Journal of Medicine",
+      "sourceUrl": "https://www.nejm.org",
+      "publishDate": "2026-07-09",
+      "category": "biology",
+      "tags": [
+        "生物",
+        "Biology",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 45756
     },
     {
       "id": "news-2026-07-09-05",
@@ -88,64 +88,10 @@
         "科技"
       ],
       "importance": 10,
-      "views": 25259
+      "views": 12299
     },
     {
       "id": "news-2026-07-09-06",
-      "title": "科学家在实验室合成出人工细胞",
-      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
-      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
-      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "PNAS",
-      "sourceUrl": "https://www.pnas.org",
-      "publishDate": "2026-07-09",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 28840
-    },
-    {
-      "id": "news-2026-07-09-07",
-      "title": "Google DeepMind 蛋白质结构预测新突破",
-      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
-      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
-      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Nature",
-      "sourceUrl": "https://www.nature.com",
-      "publishDate": "2026-07-09",
-      "category": "ai",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 30109
-    },
-    {
-      "id": "news-2026-07-09-08",
-      "title": "波士顿动力发布全电动 Atlas 机器人",
-      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
-      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
-      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Boston Dynamics",
-      "sourceUrl": "https://bostondynamics.com",
-      "publishDate": "2026-07-09",
-      "category": "robotics",
-      "tags": [
-        "机器人",
-        "Robotics",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 23537
-    },
-    {
-      "id": "news-2026-07-09-09",
       "title": "量子计算机实现1000量子比特里程碑",
       "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
       "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
@@ -160,28 +106,10 @@
         "科技"
       ],
       "importance": 9,
-      "views": 29410
+      "views": 9347
     },
     {
-      "id": "news-2026-07-09-10",
-      "title": "室温超导研究取得重大进展",
-      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
-      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
-      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
-      "publishDate": "2026-07-09",
-      "category": "physics",
-      "tags": [
-        "物理",
-        "Physics",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 50120
-    },
-    {
-      "id": "news-2026-07-09-11",
+      "id": "news-2026-07-09-07",
       "title": "mRNA 癌症疫苗临床试验效果显著",
       "titleEn": "mRNA Cancer Vaccine Shows Promising Results in Clinical Trials",
       "summary": "Moderna 和默沙东联合开发的个性化 mRNA 癌症疫苗在黑色素瘤临床试验中，将复发风险降低44%。",
@@ -196,7 +124,79 @@
         "科技"
       ],
       "importance": 9,
-      "views": 29047
+      "views": 30301
+    },
+    {
+      "id": "news-2026-07-09-08",
+      "title": "室温超导研究取得重大进展",
+      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
+      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
+      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
+      "publishDate": "2026-07-09",
+      "category": "physics",
+      "tags": [
+        "物理",
+        "Physics",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 37471
+    },
+    {
+      "id": "news-2026-07-09-09",
+      "title": "科学家在实验室合成出人工细胞",
+      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
+      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
+      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "PNAS",
+      "sourceUrl": "https://www.pnas.org",
+      "publishDate": "2026-07-09",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 5371
+    },
+    {
+      "id": "news-2026-07-09-10",
+      "title": "Google DeepMind 蛋白质结构预测新突破",
+      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
+      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
+      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Nature",
+      "sourceUrl": "https://www.nature.com",
+      "publishDate": "2026-07-09",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 50527
+    },
+    {
+      "id": "news-2026-07-09-11",
+      "title": "波士顿动力发布全电动 Atlas 机器人",
+      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
+      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
+      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Boston Dynamics",
+      "sourceUrl": "https://bostondynamics.com",
+      "publishDate": "2026-07-09",
+      "category": "robotics",
+      "tags": [
+        "机器人",
+        "Robotics",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 5540
     },
     {
       "id": "news-2026-07-09-12",
@@ -214,28 +214,10 @@
         "科技"
       ],
       "importance": 9,
-      "views": 45470
+      "views": 28143
     },
     {
       "id": "news-2026-07-09-13",
-      "title": "6G 通信技术首次实现太赫兹频段传输",
-      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
-      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
-      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IEEE",
-      "sourceUrl": "https://www.ieee.org",
-      "publishDate": "2026-07-09",
-      "category": "information-engineering",
-      "tags": [
-        "信息工程",
-        "Information Engineering",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 13295
-    },
-    {
-      "id": "news-2026-07-09-14",
       "title": "特斯拉 Optimus 机器人进入工厂试运行",
       "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
       "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
@@ -250,7 +232,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 32726
+      "views": 25918
+    },
+    {
+      "id": "news-2026-07-09-14",
+      "title": "暗物质直接探测实验取得新进展",
+      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
+      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
+      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Physical Review Letters",
+      "sourceUrl": "https://journals.aps.org/prl",
+      "publishDate": "2026-07-09",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 35045
     },
     {
       "id": "news-2026-07-09-15",
@@ -268,43 +268,43 @@
         "科技"
       ],
       "importance": 8,
-      "views": 47851
+      "views": 52441
     },
     {
       "id": "news-2026-07-09-16",
-      "title": "暗物质直接探测实验取得新进展",
-      "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
-      "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
-      "content": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。\n\n【详细内容】\n暗物质直接探测实验取得新进展是今天科技界的重要新闻。该研究成果由Physical Review Letters发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Physical Review Letters",
-      "sourceUrl": "https://journals.aps.org/prl",
+      "title": "6G 通信技术首次实现太赫兹频段传输",
+      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
+      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
+      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "IEEE",
+      "sourceUrl": "https://www.ieee.org",
       "publishDate": "2026-07-09",
-      "category": "basic-science",
+      "category": "information-engineering",
       "tags": [
-        "基础科学",
-        "Basic Science",
+        "信息工程",
+        "Information Engineering",
         "科技"
       ],
       "importance": 8,
-      "views": 9797
+      "views": 23372
     },
     {
       "id": "news-2026-07-09-17",
-      "title": "科学家开发出可降解塑料替代品",
-      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
-      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
-      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "MIT News",
-      "sourceUrl": "https://news.mit.edu",
+      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
+      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
+      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
+      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Google Health",
+      "sourceUrl": "https://health.google",
       "publishDate": "2026-07-09",
-      "category": "chemistry",
+      "category": "medical",
       "tags": [
-        "化学",
-        "Chemistry",
+        "医疗",
+        "Medical",
         "科技"
       ],
       "importance": 8,
-      "views": 8277
+      "views": 23238
     },
     {
       "id": "news-2026-07-09-18",
@@ -322,25 +322,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 31355
+      "views": 39849
     },
     {
       "id": "news-2026-07-09-19",
-      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
-      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
-      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
-      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Google Health",
-      "sourceUrl": "https://health.google",
+      "title": "科学家开发出可降解塑料替代品",
+      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
+      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
+      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "MIT News",
+      "sourceUrl": "https://news.mit.edu",
       "publishDate": "2026-07-09",
-      "category": "medical",
+      "category": "chemistry",
       "tags": [
-        "医疗",
-        "Medical",
+        "化学",
+        "Chemistry",
         "科技"
       ],
       "importance": 8,
-      "views": 26781
+      "views": 34625
     },
     {
       "id": "news-2026-07-09-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 5839
+      "views": 33486
     }
   ],
   "categories": [
