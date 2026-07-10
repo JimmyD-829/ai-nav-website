@@ -2,42 +2,6 @@
   "news": [
     {
       "id": "news-2026-07-10-01",
-      "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
-      "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
-      "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
-      "content": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。\n\n【详细内容】\nOpenAI 发布 GPT-5 预览版，推理能力大幅提升是今天科技界的重要新闻。该研究成果由OpenAI Blog发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "OpenAI Blog",
-      "sourceUrl": "https://openai.com/blog",
-      "publishDate": "2026-07-10",
-      "category": "ai",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 44980
-    },
-    {
-      "id": "news-2026-07-10-02",
-      "title": "CERN 发现新粒子，可能突破标准模型",
-      "titleEn": "CERN Discovers New Particle Potentially Breaking Standard Model",
-      "summary": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。",
-      "content": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。\n\n【详细内容】\nCERN 发现新粒子，可能突破标准模型是今天科技界的重要新闻。该研究成果由CERN发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "CERN",
-      "sourceUrl": "https://home.cern",
-      "publishDate": "2026-07-10",
-      "category": "physics",
-      "tags": [
-        "物理",
-        "Physics",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 15959
-    },
-    {
-      "id": "news-2026-07-10-03",
       "title": "SpaceX 星舰完成首次载人绕月飞行",
       "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
       "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
@@ -52,10 +16,64 @@
         "科技"
       ],
       "importance": 10,
-      "views": 51227
+      "views": 12283
+    },
+    {
+      "id": "news-2026-07-10-02",
+      "title": "人类基因组完整图谱正式发布",
+      "titleEn": "Complete Human Genome Map Officially Released",
+      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
+      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
+      "publishDate": "2026-07-10",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 46531
+    },
+    {
+      "id": "news-2026-07-10-03",
+      "title": "CERN 发现新粒子，可能突破标准模型",
+      "titleEn": "CERN Discovers New Particle Potentially Breaking Standard Model",
+      "summary": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。",
+      "content": "欧洲核子研究中心在大型强子对撞机实验中发现一种新粒子，其性质与标准模型预测不符，可能开启物理学新纪元。\n\n【详细内容】\nCERN 发现新粒子，可能突破标准模型是今天科技界的重要新闻。该研究成果由CERN发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "CERN",
+      "sourceUrl": "https://home.cern",
+      "publishDate": "2026-07-10",
+      "category": "physics",
+      "tags": [
+        "物理",
+        "Physics",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 30846
     },
     {
       "id": "news-2026-07-10-04",
+      "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
+      "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
+      "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
+      "content": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。\n\n【详细内容】\nOpenAI 发布 GPT-5 预览版，推理能力大幅提升是今天科技界的重要新闻。该研究成果由OpenAI Blog发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "OpenAI Blog",
+      "sourceUrl": "https://openai.com/blog",
+      "publishDate": "2026-07-10",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 27468
+    },
+    {
+      "id": "news-2026-07-10-05",
       "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
       "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
       "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
@@ -70,43 +88,25 @@
         "科技"
       ],
       "importance": 10,
-      "views": 34828
-    },
-    {
-      "id": "news-2026-07-10-05",
-      "title": "联合国发布 AI 治理全球框架",
-      "titleEn": "UN Releases Global Framework for AI Governance",
-      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
-      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "UN News",
-      "sourceUrl": "https://news.un.org",
-      "publishDate": "2026-07-10",
-      "category": "sociology",
-      "tags": [
-        "社会学",
-        "Sociology",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 31595
+      "views": 51555
     },
     {
       "id": "news-2026-07-10-06",
-      "title": "量子计算机实现1000量子比特里程碑",
-      "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
-      "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
-      "content": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。\n\n【详细内容】\n量子计算机实现1000量子比特里程碑是今天科技界的重要新闻。该研究成果由IBM Research发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IBM Research",
-      "sourceUrl": "https://research.ibm.com",
+      "title": "Google DeepMind 蛋白质结构预测新突破",
+      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
+      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
+      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Nature",
+      "sourceUrl": "https://www.nature.com",
       "publishDate": "2026-07-10",
-      "category": "information-engineering",
+      "category": "ai",
       "tags": [
-        "信息工程",
-        "Information Engineering",
+        "AI",
+        "Artificial Intelligence",
         "科技"
       ],
       "importance": 9,
-      "views": 7871
+      "views": 47309
     },
     {
       "id": "news-2026-07-10-07",
@@ -124,25 +124,25 @@
         "科技"
       ],
       "importance": 9,
-      "views": 49897
+      "views": 42767
     },
     {
       "id": "news-2026-07-10-08",
-      "title": "Google DeepMind 蛋白质结构预测新突破",
-      "titleEn": "Google DeepMind Achieves Breakthrough in Protein Structure Prediction",
-      "summary": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。",
-      "content": "DeepMind 团队发布 AlphaFold 3，能够预测蛋白质、DNA、RNA 等生物分子的结构和相互作用，为药物研发带来革命性进展。\n\n【详细内容】\nGoogle DeepMind 蛋白质结构预测新突破是今天科技界的重要新闻。该研究成果由Nature发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Nature",
-      "sourceUrl": "https://www.nature.com",
+      "title": "室温超导研究取得重大进展",
+      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
+      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
+      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
       "publishDate": "2026-07-10",
-      "category": "ai",
+      "category": "physics",
       "tags": [
-        "AI",
-        "Artificial Intelligence",
+        "物理",
+        "Physics",
         "科技"
       ],
       "importance": 9,
-      "views": 48962
+      "views": 21327
     },
     {
       "id": "news-2026-07-10-09",
@@ -160,7 +160,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 26071
+      "views": 21648
     },
     {
       "id": "news-2026-07-10-10",
@@ -178,10 +178,28 @@
         "科技"
       ],
       "importance": 9,
-      "views": 10234
+      "views": 26826
     },
     {
       "id": "news-2026-07-10-11",
+      "title": "联合国发布 AI 治理全球框架",
+      "titleEn": "UN Releases Global Framework for AI Governance",
+      "summary": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。",
+      "content": "联合国通过首个具有约束力的 AI 治理国际公约，涵盖数据隐私、算法透明、就业影响等关键议题，193个成员国签署。\n\n【详细内容】\n联合国发布 AI 治理全球框架是今天科技界的重要新闻。该研究成果由UN News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "publishDate": "2026-07-10",
+      "category": "sociology",
+      "tags": [
+        "社会学",
+        "Sociology",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 20895
+    },
+    {
+      "id": "news-2026-07-10-12",
       "title": "科学家在实验室合成出人工细胞",
       "titleEn": "Scientists Create Synthetic Cell in Laboratory",
       "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
@@ -196,61 +214,43 @@
         "科技"
       ],
       "importance": 9,
-      "views": 35852
-    },
-    {
-      "id": "news-2026-07-10-12",
-      "title": "室温超导研究取得重大进展",
-      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
-      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
-      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
-      "publishDate": "2026-07-10",
-      "category": "physics",
-      "tags": [
-        "物理",
-        "Physics",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 48087
+      "views": 43040
     },
     {
       "id": "news-2026-07-10-13",
-      "title": "特斯拉 Optimus 机器人进入工厂试运行",
-      "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
-      "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
-      "content": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。\n\n【详细内容】\n特斯拉 Optimus 机器人进入工厂试运行是今天科技界的重要新闻。该研究成果由Tesla News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Tesla News",
-      "sourceUrl": "https://www.tesla.com/news",
+      "title": "中国空间站完成首个国际合作实验项目",
+      "titleEn": "China Space Station Completes First International Collaboration Experiment",
+      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
+      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "中国航天科技集团",
+      "sourceUrl": "http://www.spacechina.com",
       "publishDate": "2026-07-10",
-      "category": "robotics",
+      "category": "aerospace",
       "tags": [
-        "机器人",
-        "Robotics",
+        "航空航天",
+        "Aerospace",
         "科技"
       ],
       "importance": 8,
-      "views": 5792
+      "views": 27982
     },
     {
       "id": "news-2026-07-10-14",
-      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
-      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
-      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
-      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Google Health",
-      "sourceUrl": "https://health.google",
+      "title": "中国发布新一代人工智能算力基础设施",
+      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
+      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
+      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "科技日报",
+      "sourceUrl": "http://www.stdaily.com",
       "publishDate": "2026-07-10",
-      "category": "medical",
+      "category": "ai",
       "tags": [
-        "医疗",
-        "Medical",
+        "AI",
+        "Artificial Intelligence",
         "科技"
       ],
       "importance": 8,
-      "views": 13598
+      "views": 51332
     },
     {
       "id": "news-2026-07-10-15",
@@ -268,28 +268,46 @@
         "科技"
       ],
       "importance": 8,
-      "views": 15532
+      "views": 15658
     },
     {
       "id": "news-2026-07-10-16",
-      "title": "中国发布新一代人工智能算力基础设施",
-      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
-      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
-      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "科技日报",
-      "sourceUrl": "http://www.stdaily.com",
+      "title": "AI 诊断系统在早期癌症检测中超越人类医生",
+      "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
+      "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
+      "content": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。\n\n【详细内容】\nAI 诊断系统在早期癌症检测中超越人类医生是今天科技界的重要新闻。该研究成果由Google Health发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Google Health",
+      "sourceUrl": "https://health.google",
       "publishDate": "2026-07-10",
-      "category": "ai",
+      "category": "medical",
       "tags": [
-        "AI",
-        "Artificial Intelligence",
+        "医疗",
+        "Medical",
         "科技"
       ],
       "importance": 8,
-      "views": 39597
+      "views": 38436
     },
     {
       "id": "news-2026-07-10-17",
+      "title": "特斯拉 Optimus 机器人进入工厂试运行",
+      "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
+      "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
+      "content": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。\n\n【详细内容】\n特斯拉 Optimus 机器人进入工厂试运行是今天科技界的重要新闻。该研究成果由Tesla News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Tesla News",
+      "sourceUrl": "https://www.tesla.com/news",
+      "publishDate": "2026-07-10",
+      "category": "robotics",
+      "tags": [
+        "机器人",
+        "Robotics",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 5123
+    },
+    {
+      "id": "news-2026-07-10-18",
       "title": "暗物质直接探测实验取得新进展",
       "titleEn": "Dark Matter Direct Detection Experiment Makes New Progress",
       "summary": "中国 PandaX-4T 实验在锦屏地下实验室获得最新数据，将暗物质与核子散射截面上限降低两个数量级。",
@@ -304,25 +322,7 @@
         "科技"
       ],
       "importance": 8,
-      "views": 10265
-    },
-    {
-      "id": "news-2026-07-10-18",
-      "title": "中国空间站完成首个国际合作实验项目",
-      "titleEn": "China Space Station Completes First International Collaboration Experiment",
-      "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
-      "content": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。\n\n【详细内容】\n中国空间站完成首个国际合作实验项目是今天科技界的重要新闻。该研究成果由中国航天科技集团发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "中国航天科技集团",
-      "sourceUrl": "http://www.spacechina.com",
-      "publishDate": "2026-07-10",
-      "category": "aerospace",
-      "tags": [
-        "航空航天",
-        "Aerospace",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 35311
+      "views": 34632
     },
     {
       "id": "news-2026-07-10-19",
@@ -340,7 +340,7 @@
         "科技"
       ],
       "importance": 8,
-      "views": 34761
+      "views": 10839
     },
     {
       "id": "news-2026-07-10-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 13234
+      "views": 44486
     }
   ],
   "categories": [
@@ -380,7 +380,7 @@
     {
       "id": "basic-science",
       "name": "基础科学",
-      "count": 2
+      "count": 3
     },
     {
       "id": "physics",
@@ -420,7 +420,7 @@
     {
       "id": "information-engineering",
       "name": "信息工程",
-      "count": 2
+      "count": 1
     }
   ]
 }
