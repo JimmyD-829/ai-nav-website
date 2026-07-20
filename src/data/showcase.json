@@ -20,8 +20,8 @@
         "awesome-list",
         "free"
       ],
-      "likes": 528994,
-      "views": 528994,
+      "likes": 529002,
+      "views": 529002,
       "forks": 50046,
       "language": "Markdown",
       "languageColor": "#8b949e",
@@ -74,8 +74,8 @@
         "careers",
         "certification"
       ],
-      "likes": 452101,
-      "views": 452101,
+      "likes": 452102,
+      "views": 452102,
       "forks": 45600,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -155,8 +155,8 @@
         "ai",
         "assistant"
       ],
-      "likes": 383502,
-      "views": 383502,
+      "likes": 383503,
+      "views": 383503,
       "forks": 80561,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-07-20",
       "collectedAt": "2026-07-20",
       "rank": 6,
-      "openIssues": 6923
+      "openIssues": 6925
     },
     {
       "id": "github-85077558",
@@ -209,8 +209,8 @@
         "design",
         "design-patterns"
       ],
-      "likes": 358308,
-      "views": 358308,
+      "likes": 358310,
+      "views": 358310,
       "forks": 57283,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -263,8 +263,8 @@
         "awesome",
         "collections"
       ],
-      "likes": 309157,
-      "views": 309157,
+      "likes": 309158,
+      "views": 309158,
       "forks": 28348,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -290,8 +290,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 306808,
-      "views": 306808,
+      "likes": 306809,
+      "views": 306809,
       "forks": 14381,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -342,8 +342,8 @@
         "beginner-project",
         "cpp"
       ],
-      "likes": 274121,
-      "views": 274121,
+      "likes": 274122,
+      "views": 274122,
       "forks": 35329,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -369,8 +369,8 @@
         "ai",
         "brainstorming"
       ],
-      "likes": 257629,
-      "views": 257629,
+      "likes": 257635,
+      "views": 257635,
       "forks": 22952,
       "language": "Shell",
       "languageColor": "#89e051",
@@ -380,7 +380,7 @@
       "updatedAt": "2026-07-20",
       "collectedAt": "2026-07-20",
       "rank": 14,
-      "openIssues": 321
+      "openIssues": 320
     },
     {
       "id": "github-10270250",
@@ -448,8 +448,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 234152,
-      "views": 234152,
+      "likes": 234153,
+      "views": 234153,
       "forks": 13941,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -475,9 +475,9 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 231267,
-      "views": 231267,
-      "forks": 35289,
+      "likes": 231272,
+      "views": 231272,
+      "forks": 35288,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/affaan-m/ECC",
@@ -502,8 +502,8 @@
         "algorithm",
         "algorithm-competitions"
       ],
-      "likes": 222904,
-      "views": 222904,
+      "likes": 222905,
+      "views": 222905,
       "forks": 50875,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -529,9 +529,9 @@
         "ai",
         "ai-agent"
       ],
-      "likes": 217308,
-      "views": 217308,
-      "forks": 40926,
+      "likes": 217312,
+      "views": 217312,
+      "forks": 40928,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
@@ -540,7 +540,7 @@
       "updatedAt": "2026-07-20",
       "collectedAt": "2026-07-20",
       "rank": 20,
-      "openIssues": 23970
+      "openIssues": 23972
     }
   ]
 }
