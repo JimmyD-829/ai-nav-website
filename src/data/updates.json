@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1784517233004-0",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "0.2",
+      "updateDate": "2026-07-20",
+      "updateType": "fix",
+      "title": "优化大型项目性能",
+      "description": "V0 于 2026-07-20 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784517233004-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "3.16",
+      "updateDate": "2026-07-19",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "GitHub Copilot 于 2026-07-19 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1784429731647-0",
       "toolId": "12",
       "toolName": "V0",
@@ -27,6 +61,23 @@
       "updateType": "improvement",
       "title": "新增智能代码补全功能",
       "description": "Windsurf 于 2026-07-19 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784517233004-2",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "0.16",
+      "updateDate": "2026-07-18",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "Cursor 于 2026-07-18 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "improvement",
       "title": "新增团队协作功能",
       "description": "Bolt 于 2026-07-17 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784342492061-2",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "1.16",
-      "updateDate": "2026-07-16",
-      "updateType": "improvement",
-      "title": "修复代码生成延迟问题",
-      "description": "GitHub Copilot 于 2026-07-16 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784337608260-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "0.12",
-      "updateDate": "2026-07-16",
-      "updateType": "feature",
-      "title": "修复代码生成延迟问题",
-      "description": "Windsurf 于 2026-07-16 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784256565640-1",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "2.1",
-      "updateDate": "2026-07-16",
-      "updateType": "feature",
-      "title": "新增智能代码补全功能",
-      "description": "Windsurf 于 2026-07-16 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
