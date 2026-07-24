@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1784861435516-0",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "2.15",
+      "updateDate": "2026-07-24",
+      "updateType": "fix",
+      "title": "支持新的编程语言",
+      "description": "Cursor 于 2026-07-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1784856571469-0",
       "toolId": "5",
       "toolName": "Cursor",
@@ -10,6 +27,23 @@
       "updateType": "fix",
       "title": "优化大型项目性能",
       "description": "Cursor 于 2026-07-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784861435516-1",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "3.12",
+      "updateDate": "2026-07-23",
+      "updateType": "feature",
+      "title": "修复代码生成延迟问题",
+      "description": "Cursor 于 2026-07-23 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -61,6 +95,23 @@
       "updateType": "fix",
       "title": "新增智能代码补全功能",
       "description": "Cursor 于 2026-07-23 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784861435516-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.17",
+      "updateDate": "2026-07-22",
+      "updateType": "fix",
+      "title": "支持更多框架集成",
+      "description": "Bolt 于 2026-07-22 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "新增团队协作功能",
       "description": "Cursor 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784683483804-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "2.5",
-      "updateDate": "2026-07-21",
-      "updateType": "fix",
-      "title": "新增团队协作功能",
-      "description": "Cursor 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784602323976-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "3.13",
-      "updateDate": "2026-07-21",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
-      "description": "Bolt 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784597174152-0",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "1.11",
-      "updateDate": "2026-07-21",
-      "updateType": "improvement",
-      "title": "新增智能代码补全功能",
-      "description": "V0 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
