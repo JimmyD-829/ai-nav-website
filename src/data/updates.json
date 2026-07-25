@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1784942919413-0",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "0.14",
+      "updateDate": "2026-07-25",
+      "updateType": "fix",
+      "title": "新增团队协作功能",
+      "description": "Cursor 于 2026-07-25 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784942919413-1",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "2.8",
+      "updateDate": "2026-07-24",
+      "updateType": "improvement",
+      "title": "新增团队协作功能",
+      "description": "V0 于 2026-07-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1784861435516-0",
       "toolId": "5",
       "toolName": "Cursor",
@@ -27,6 +61,23 @@
       "updateType": "fix",
       "title": "优化大型项目性能",
       "description": "Cursor 于 2026-07-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1784942919413-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "4.11",
+      "updateDate": "2026-07-23",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "Windsurf 于 2026-07-23 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "优化大型项目性能",
       "description": "Cursor 于 2026-07-22 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784775376547-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "3.0",
-      "updateDate": "2026-07-21",
-      "updateType": "improvement",
-      "title": "新增团队协作功能",
-      "description": "Windsurf 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784771060021-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "2.18",
-      "updateDate": "2026-07-21",
-      "updateType": "feature",
-      "title": "优化大型项目性能",
-      "description": "Windsurf 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784688591752-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.8",
-      "updateDate": "2026-07-21",
-      "updateType": "fix",
-      "title": "新增团队协作功能",
-      "description": "Cursor 于 2026-07-21 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
