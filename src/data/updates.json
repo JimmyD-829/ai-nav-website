@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1785030170974-0",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "4.13",
+      "updateDate": "2026-07-26",
+      "updateType": "improvement",
+      "title": "优化大型项目性能",
+      "description": "GitHub Copilot 于 2026-07-26 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1785030170974-1",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "3.16",
+      "updateDate": "2026-07-25",
+      "updateType": "feature",
+      "title": "优化大型项目性能",
+      "description": "Windsurf 于 2026-07-25 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1784947792788-0",
       "toolId": "20",
       "toolName": "Windsurf",
@@ -27,6 +61,23 @@
       "updateType": "fix",
       "title": "新增团队协作功能",
       "description": "Cursor 于 2026-07-25 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1785030170974-2",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "0.14",
+      "updateDate": "2026-07-24",
+      "updateType": "improvement",
+      "title": "优化大型项目性能",
+      "description": "V0 于 2026-07-24 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "新增智能代码补全功能",
       "description": "Cursor 于 2026-07-23 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784861435516-2",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "0.17",
-      "updateDate": "2026-07-22",
-      "updateType": "fix",
-      "title": "支持更多框架集成",
-      "description": "Bolt 于 2026-07-22 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784856571469-2",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "3.10",
-      "updateDate": "2026-07-22",
-      "updateType": "improvement",
-      "title": "优化大型项目性能",
-      "description": "Windsurf 于 2026-07-22 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1784775376547-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.15",
-      "updateDate": "2026-07-22",
-      "updateType": "improvement",
-      "title": "改进用户界面体验",
-      "description": "Cursor 于 2026-07-22 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
