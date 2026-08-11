@@ -18,6 +18,23 @@
       ]
     },
     {
+      "id": "auto-update-1786413226572-1",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "4.19",
+      "updateDate": "2026-08-10",
+      "updateType": "fix",
+      "title": "支持更多框架集成",
+      "description": "V0 于 2026-08-10 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1786409471774-1",
       "toolId": "4",
       "toolName": "GitHub Copilot",
@@ -61,6 +78,23 @@
       "updateType": "fix",
       "title": "支持新的编程语言",
       "description": "Bolt 于 2026-08-10 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1786413226573-2",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "4.3",
+      "updateDate": "2026-08-09",
+      "updateType": "fix",
+      "title": "优化内存占用",
+      "description": "Cursor 于 2026-08-09 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -214,40 +248,6 @@
       "updateType": "improvement",
       "title": "修复代码生成延迟问题",
       "description": "Bolt 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786153612728-0",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "4.19",
-      "updateDate": "2026-08-08",
-      "updateType": "improvement",
-      "title": "支持新的编程语言",
-      "description": "Windsurf 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786149924632-0",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "0.11",
-      "updateDate": "2026-08-08",
-      "updateType": "feature",
-      "title": "新增智能代码补全功能",
-      "description": "Windsurf 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
