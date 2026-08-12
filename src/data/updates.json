@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1786496267164-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "3.15",
+      "updateDate": "2026-08-12",
+      "updateType": "improvement",
+      "title": "支持更多框架集成",
+      "description": "Bolt 于 2026-08-12 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1786496267164-1",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "4.15",
+      "updateDate": "2026-08-11",
+      "updateType": "fix",
+      "title": "优化内存占用",
+      "description": "Bolt 于 2026-08-11 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1786409471774-0",
       "toolId": "5",
       "toolName": "Cursor",
@@ -10,6 +44,23 @@
       "updateType": "improvement",
       "title": "修复代码生成延迟问题",
       "description": "Cursor 于 2026-08-11 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1786496267164-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "1.15",
+      "updateDate": "2026-08-10",
+      "updateType": "improvement",
+      "title": "支持更多框架集成",
+      "description": "Bolt 于 2026-08-10 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "优化大型项目性能",
       "description": "V0 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786323108518-2",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "0.3",
-      "updateDate": "2026-08-08",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
-      "description": "Cursor 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786240429264-1",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "0.13",
-      "updateDate": "2026-08-08",
-      "updateType": "improvement",
-      "title": "新增团队协作功能",
-      "description": "Bolt 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786236593678-1",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "1.11",
-      "updateDate": "2026-08-08",
-      "updateType": "improvement",
-      "title": "修复代码生成延迟问题",
-      "description": "Bolt 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
