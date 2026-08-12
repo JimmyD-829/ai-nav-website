@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1786500401516-0",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "2.16",
+      "updateDate": "2026-08-12",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "Windsurf 于 2026-08-12 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1786496267164-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -10,6 +27,23 @@
       "updateType": "improvement",
       "title": "支持更多框架集成",
       "description": "Bolt 于 2026-08-12 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1786500401516-1",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "4.2",
+      "updateDate": "2026-08-11",
+      "updateType": "fix",
+      "title": "优化大型项目性能",
+      "description": "GitHub Copilot 于 2026-08-11 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -44,6 +78,23 @@
       "updateType": "improvement",
       "title": "修复代码生成延迟问题",
       "description": "Cursor 于 2026-08-11 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1786500401516-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "4.16",
+      "updateDate": "2026-08-10",
+      "updateType": "feature",
+      "title": "改进用户界面体验",
+      "description": "Bolt 于 2026-08-10 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "修复代码生成延迟问题",
       "description": "GitHub Copilot 于 2026-08-09 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786240429264-0",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "3.2",
-      "updateDate": "2026-08-09",
-      "updateType": "feature",
-      "title": "优化大型项目性能",
-      "description": "V0 于 2026-08-09 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786236593678-0",
-      "toolId": "4",
-      "toolName": "GitHub Copilot",
-      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      "version": "4.10",
-      "updateDate": "2026-08-09",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
-      "description": "GitHub Copilot 于 2026-08-09 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1786327089399-2",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "0.12",
-      "updateDate": "2026-08-08",
-      "updateType": "fix",
-      "title": "优化大型项目性能",
-      "description": "V0 于 2026-08-08 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
