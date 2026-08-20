@@ -20,8 +20,8 @@
         "awesome-list",
         "free"
       ],
-      "likes": 541310,
-      "views": 541310,
+      "likes": 541316,
+      "views": 541316,
       "forks": 51062,
       "language": "Markdown",
       "languageColor": "#8b949e",
@@ -47,9 +47,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 497827,
-      "views": 497827,
-      "forks": 36486,
+      "likes": 497841,
+      "views": 497841,
+      "forks": 36487,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/sindresorhus/awesome",
@@ -58,7 +58,7 @@
       "updatedAt": "2026-08-20",
       "collectedAt": "2026-08-20",
       "rank": 2,
-      "openIssues": 102
+      "openIssues": 103
     },
     {
       "id": "github-54346799",
@@ -74,9 +74,9 @@
         "api",
         "apis"
       ],
-      "likes": 466043,
-      "views": 466043,
-      "forks": 51429,
+      "likes": 466081,
+      "views": 466081,
+      "forks": 51432,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/public-apis/public-apis",
@@ -101,8 +101,8 @@
         "careers",
         "certification"
       ],
-      "likes": 454335,
-      "views": 454335,
+      "likes": 454337,
+      "views": 454337,
       "forks": 46012,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -128,8 +128,8 @@
         "books",
         "education"
       ],
-      "likes": 394798,
-      "views": 394798,
+      "likes": 394800,
+      "views": 394800,
       "forks": 66672,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -155,9 +155,9 @@
         "ai",
         "assistant"
       ],
-      "likes": 386804,
-      "views": 386804,
-      "forks": 81263,
+      "likes": 386805,
+      "views": 386805,
+      "forks": 81264,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/openclaw/openclaw",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-08-20",
       "collectedAt": "2026-08-20",
       "rank": 6,
-      "openIssues": 5796
+      "openIssues": 5792
     },
     {
       "id": "github-85077558",
@@ -182,8 +182,8 @@
         "angular-roadmap",
         "backend-roadmap"
       ],
-      "likes": 364943,
-      "views": 364943,
+      "likes": 364944,
+      "views": 364944,
       "forks": 44815,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -209,9 +209,9 @@
         "design",
         "design-patterns"
       ],
-      "likes": 364929,
-      "views": 364929,
-      "forks": 57952,
+      "likes": 364933,
+      "views": 364933,
+      "forks": 57953,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/donnemartin/system-design-primer",
@@ -238,7 +238,7 @@
       ],
       "likes": 359254,
       "views": 359254,
-      "forks": 84670,
+      "forks": 84671,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/jwasham/coding-interview-university",
@@ -263,8 +263,8 @@
         "awesome",
         "collections"
       ],
-      "likes": 314970,
-      "views": 314970,
+      "likes": 314976,
+      "views": 314976,
       "forks": 28549,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -290,8 +290,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 313773,
-      "views": 313773,
+      "likes": 313782,
+      "views": 313782,
       "forks": 14733,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -317,9 +317,9 @@
         "beginner-project",
         "cpp"
       ],
-      "likes": 279978,
-      "views": 279978,
-      "forks": 35943,
+      "likes": 279983,
+      "views": 279983,
+      "forks": 35944,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/practical-tutorials/project-based-learning",
@@ -369,9 +369,9 @@
         "ai",
         "brainstorming"
       ],
-      "likes": 274261,
-      "views": 274261,
-      "forks": 24556,
+      "likes": 274282,
+      "views": 274282,
+      "forks": 24557,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/obra/superpowers",
@@ -396,8 +396,8 @@
         "declarative",
         "frontend"
       ],
-      "likes": 247428,
-      "views": 247428,
+      "likes": 247427,
+      "views": 247427,
       "forks": 51243,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
@@ -421,8 +421,8 @@
       "tags": [
         "C"
       ],
-      "likes": 243320,
-      "views": 243320,
+      "likes": 243324,
+      "views": 243324,
       "forks": 64002,
       "language": "C",
       "languageColor": "#555555",
@@ -448,9 +448,9 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 241191,
-      "views": 241191,
-      "forks": 36574,
+      "likes": 241197,
+      "views": 241197,
+      "forks": 36575,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/affaan-m/ECC",
@@ -475,8 +475,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 239229,
-      "views": 239229,
+      "likes": 239241,
+      "views": 239241,
       "forks": 14151,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -502,9 +502,9 @@
         "ai",
         "ai-agent"
       ],
-      "likes": 233054,
-      "views": 233054,
-      "forks": 46624,
+      "likes": 233069,
+      "views": 233069,
+      "forks": 46625,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
@@ -513,7 +513,7 @@
       "updatedAt": "2026-08-20",
       "collectedAt": "2026-08-20",
       "rank": 19,
-      "openIssues": 33633
+      "openIssues": 33645
     },
     {
       "id": "github-63476337",
@@ -529,8 +529,8 @@
         "algorithm",
         "algorithm-competitions"
       ],
-      "likes": 223883,
-      "views": 223883,
+      "likes": 223882,
+      "views": 223882,
       "forks": 50978,
       "language": "Python",
       "languageColor": "#3572A5",
