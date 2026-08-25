@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1787618108362-0",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "3.1",
+      "updateDate": "2026-08-25",
+      "updateType": "improvement",
+      "title": "改进用户界面体验",
+      "description": "GitHub Copilot 于 2026-08-25 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1787534668896-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -27,6 +44,23 @@
       "updateType": "feature",
       "title": "新增智能代码补全功能",
       "description": "Windsurf 于 2026-08-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1787618108362-2",
+      "toolId": "4",
+      "toolName": "GitHub Copilot",
+      "toolLogo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "version": "0.12",
+      "updateDate": "2026-08-23",
+      "updateType": "improvement",
+      "title": "优化内存占用",
+      "description": "GitHub Copilot 于 2026-08-23 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -213,40 +247,6 @@
       "updateDate": "2026-08-21",
       "updateType": "improvement",
       "title": "改进用户界面体验",
-      "description": "Windsurf 于 2026-08-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1787445407404-2",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "0.0",
-      "updateDate": "2026-08-21",
-      "updateType": "improvement",
-      "title": "优化大型项目性能",
-      "description": "Bolt 于 2026-08-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1787361587843-1",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "1.3",
-      "updateDate": "2026-08-21",
-      "updateType": "improvement",
-      "title": "新增智能代码补全功能",
       "description": "Windsurf 于 2026-08-21 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
