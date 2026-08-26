@@ -20,9 +20,9 @@
         "awesome-list",
         "free"
       ],
-      "likes": 542947,
-      "views": 542947,
-      "forks": 51205,
+      "likes": 542950,
+      "views": 542950,
+      "forks": 51206,
       "language": "Markdown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/codecrafters-io/build-your-own-x",
@@ -47,8 +47,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 499930,
-      "views": 499930,
+      "likes": 499936,
+      "views": 499936,
       "forks": 36578,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -74,9 +74,9 @@
         "api",
         "apis"
       ],
-      "likes": 470457,
-      "views": 470457,
-      "forks": 51874,
+      "likes": 470473,
+      "views": 470473,
+      "forks": 51876,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/public-apis/public-apis",
@@ -101,8 +101,8 @@
         "careers",
         "certification"
       ],
-      "likes": 454603,
-      "views": 454603,
+      "likes": 454602,
+      "views": 454602,
       "forks": 46050,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -155,9 +155,9 @@
         "ai",
         "assistant"
       ],
-      "likes": 387607,
-      "views": 387607,
-      "forks": 81370,
+      "likes": 387610,
+      "views": 387610,
+      "forks": 81372,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/openclaw/openclaw",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-08-26",
       "collectedAt": "2026-08-26",
       "rank": 6,
-      "openIssues": 5915
+      "openIssues": 5908
     },
     {
       "id": "github-83222441",
@@ -182,9 +182,9 @@
         "design",
         "design-patterns"
       ],
-      "likes": 366027,
-      "views": 366027,
-      "forks": 58047,
+      "likes": 366034,
+      "views": 366034,
+      "forks": 58048,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/donnemartin/system-design-primer",
@@ -209,9 +209,9 @@
         "angular-roadmap",
         "backend-roadmap"
       ],
-      "likes": 365397,
-      "views": 365397,
-      "forks": 44853,
+      "likes": 365399,
+      "views": 365399,
+      "forks": 44855,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/nilbuild/developer-roadmap",
@@ -236,8 +236,8 @@
         "algorithm",
         "algorithms"
       ],
-      "likes": 359723,
-      "views": 359723,
+      "likes": 359724,
+      "views": 359724,
       "forks": 84725,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -263,8 +263,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 316065,
-      "views": 316065,
+      "likes": 316069,
+      "views": 316069,
       "forks": 28570,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -290,8 +290,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 315079,
-      "views": 315079,
+      "likes": 315083,
+      "views": 315083,
       "forks": 14801,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -317,15 +317,15 @@
         "beginner-project",
         "cpp"
       ],
-      "likes": 280837,
-      "views": 280837,
+      "likes": 280840,
+      "views": 280840,
       "forks": 36015,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/practical-tutorials/project-based-learning",
       "homepage": null,
       "createdAt": "2017-04-12",
-      "updatedAt": "2026-08-25",
+      "updatedAt": "2026-08-26",
       "collectedAt": "2026-08-26",
       "rank": 12,
       "openIssues": 271
@@ -344,8 +344,8 @@
         "ai",
         "brainstorming"
       ],
-      "likes": 277570,
-      "views": 277570,
+      "likes": 277586,
+      "views": 277586,
       "forks": 24827,
       "language": "Shell",
       "languageColor": "#89e051",
@@ -377,7 +377,7 @@
       "repoUrl": "https://github.com/996icu/996.ICU",
       "homepage": "https://996.icu",
       "createdAt": "2019-03-26",
-      "updatedAt": "2026-08-25",
+      "updatedAt": "2026-08-26",
       "collectedAt": "2026-08-26",
       "rank": 14,
       "openIssues": 16695
@@ -404,7 +404,7 @@
       "repoUrl": "https://github.com/react/react",
       "homepage": "https://react.dev",
       "createdAt": "2013-05-24",
-      "updatedAt": "2026-08-25",
+      "updatedAt": "2026-08-26",
       "collectedAt": "2026-08-26",
       "rank": 15,
       "openIssues": 1274
@@ -423,7 +423,7 @@
       ],
       "likes": 244403,
       "views": 244403,
-      "forks": 64101,
+      "forks": 64102,
       "language": "C",
       "languageColor": "#555555",
       "repoUrl": "https://github.com/torvalds/linux",
@@ -448,8 +448,8 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 243206,
-      "views": 243206,
+      "likes": 243212,
+      "views": 243212,
       "forks": 36791,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
@@ -475,9 +475,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 240351,
-      "views": 240351,
-      "forks": 14211,
+      "likes": 240356,
+      "views": 240356,
+      "forks": 14212,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/trimstray/the-book-of-secret-knowledge",
@@ -500,9 +500,9 @@
       "tags": [
         "Shell"
       ],
-      "likes": 236714,
-      "views": 236714,
-      "forks": 20146,
+      "likes": 236755,
+      "views": 236755,
+      "forks": 20150,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/mattpocock/skills",
@@ -527,9 +527,9 @@
         "ai",
         "ai-agent"
       ],
-      "likes": 236411,
-      "views": 236411,
-      "forks": 47737,
+      "likes": 236427,
+      "views": 236427,
+      "forks": 47741,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
@@ -538,7 +538,7 @@
       "updatedAt": "2026-08-26",
       "collectedAt": "2026-08-26",
       "rank": 20,
-      "openIssues": 35941
+      "openIssues": 35949
     }
   ]
 }
