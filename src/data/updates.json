@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "auto-update-1788141951452-0",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.14",
+      "updateDate": "2026-08-31",
+      "updateType": "feature",
+      "title": "支持新的编程语言",
+      "description": "Bolt 于 2026-08-31 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1788141951452-1",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "3.17",
+      "updateDate": "2026-08-30",
+      "updateType": "improvement",
+      "title": "优化大型项目性能",
+      "description": "Bolt 于 2026-08-30 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1788063668886-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -27,6 +61,23 @@
       "updateType": "improvement",
       "title": "修复代码生成延迟问题",
       "description": "Bolt 于 2026-08-30 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1788141951452-2",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "4.12",
+      "updateDate": "2026-08-29",
+      "updateType": "improvement",
+      "title": "改进用户界面体验",
+      "description": "V0 于 2026-08-29 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "fix",
       "title": "修复代码生成延迟问题",
       "description": "V0 于 2026-08-28 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1787983967576-2",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "0.9",
-      "updateDate": "2026-08-27",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
-      "description": "V0 于 2026-08-27 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1787978290567-2",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "4.19",
-      "updateDate": "2026-08-27",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
-      "description": "Cursor 于 2026-08-27 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1787912023319-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "2.8",
-      "updateDate": "2026-08-27",
-      "updateType": "feature",
-      "title": "支持更多框架集成",
-      "description": "Cursor 于 2026-08-27 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
