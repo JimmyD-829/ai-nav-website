@@ -16,46 +16,10 @@
         "科技"
       ],
       "importance": 10,
-      "views": 52382
+      "views": 6812
     },
     {
       "id": "news-2026-09-03-02",
-      "title": "SpaceX 星舰完成首次载人绕月飞行",
-      "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
-      "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
-      "content": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。\n\n【详细内容】\nSpaceX 星舰完成首次载人绕月飞行是今天科技界的重要新闻。该研究成果由SpaceX发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "SpaceX",
-      "sourceUrl": "https://www.spacex.com",
-      "publishDate": "2026-09-03",
-      "category": "aerospace",
-      "tags": [
-        "航空航天",
-        "Aerospace",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 30923
-    },
-    {
-      "id": "news-2026-09-03-03",
-      "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
-      "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
-      "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
-      "content": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。\n\n【详细内容】\nCRISPR 基因编辑技术治愈首例遗传病患者是今天科技界的重要新闻。该研究成果由New England Journal of Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "New England Journal of Medicine",
-      "sourceUrl": "https://www.nejm.org",
-      "publishDate": "2026-09-03",
-      "category": "biology",
-      "tags": [
-        "生物",
-        "Biology",
-        "科技"
-      ],
-      "importance": 10,
-      "views": 6274
-    },
-    {
-      "id": "news-2026-09-03-04",
       "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
       "titleEn": "OpenAI Releases GPT-5 Preview with Significantly Enhanced Reasoning",
       "summary": "OpenAI 发布新一代大模型 GPT-5 预览版，在数学推理、代码生成和科学问题解答方面实现重大突破，准确率提升40%。",
@@ -70,25 +34,61 @@
         "科技"
       ],
       "importance": 10,
-      "views": 36199
+      "views": 8952
+    },
+    {
+      "id": "news-2026-09-03-03",
+      "title": "人类基因组完整图谱正式发布",
+      "titleEn": "Complete Human Genome Map Officially Released",
+      "summary": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。",
+      "content": "国际科研团队完成最后8%的基因组测序，发布首个真正完整的人类基因组图谱，包含20亿个此前未知的碱基对。\n\n【详细内容】\n人类基因组完整图谱正式发布是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
+      "publishDate": "2026-09-03",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 26558
+    },
+    {
+      "id": "news-2026-09-03-04",
+      "title": "SpaceX 星舰完成首次载人绕月飞行",
+      "titleEn": "SpaceX Starship Completes First Crewed Lunar Orbit Mission",
+      "summary": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。",
+      "content": "SpaceX 星舰成功将4名宇航员送入绕月轨道并安全返回，为2026年载人登月任务奠定坚实基础。\n\n【详细内容】\nSpaceX 星舰完成首次载人绕月飞行是今天科技界的重要新闻。该研究成果由SpaceX发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "SpaceX",
+      "sourceUrl": "https://www.spacex.com",
+      "publishDate": "2026-09-03",
+      "category": "aerospace",
+      "tags": [
+        "航空航天",
+        "Aerospace",
+        "科技"
+      ],
+      "importance": 10,
+      "views": 18340
     },
     {
       "id": "news-2026-09-03-05",
-      "title": "量子计算机实现1000量子比特里程碑",
-      "titleEn": "Quantum Computer Achieves 1000-Qubit Milestone",
-      "summary": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。",
-      "content": "IBM 发布新一代量子处理器 Condor，实现1121个量子比特，在特定问题上比传统超级计算机快1000万倍。\n\n【详细内容】\n量子计算机实现1000量子比特里程碑是今天科技界的重要新闻。该研究成果由IBM Research发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IBM Research",
-      "sourceUrl": "https://research.ibm.com",
+      "title": "CRISPR 基因编辑技术治愈首例遗传病患者",
+      "titleEn": "CRISPR Gene Editing Cures First Patient with Genetic Disease",
+      "summary": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。",
+      "content": "美国研究团队使用 CRISPR-Cas9 技术成功治愈首例镰状细胞贫血患者，标志着基因治疗进入临床应用新阶段。\n\n【详细内容】\nCRISPR 基因编辑技术治愈首例遗传病患者是今天科技界的重要新闻。该研究成果由New England Journal of Medicine发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "New England Journal of Medicine",
+      "sourceUrl": "https://www.nejm.org",
       "publishDate": "2026-09-03",
-      "category": "information-engineering",
+      "category": "biology",
       "tags": [
-        "信息工程",
-        "Information Engineering",
+        "生物",
+        "Biology",
         "科技"
       ],
-      "importance": 9,
-      "views": 33537
+      "importance": 10,
+      "views": 49617
     },
     {
       "id": "news-2026-09-03-06",
@@ -106,7 +106,7 @@
         "科技"
       ],
       "importance": 9,
-      "views": 32642
+      "views": 46992
     },
     {
       "id": "news-2026-09-03-07",
@@ -124,25 +124,25 @@
         "科技"
       ],
       "importance": 9,
-      "views": 39190
+      "views": 14705
     },
     {
       "id": "news-2026-09-03-08",
-      "title": "室温超导研究取得重大进展",
-      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
-      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
-      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Science",
-      "sourceUrl": "https://www.science.org",
+      "title": "波士顿动力发布全电动 Atlas 机器人",
+      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
+      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
+      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Boston Dynamics",
+      "sourceUrl": "https://bostondynamics.com",
       "publishDate": "2026-09-03",
-      "category": "physics",
+      "category": "robotics",
       "tags": [
-        "物理",
-        "Physics",
+        "机器人",
+        "Robotics",
         "科技"
       ],
       "importance": 9,
-      "views": 34991
+      "views": 25603
     },
     {
       "id": "news-2026-09-03-09",
@@ -160,46 +160,10 @@
         "科技"
       ],
       "importance": 9,
-      "views": 30774
+      "views": 36001
     },
     {
       "id": "news-2026-09-03-10",
-      "title": "科学家在实验室合成出人工细胞",
-      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
-      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
-      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "PNAS",
-      "sourceUrl": "https://www.pnas.org",
-      "publishDate": "2026-09-03",
-      "category": "basic-science",
-      "tags": [
-        "基础科学",
-        "Basic Science",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 11726
-    },
-    {
-      "id": "news-2026-09-03-11",
-      "title": "波士顿动力发布全电动 Atlas 机器人",
-      "titleEn": "Boston Dynamics Unveils All-Electric Atlas Robot",
-      "summary": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。",
-      "content": "波士顿动力发布全新全电动版 Atlas 人形机器人，具备更强的运动能力和灵活性，可完成复杂的工业和家庭任务。\n\n【详细内容】\n波士顿动力发布全电动 Atlas 机器人是今天科技界的重要新闻。该研究成果由Boston Dynamics发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "Boston Dynamics",
-      "sourceUrl": "https://bostondynamics.com",
-      "publishDate": "2026-09-03",
-      "category": "robotics",
-      "tags": [
-        "机器人",
-        "Robotics",
-        "科技"
-      ],
-      "importance": 9,
-      "views": 51148
-    },
-    {
-      "id": "news-2026-09-03-12",
       "title": "脑机接口帮助瘫痪患者恢复语言功能",
       "titleEn": "Brain-Computer Interface Helps Paralyzed Patients Regain Speech",
       "summary": "斯坦福大学研究团队通过脑机接口技术，让一名因中风失语的患者仅通过思考就能生成文字，准确率达到99%。",
@@ -214,7 +178,43 @@
         "科技"
       ],
       "importance": 9,
-      "views": 30405
+      "views": 24563
+    },
+    {
+      "id": "news-2026-09-03-11",
+      "title": "室温超导研究取得重大进展",
+      "titleEn": "Major Progress in Room-Temperature Superconductivity Research",
+      "summary": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。",
+      "content": "韩国研究团队发现新型铜基超导材料，在常压下实现零下23摄氏度超导，为能源传输和磁悬浮技术带来希望。\n\n【详细内容】\n室温超导研究取得重大进展是今天科技界的重要新闻。该研究成果由Science发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "Science",
+      "sourceUrl": "https://www.science.org",
+      "publishDate": "2026-09-03",
+      "category": "physics",
+      "tags": [
+        "物理",
+        "Physics",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 14122
+    },
+    {
+      "id": "news-2026-09-03-12",
+      "title": "科学家在实验室合成出人工细胞",
+      "titleEn": "Scientists Create Synthetic Cell in Laboratory",
+      "summary": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。",
+      "content": "J. Craig Venter 研究所成功构建首个完全由人工合成基因组控制的活细胞，标志着人造生命研究取得历史性突破。\n\n【详细内容】\n科学家在实验室合成出人工细胞是今天科技界的重要新闻。该研究成果由PNAS发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "PNAS",
+      "sourceUrl": "https://www.pnas.org",
+      "publishDate": "2026-09-03",
+      "category": "basic-science",
+      "tags": [
+        "基础科学",
+        "Basic Science",
+        "科技"
+      ],
+      "importance": 9,
+      "views": 27109
     },
     {
       "id": "news-2026-09-03-13",
@@ -232,28 +232,10 @@
         "科技"
       ],
       "importance": 8,
-      "views": 27343
+      "views": 33320
     },
     {
       "id": "news-2026-09-03-14",
-      "title": "中国发布新一代人工智能算力基础设施",
-      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
-      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
-      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "科技日报",
-      "sourceUrl": "http://www.stdaily.com",
-      "publishDate": "2026-09-03",
-      "category": "ai",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 17096
-    },
-    {
-      "id": "news-2026-09-03-15",
       "title": "中国空间站完成首个国际合作实验项目",
       "titleEn": "China Space Station Completes First International Collaboration Experiment",
       "summary": "中国空间站与欧洲空间局合作完成微重力物理实验，来自17个国家的科学家参与，取得多项突破性成果。",
@@ -268,46 +250,28 @@
         "科技"
       ],
       "importance": 8,
-      "views": 46340
+      "views": 39977
+    },
+    {
+      "id": "news-2026-09-03-15",
+      "title": "中国发布新一代人工智能算力基础设施",
+      "titleEn": "China Unveils Next-Generation AI Computing Infrastructure",
+      "summary": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。",
+      "content": "国家超算中心发布新一代智算平台，算力达到每秒百亿亿次浮点运算，支持万亿参数大模型训练。\n\n【详细内容】\n中国发布新一代人工智能算力基础设施是今天科技界的重要新闻。该研究成果由科技日报发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "科技日报",
+      "sourceUrl": "http://www.stdaily.com",
+      "publishDate": "2026-09-03",
+      "category": "ai",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 51947
     },
     {
       "id": "news-2026-09-03-16",
-      "title": "科学家开发出可降解塑料替代品",
-      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
-      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
-      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "MIT News",
-      "sourceUrl": "https://news.mit.edu",
-      "publishDate": "2026-09-03",
-      "category": "chemistry",
-      "tags": [
-        "化学",
-        "Chemistry",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 39470
-    },
-    {
-      "id": "news-2026-09-03-17",
-      "title": "6G 通信技术首次实现太赫兹频段传输",
-      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
-      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
-      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
-      "source": "IEEE",
-      "sourceUrl": "https://www.ieee.org",
-      "publishDate": "2026-09-03",
-      "category": "information-engineering",
-      "tags": [
-        "信息工程",
-        "Information Engineering",
-        "科技"
-      ],
-      "importance": 8,
-      "views": 26735
-    },
-    {
-      "id": "news-2026-09-03-18",
       "title": "特斯拉 Optimus 机器人进入工厂试运行",
       "titleEn": "Tesla Optimus Robot Enters Factory Trial Operation",
       "summary": "特斯拉宣布 Optimus 人形机器人在超级工厂开始试运行，能够执行简单的装配和搬运任务，计划年底量产。",
@@ -322,10 +286,28 @@
         "科技"
       ],
       "importance": 8,
-      "views": 19522
+      "views": 36367
     },
     {
-      "id": "news-2026-09-03-19",
+      "id": "news-2026-09-03-17",
+      "title": "科学家开发出可降解塑料替代品",
+      "titleEn": "Scientists Develop Biodegradable Plastic Alternative",
+      "summary": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。",
+      "content": "MIT 研究团队开发出基于纤维素和壳聚糖的新型生物材料，可在海水中30天内完全降解，性能媲美传统塑料。\n\n【详细内容】\n科学家开发出可降解塑料替代品是今天科技界的重要新闻。该研究成果由MIT News发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "MIT News",
+      "sourceUrl": "https://news.mit.edu",
+      "publishDate": "2026-09-03",
+      "category": "chemistry",
+      "tags": [
+        "化学",
+        "Chemistry",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 50930
+    },
+    {
+      "id": "news-2026-09-03-18",
       "title": "AI 诊断系统在早期癌症检测中超越人类医生",
       "titleEn": "AI Diagnostic System Surpasses Human Doctors in Early Cancer Detection",
       "summary": "谷歌健康开发的 AI 系统在乳腺癌和肺癌早期筛查中，准确率比资深放射科医生高出15%，假阳性率降低50%。",
@@ -340,7 +322,25 @@
         "科技"
       ],
       "importance": 8,
-      "views": 6684
+      "views": 45030
+    },
+    {
+      "id": "news-2026-09-03-19",
+      "title": "6G 通信技术首次实现太赫兹频段传输",
+      "titleEn": "6G Communication Technology Achieves Terahertz Band Transmission",
+      "summary": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。",
+      "content": "芬兰研究团队成功在太赫兹频段实现100Gbps无线传输，为6G通信奠定基础，预计2030年商用。\n\n【详细内容】\n6G 通信技术首次实现太赫兹频段传输是今天科技界的重要新闻。该研究成果由IEEE发布，引起了全球科学界的广泛关注。\n\n专家表示，这一突破将对相关领域产生深远影响，为未来的技术发展和应用奠定重要基础。研究团队表示将继续深入探索，争取早日实现产业化应用。",
+      "source": "IEEE",
+      "sourceUrl": "https://www.ieee.org",
+      "publishDate": "2026-09-03",
+      "category": "information-engineering",
+      "tags": [
+        "信息工程",
+        "Information Engineering",
+        "科技"
+      ],
+      "importance": 8,
+      "views": 30768
     },
     {
       "id": "news-2026-09-03-20",
@@ -358,7 +358,7 @@
         "科技"
       ],
       "importance": 7,
-      "views": 44213
+      "views": 25322
     }
   ],
   "categories": [
@@ -380,7 +380,7 @@
     {
       "id": "basic-science",
       "name": "基础科学",
-      "count": 2
+      "count": 3
     },
     {
       "id": "physics",
@@ -420,7 +420,7 @@
     {
       "id": "information-engineering",
       "name": "信息工程",
-      "count": 2
+      "count": 1
     }
   ]
 }
