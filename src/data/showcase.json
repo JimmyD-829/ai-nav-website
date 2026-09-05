@@ -20,9 +20,9 @@
         "awesome-list",
         "free"
       ],
-      "likes": 545247,
-      "views": 545247,
-      "forks": 51341,
+      "likes": 545263,
+      "views": 545263,
+      "forks": 51343,
       "language": "Markdown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/codecrafters-io/build-your-own-x",
@@ -47,9 +47,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 503042,
-      "views": 503042,
-      "forks": 36714,
+      "likes": 503056,
+      "views": 503056,
+      "forks": 36715,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/sindresorhus/awesome",
@@ -74,9 +74,9 @@
         "api",
         "apis"
       ],
-      "likes": 475334,
-      "views": 475334,
-      "forks": 52516,
+      "likes": 475356,
+      "views": 475356,
+      "forks": 52519,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/public-apis/public-apis",
@@ -101,8 +101,8 @@
         "careers",
         "certification"
       ],
-      "likes": 455016,
-      "views": 455016,
+      "likes": 455019,
+      "views": 455019,
       "forks": 46117,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -112,7 +112,7 @@
       "updatedAt": "2026-09-05",
       "collectedAt": "2026-09-05",
       "rank": 4,
-      "openIssues": 193
+      "openIssues": 194
     },
     {
       "id": "github-13491895",
@@ -155,9 +155,9 @@
         "ai",
         "assistant"
       ],
-      "likes": 388872,
-      "views": 388872,
-      "forks": 81691,
+      "likes": 388883,
+      "views": 388883,
+      "forks": 81693,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/openclaw/openclaw",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-09-05",
       "collectedAt": "2026-09-05",
       "rank": 6,
-      "openIssues": 6308
+      "openIssues": 6256
     },
     {
       "id": "github-83222441",
@@ -182,9 +182,9 @@
         "design",
         "design-patterns"
       ],
-      "likes": 367985,
-      "views": 367985,
-      "forks": 58233,
+      "likes": 367989,
+      "views": 367989,
+      "forks": 58237,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/donnemartin/system-design-primer",
@@ -209,9 +209,9 @@
         "angular-roadmap",
         "backend-roadmap"
       ],
-      "likes": 366317,
-      "views": 366317,
-      "forks": 44898,
+      "likes": 366319,
+      "views": 366319,
+      "forks": 44897,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/nilbuild/developer-roadmap",
@@ -236,8 +236,8 @@
         "algorithm",
         "algorithms"
       ],
-      "likes": 360366,
-      "views": 360366,
+      "likes": 360365,
+      "views": 360365,
       "forks": 84799,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -263,8 +263,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 318307,
-      "views": 318307,
+      "likes": 318316,
+      "views": 318316,
       "forks": 28635,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -290,8 +290,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 317188,
-      "views": 317188,
+      "likes": 317197,
+      "views": 317197,
       "forks": 14920,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -317,8 +317,8 @@
         "beginner-project",
         "cpp"
       ],
-      "likes": 282097,
-      "views": 282097,
+      "likes": 282100,
+      "views": 282100,
       "forks": 36134,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -344,9 +344,9 @@
         "ai",
         "brainstorming"
       ],
-      "likes": 281808,
-      "views": 281808,
-      "forks": 25239,
+      "likes": 281824,
+      "views": 281824,
+      "forks": 25241,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/obra/superpowers",
@@ -355,7 +355,7 @@
       "updatedAt": "2026-09-05",
       "collectedAt": "2026-09-05",
       "rank": 13,
-      "openIssues": 332
+      "openIssues": 331
     },
     {
       "id": "github-177736533",
@@ -369,8 +369,8 @@
       "tags": [
         "Unknown"
       ],
-      "likes": 276877,
-      "views": 276877,
+      "likes": 276879,
+      "views": 276879,
       "forks": 20727,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -394,9 +394,9 @@
       "tags": [
         "Shell"
       ],
-      "likes": 250462,
-      "views": 250462,
-      "forks": 21163,
+      "likes": 250584,
+      "views": 250584,
+      "forks": 21174,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/mattpocock/skills",
@@ -448,9 +448,9 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 248540,
-      "views": 248540,
-      "forks": 37464,
+      "likes": 248599,
+      "views": 248599,
+      "forks": 37470,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/affaan-m/ECC",
@@ -473,9 +473,9 @@
       "tags": [
         "C"
       ],
-      "likes": 246640,
-      "views": 246640,
-      "forks": 64315,
+      "likes": 246646,
+      "views": 246646,
+      "forks": 64317,
       "language": "C",
       "languageColor": "#555555",
       "repoUrl": "https://github.com/torvalds/linux",
@@ -500,8 +500,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 242093,
-      "views": 242093,
+      "likes": 242105,
+      "views": 242105,
       "forks": 14279,
       "language": "Unknown",
       "languageColor": "#8b949e",
@@ -527,9 +527,9 @@
         "ai",
         "ai-agent"
       ],
-      "likes": 241504,
-      "views": 241504,
-      "forks": 49566,
+      "likes": 241548,
+      "views": 241548,
+      "forks": 49577,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
@@ -538,7 +538,7 @@
       "updatedAt": "2026-09-05",
       "collectedAt": "2026-09-05",
       "rank": 20,
-      "openIssues": 39740
+      "openIssues": 39781
     }
   ]
 }
