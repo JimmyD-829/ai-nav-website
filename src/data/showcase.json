@@ -20,8 +20,8 @@
         "awesome-list",
         "free"
       ],
-      "likes": 546073,
-      "views": 546073,
+      "likes": 546081,
+      "views": 546081,
       "forks": 51394,
       "language": "Markdown",
       "languageColor": "#8b949e",
@@ -47,9 +47,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 504298,
-      "views": 504298,
-      "forks": 36794,
+      "likes": 504313,
+      "views": 504313,
+      "forks": 36795,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/sindresorhus/awesome",
@@ -74,9 +74,9 @@
         "api",
         "apis"
       ],
-      "likes": 477636,
-      "views": 477636,
-      "forks": 52727,
+      "likes": 477664,
+      "views": 477664,
+      "forks": 52728,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/public-apis/public-apis",
@@ -101,9 +101,9 @@
         "careers",
         "certification"
       ],
-      "likes": 455238,
-      "views": 455238,
-      "forks": 46150,
+      "likes": 455240,
+      "views": 455240,
+      "forks": 46152,
       "language": "TypeScript",
       "languageColor": "#2b7489",
       "repoUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
@@ -128,8 +128,8 @@
         "books",
         "education"
       ],
-      "likes": 396308,
-      "views": 396308,
+      "likes": 396315,
+      "views": 396315,
       "forks": 66744,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -139,7 +139,7 @@
       "updatedAt": "2026-09-09",
       "collectedAt": "2026-09-09",
       "rank": 5,
-      "openIssues": 82
+      "openIssues": 83
     },
     {
       "id": "github-1103012935",
@@ -155,8 +155,8 @@
         "ai",
         "assistant"
       ],
-      "likes": 389252,
-      "views": 389252,
+      "likes": 389263,
+      "views": 389263,
       "forks": 81799,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -166,7 +166,7 @@
       "updatedAt": "2026-09-09",
       "collectedAt": "2026-09-09",
       "rank": 6,
-      "openIssues": 6433
+      "openIssues": 6426
     },
     {
       "id": "github-83222441",
@@ -182,9 +182,9 @@
         "design",
         "design-patterns"
       ],
-      "likes": 368824,
-      "views": 368824,
-      "forks": 58302,
+      "likes": 368839,
+      "views": 368839,
+      "forks": 58303,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/donnemartin/system-design-primer",
@@ -209,8 +209,8 @@
         "angular-roadmap",
         "backend-roadmap"
       ],
-      "likes": 366633,
-      "views": 366633,
+      "likes": 366644,
+      "views": 366644,
       "forks": 44906,
       "language": "TypeScript",
       "languageColor": "#2b7489",
@@ -236,9 +236,9 @@
         "algorithm",
         "algorithms"
       ],
-      "likes": 360601,
-      "views": 360601,
-      "forks": 84805,
+      "likes": 360607,
+      "views": 360607,
+      "forks": 84804,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/jwasham/coding-interview-university",
@@ -263,9 +263,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 319391,
-      "views": 319391,
-      "forks": 28692,
+      "likes": 319397,
+      "views": 319397,
+      "forks": 28694,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/vinta/awesome-python",
@@ -290,9 +290,9 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 318019,
-      "views": 318019,
-      "forks": 14967,
+      "likes": 318032,
+      "views": 318032,
+      "forks": 14968,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
@@ -317,9 +317,9 @@
         "ai",
         "brainstorming"
       ],
-      "likes": 283395,
-      "views": 283395,
-      "forks": 25370,
+      "likes": 283446,
+      "views": 283446,
+      "forks": 25376,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/obra/superpowers",
@@ -344,8 +344,8 @@
         "beginner-project",
         "cpp"
       ],
-      "likes": 282655,
-      "views": 282655,
+      "likes": 282659,
+      "views": 282659,
       "forks": 36194,
       "language": "Python",
       "languageColor": "#3572A5",
@@ -369,15 +369,15 @@
       "tags": [
         "Unknown"
       ],
-      "likes": 276923,
-      "views": 276923,
+      "likes": 276925,
+      "views": 276925,
       "forks": 20722,
       "language": "Unknown",
       "languageColor": "#8b949e",
       "repoUrl": "https://github.com/996icu/996.ICU",
       "homepage": "https://996.icu",
       "createdAt": "2019-03-26",
-      "updatedAt": "2026-09-08",
+      "updatedAt": "2026-09-09",
       "collectedAt": "2026-09-09",
       "rank": 14,
       "openIssues": 16695
@@ -394,9 +394,9 @@
       "tags": [
         "Shell"
       ],
-      "likes": 256994,
-      "views": 256994,
-      "forks": 21647,
+      "likes": 257081,
+      "views": 257081,
+      "forks": 21656,
       "language": "Shell",
       "languageColor": "#89e051",
       "repoUrl": "https://github.com/mattpocock/skills",
@@ -421,9 +421,9 @@
         "ai-agents",
         "anthropic"
       ],
-      "likes": 254341,
-      "views": 254341,
-      "forks": 38114,
+      "likes": 254419,
+      "views": 254419,
+      "forks": 38119,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/affaan-m/ECC",
@@ -432,7 +432,7 @@
       "updatedAt": "2026-09-09",
       "collectedAt": "2026-09-09",
       "rank": 16,
-      "openIssues": 185
+      "openIssues": 188
     },
     {
       "id": "github-10270250",
@@ -448,9 +448,9 @@
         "declarative",
         "frontend"
       ],
-      "likes": 249669,
-      "views": 249669,
-      "forks": 51314,
+      "likes": 249670,
+      "views": 249670,
+      "forks": 51313,
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "repoUrl": "https://github.com/react/react",
@@ -473,9 +473,9 @@
       "tags": [
         "C"
       ],
-      "likes": 247587,
-      "views": 247587,
-      "forks": 64441,
+      "likes": 247591,
+      "views": 247591,
+      "forks": 64442,
       "language": "C",
       "languageColor": "#555555",
       "repoUrl": "https://github.com/torvalds/linux",
@@ -500,9 +500,9 @@
         "ai",
         "ai-agent"
       ],
-      "likes": 243467,
-      "views": 243467,
-      "forks": 50212,
+      "likes": 243502,
+      "views": 243502,
+      "forks": 50222,
       "language": "Python",
       "languageColor": "#3572A5",
       "repoUrl": "https://github.com/NousResearch/hermes-agent",
@@ -511,7 +511,7 @@
       "updatedAt": "2026-09-09",
       "collectedAt": "2026-09-09",
       "rank": 19,
-      "openIssues": 41061
+      "openIssues": 41089
     },
     {
       "id": "github-138393139",
@@ -527,8 +527,8 @@
         "awesome",
         "awesome-list"
       ],
-      "likes": 242740,
-      "views": 242740,
+      "likes": 242754,
+      "views": 242754,
       "forks": 14297,
       "language": "Unknown",
       "languageColor": "#8b949e",
