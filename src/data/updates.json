@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1789444654299-0",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "2.6",
+      "updateDate": "2026-09-15",
+      "updateType": "feature",
+      "title": "优化大型项目性能",
+      "description": "Windsurf 于 2026-09-15 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1789438530116-0",
       "toolId": "5",
       "toolName": "Cursor",
@@ -10,6 +27,23 @@
       "updateType": "improvement",
       "title": "优化内存占用",
       "description": "Cursor 于 2026-09-15 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1789444654299-1",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "3.2",
+      "updateDate": "2026-09-14",
+      "updateType": "feature",
+      "title": "修复代码生成延迟问题",
+      "description": "Cursor 于 2026-09-14 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -61,6 +95,23 @@
       "updateType": "feature",
       "title": "修复代码生成延迟问题",
       "description": "GitHub Copilot 于 2026-09-14 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1789444654299-2",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "0.19",
+      "updateDate": "2026-09-13",
+      "updateType": "improvement",
+      "title": "新增智能代码补全功能",
+      "description": "Bolt 于 2026-09-13 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -196,57 +247,6 @@
       "updateDate": "2026-09-12",
       "updateType": "feature",
       "title": "支持更多框架集成",
-      "description": "Bolt 于 2026-09-12 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1789264293304-1",
-      "toolId": "5",
-      "toolName": "Cursor",
-      "toolLogo": "https://cursor.sh/icon.svg",
-      "version": "3.3",
-      "updateDate": "2026-09-12",
-      "updateType": "fix",
-      "title": "改进用户界面体验",
-      "description": "Cursor 于 2026-09-12 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1789184598901-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "3.17",
-      "updateDate": "2026-09-12",
-      "updateType": "feature",
-      "title": "优化大型项目性能",
-      "description": "Bolt 于 2026-09-12 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1789178264096-0",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "0.13",
-      "updateDate": "2026-09-12",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
       "description": "Bolt 于 2026-09-12 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
