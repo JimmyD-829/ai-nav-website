@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1792813621261-0",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "4.15",
+      "updateDate": "2026-10-24",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "V0 于 2026-10-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1792808417719-0",
       "toolId": "12",
       "toolName": "V0",
@@ -10,6 +27,23 @@
       "updateType": "fix",
       "title": "支持新的编程语言",
       "description": "V0 于 2026-10-24 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1792813621261-1",
+      "toolId": "5",
+      "toolName": "Cursor",
+      "toolLogo": "https://cursor.sh/icon.svg",
+      "version": "0.1",
+      "updateDate": "2026-10-23",
+      "updateType": "improvement",
+      "title": "新增团队协作功能",
+      "description": "Cursor 于 2026-10-23 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -61,6 +95,23 @@
       "updateType": "improvement",
       "title": "支持更多框架集成",
       "description": "Windsurf 于 2026-10-23 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1792813621261-2",
+      "toolId": "20",
+      "toolName": "Windsurf",
+      "toolLogo": "https://codeium.com/favicon.ico",
+      "version": "0.0",
+      "updateDate": "2026-10-22",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "Windsurf 于 2026-10-22 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -197,57 +248,6 @@
       "updateType": "improvement",
       "title": "优化内存占用",
       "description": "Bolt 于 2026-10-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1792635408519-1",
-      "toolId": "20",
-      "toolName": "Windsurf",
-      "toolLogo": "https://codeium.com/favicon.ico",
-      "version": "4.6",
-      "updateDate": "2026-10-21",
-      "updateType": "fix",
-      "title": "支持更多框架集成",
-      "description": "Windsurf 于 2026-10-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1792549308542-0",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "1.18",
-      "updateDate": "2026-10-21",
-      "updateType": "fix",
-      "title": "优化大型项目性能",
-      "description": "V0 于 2026-10-21 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1792640886820-2",
-      "toolId": "14",
-      "toolName": "Bolt",
-      "toolLogo": "https://bolt.new/icon.svg",
-      "version": "2.4",
-      "updateDate": "2026-10-20",
-      "updateType": "fix",
-      "title": "新增团队协作功能",
-      "description": "Bolt 于 2026-10-20 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
