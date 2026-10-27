@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "auto-update-1793074306649-0",
+      "toolId": "12",
+      "toolName": "V0",
+      "toolLogo": "https://v0.dev/favicon.ico",
+      "version": "1.17",
+      "updateDate": "2026-10-27",
+      "updateType": "improvement",
+      "title": "改进用户界面体验",
+      "description": "V0 于 2026-10-27 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
       "id": "auto-update-1793069089620-0",
       "toolId": "14",
       "toolName": "Bolt",
@@ -10,6 +27,23 @@
       "updateType": "feature",
       "title": "优化内存占用",
       "description": "Bolt 于 2026-10-27 发布新版本，包含多项功能优化和性能改进。",
+      "changelog": [
+        "新增功能优化",
+        "改进性能表现",
+        "修复已知问题",
+        "优化用户体验"
+      ]
+    },
+    {
+      "id": "auto-update-1793074306649-1",
+      "toolId": "14",
+      "toolName": "Bolt",
+      "toolLogo": "https://bolt.new/icon.svg",
+      "version": "2.1",
+      "updateDate": "2026-10-26",
+      "updateType": "feature",
+      "title": "新增智能代码补全功能",
+      "description": "Bolt 于 2026-10-26 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
         "改进性能表现",
@@ -213,40 +247,6 @@
       "updateDate": "2026-10-24",
       "updateType": "feature",
       "title": "优化大型项目性能",
-      "description": "V0 于 2026-10-24 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1792813621261-0",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "4.15",
-      "updateDate": "2026-10-24",
-      "updateType": "feature",
-      "title": "新增智能代码补全功能",
-      "description": "V0 于 2026-10-24 发布新版本，包含多项功能优化和性能改进。",
-      "changelog": [
-        "新增功能优化",
-        "改进性能表现",
-        "修复已知问题",
-        "优化用户体验"
-      ]
-    },
-    {
-      "id": "auto-update-1792808417719-0",
-      "toolId": "12",
-      "toolName": "V0",
-      "toolLogo": "https://v0.dev/favicon.ico",
-      "version": "0.7",
-      "updateDate": "2026-10-24",
-      "updateType": "fix",
-      "title": "支持新的编程语言",
       "description": "V0 于 2026-10-24 发布新版本，包含多项功能优化和性能改进。",
       "changelog": [
         "新增功能优化",
